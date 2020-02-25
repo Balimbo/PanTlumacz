@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<style type="text/css">
+
+		body{
+			margin:0;
+			padding:0;
+		}		
+
+		.languages div{
+			float:left;
+			
+		}
+
+		.firstname{
+			margin-top: 3%;
+		}
+
+		#massage{
+			resize: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="form">
+		<form id="data" action="#" method="post">
+			<fieldset class="fieldForm">
+				<legend>Application Form</legend>
+			<div class="languages">
+				<div>
+				<label for="fromLang">From language</label><br>
+			<select id="fromLang" name="fromLang" required="required" form="data">
+				<option disabled selected>language</option>
+				<option value="English">English</option>
+				<option value="Polski">Polski</option>
+				<option value="Deutsch">Deutsch</option>
+				<option value="Français">Français</option>
+				<option value="Italiana">Italiana</option>
+				<option value="Русский">Русский</option>
+				<option value="Український ">Український</option>
+			</select>
+				</div>
+
+				<div>
+				<label for="toLang">To language</label><br>
+			<select id="toLang" name="toLang" required="required" form="data">
+				<option disabled selected>language</option>
+				<option value="English">English</option>
+				<option value="Polski">Polski</option>
+				<option value="Deutsch">Deutsch</option>
+				<option value="Français">Français</option>
+				<option value="Italiana">Italiana</option>
+				<option value="Русский">Русский</option>
+				<option value="Український ">Український</option>
+			</select>
+				</div>
+			</div><br>
+
+			
+
+		<div class="firstname">
+			<label for="firstname">Your name</label><br>
+				<input type ="text" id="firstname" name="firstname" placeholder="Enter your name" required="required">
+		</div>
+
+		<div>
+			<label for="Email">Email address</label><br>
+			<input type="email" id="Email" name="Email" placeholder="Enter your email" required="required">
+		</div>
+	
+		<div>
+			<label for="massage">Comments</label><br>
+			<textarea id="massage" name="massage" placeholder="Leave a comment" rows="10" cols="50"></textarea>
+		</div>
+			
+		<div>
+			<input type="submit" name="sabmit" value="Send"> 
+
+		</div>
+
+			</fieldset>
+		</form>
+	</div>
+
+
+
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
