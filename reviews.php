@@ -12,6 +12,6 @@ $review = $_POST['review'];
 $date = date('d.m.o G:i');
 
 $sql = "INSERT INTO reviews(name, comment, period) VALUES ($name, $review, $date)";
-
+ 
 conn->query($sql);
  ?>

@@ -34,6 +34,5 @@
 
 	<script src="js/jQuery.js"></script>
 	<!-- Все скрипты подключаем сюда -->
-	<script>hgyhnnjhknkjj</script>
 </body>
 </html>
