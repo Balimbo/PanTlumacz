@@ -24,7 +24,7 @@ email: $email
 
 	if(mail($to, $subject, $message, $headers))
 		echo "success";
-
+	
 }
 else 
 	echo "ERROR";
