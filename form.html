@@ -27,7 +27,7 @@
 </head>
 <body>
 	<div class="form">
-		<form id="data" action="request.php" method="POST">
+		<form id="data" action="request.php" method="post">
 			<fieldset class="fieldForm">
 				<legend>Application Form</legend>
 				<!--Languages-->
@@ -77,7 +77,7 @@
 			<!--File-->
 		<div>
 			<label for="file"> <br>Attach your file:</label><br>
-			<input type="file" id="file" name="file">
+			<input type="file" id="file" name="userfile[]">
 		</div><br>
 	
 			<!--Comments-->
@@ -88,7 +88,6 @@
 				
 			<!--Button-->
 		<div>
-			<!-- <input type="submit" name="submit" value="Send"> -->
 			<button type="submit" name="submit">Send</button> 
 		</div>
 
