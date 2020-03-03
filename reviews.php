@@ -21,4 +21,6 @@ if(isset($_POST['nickname'], $_POST['review'])){
 }
 else
 	echo "Что-то не заполнено";
+
+$conn->close();
 ?>
