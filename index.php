@@ -23,15 +23,17 @@
 
 	$sql = "CREATE TABLE comment(
 		id INT NOT NULL AUTO_INCREMENT,
-		name varchar (30) NOT NULL,
+		name varchar (20) NOT NULL,
 		comment TEXT NOT NULL,
-		period varchar (20) NOT NULL,
+		period varchar (120),
 		isCheked boolean default 0,
 		PRIMARY KEY(id))";
 
 	$conn->query($sql);
 ?>
-	<a href="form.html">HH</a>
+
+	<a href="form.html">HH</a><br>
+	<a href="comments.html">BB</a>
 	<script src="js/jQuery.js"></script>
 	<!-- Все скрипты подключаем сюда -->
 </body>

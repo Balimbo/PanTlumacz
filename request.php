@@ -7,7 +7,7 @@
 	$toLang 	= $_POST['toLang'];
 	$email 		= htmlentities($_POST['email']);
 	$comment 	= htmlentities($_POST['massage']);
-	$message 	= "Имя заказчика: $name<br>Язык оригинала: $fromLang<br>Язык перевода: $toLang<br>email: $email<br>Комментарий к заказу: $comment";
+	$message 	= "Имя заказчика: $name<br>Язык оригинала: $fromLang<br>Язык перевода: $toLang<br>Email: $email<br>Комментарий к заказу: $comment";
 
 
 	$to 		= "yegor.l@mail.ru";//Адрес, на который должны приходить заказы
@@ -36,8 +36,9 @@
         } else {
             $msg .= 'Failed to move file to ' . $uploadfile;
         }
-    }  
-	                                 
+    } 
+ 
+                               
 	// Письмо
 	$mail->isHTML(true); 
 	$mail->Subject = $subject;
