@@ -7,8 +7,8 @@
 <body>
 <?php 
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$username 	= "root";
+	$password 	= "";
 
 	$conn = new mysqli($servername, $username, $password);
 
@@ -31,7 +31,7 @@
 
 	$conn->query($sql);
 ?>
-
+	<a href="form.html">HH</a>
 	<script src="js/jQuery.js"></script>
 	<!-- Все скрипты подключаем сюда -->
 </body>
