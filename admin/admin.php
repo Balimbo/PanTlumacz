@@ -5,10 +5,12 @@
  	<title>Admin Panel</title>
  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap" rel="stylesheet">
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
- 	<link rel="stylesheet" href="../css/admin.css">
+ 	<link rel="stylesheet" href="../css/admin.css?<?echo time();?>">
  </head>
  <body>
  	<?php
+ 	require "SubDel.php";
+
  	$servername = "localhost";
 	$username 	= "root";
 	$password 	= "";
@@ -22,7 +24,7 @@
 	$conn->query("USE Reviews");
 
 	$count 		= $conn->query("SELECT COUNT(*) FROM `comment`");
-	$reviews 	= $conn->query("SELECT * FROM `comment`");//Надо будет добавить выборку именно непроверенных комментариев
+	$reviews 	= $conn->query("SELECT * FROM `comment` WHERE isCheked=FALSE");
 	?>
 
 	<header><h3>Admin Panel</h3></header>
@@ -33,15 +35,16 @@
  		echo 	"<div class=\"comment_inner\">
 					<div class=\"comment_left\">
 						<div class=\"comment\">".$row[2]."</div>
-						<div class=\"comment_date\">".$row[3]."</div>
+						<div class=\"comment_date\">Дата оставления отзыва: ".$row[3]."</div>
 					</div>
 					<div class=\"comment_right\">
-						<div class=\"comment_submit\"><i class=\"fas fa-check\"></i></div>
-						<div class=\"comment_delete\"><i class=\"fas fa-times\"></i></div>
+						<div class=\"comment_SubDel_wrapper\">
+							<a href=\"admin.php?sub=".$row[0]."\"><i class=\"fas fa-check fa-2x\"></i></a>
+							<a href=\"admin.php?del=".$row[0]."\"><i data-id=\"".$row[0]."\" class=\"fas fa-times fa-2x\"></i></a>
+						</div>
 						<div class=\"comment_author\">by ".$row[1]."</div>
 					</div>
-					</div>
- 				</div>"; 	
+ 				</div>";
  	}
  	echo "</div>";
  	$conn->close();
