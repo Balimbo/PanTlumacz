@@ -15,6 +15,7 @@ function Del(){
     $sql 	= "DELETE FROM `comment` WHERE `id`=$id";
 
     $conn->query($sql);
+    $conn->close();
 }
 
 function Submit(){
@@ -34,6 +35,7 @@ function Submit(){
 	$sql 	= "UPDATE `comment` SET isCheked=TRUE WHERE `id`=$id";
 
     $conn->query($sql);
+    $conn->close();
 }
 
 if (isset($_GET['del'])){

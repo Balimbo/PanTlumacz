@@ -35,7 +35,6 @@
 
 	<a href="form.html">HH</a><br>
 	<a href="comments.html">BB</a>
-	<a href="admin/admin.php">NN</a>
 	
 	<script src="js/jQuery.js"></script>
 	<!-- Все скрипты подключаем сюда -->

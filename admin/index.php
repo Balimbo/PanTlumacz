@@ -30,22 +30,28 @@
 	<header><h3>Admin Panel</h3></header>
 
 	<?php
-	echo "<div class=\"uncheked_comments\">";
- 	while ($row = $reviews->fetch_row()) { 
+	echo "<div class=\"unchecked_comments\">";
+	$counter = 0;
+ 	while ($row = $reviews->fetch_assoc()) { 
  		echo 	"<div class=\"comment_inner\">
 					<div class=\"comment_left\">
-						<div class=\"comment\">".$row[2]."</div>
-						<div class=\"comment_date\">Дата оставления отзыва: ".$row[3]."</div>
+						<div class=\"comment\">".$row['comment']."</div>
+						<div class=\"comment_date\"><b><i>Дата оставления отзыва:</i></b> ".$row['period']."</div>
 					</div>
 					<div class=\"comment_right\">
 						<div class=\"comment_SubDel_wrapper\">
-							<a href=\"admin.php?sub=".$row[0]."\"><i class=\"fas fa-check fa-2x\"></i></a>
-							<a href=\"admin.php?del=".$row[0]."\"><i data-id=\"".$row[0]."\" class=\"fas fa-times fa-2x\"></i></a>
+							<a href=\"index.php?sub=".$row['id']."\"><i class=\"fas fa-check fa-2x\"></i></a>
+							<a href=\"index.php?del=".$row['id']."\"><i data-id=\"".$row['id']."\" class=\"fas fa-times fa-2x\"></i></a>
 						</div>
-						<div class=\"comment_author\">by ".$row[1]."</div>
+						<div class=\"comment_author\">by ".$row['name']."</div>
 					</div>
  				</div>";
+ 		$counter++;
  	}
+
+ 	if($counter == 0)
+ 	    echo "<div class='comment_NO'>Новых отзывов нет =(</div>";
+
  	echo "</div>";
  	$conn->close();
  	?>
