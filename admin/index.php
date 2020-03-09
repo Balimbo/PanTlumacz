@@ -5,26 +5,16 @@
  	<title>Admin Panel</title>
  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap" rel="stylesheet">
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
- 	<link rel="stylesheet" href="../css/admin.css?<?echo time();?>">
+ 	<link rel="stylesheet" href="admin.css?<?echo time();?>">
  </head>
  <body>
  	<?php
- 	require "SubDel.php";
-
- 	$servername = "localhost";
-	$username 	= "root";
-	$password 	= "";
-
-	$conn 		= new mysqli($servername, $username, $password);
-
-	if($conn->connect_error){
-		die("Connection failed: " . $conn->connect_error);
-	}
+ 	require_once 'SubDel.php';
+	require (realpath('../settings.php'));
 	
-	$conn->query("USE Reviews");
+	$conn->query("USE `Reviews`");
 
-	$count 		= $conn->query("SELECT COUNT(*) FROM `comment`");
-	$reviews 	= $conn->query("SELECT * FROM `comment` WHERE isCheked=FALSE");
+	$reviews 	= $conn->query("SELECT * FROM `comment` WHERE `isCheked` = FALSE");     // Selection of data marked "not verified"
 	?>
 
 	<header><h3>Admin Panel</h3></header>
@@ -34,10 +24,12 @@
 	$counter = 0;
  	while ($row = $reviews->fetch_assoc()) { 
  		echo 	"<div class=\"comment_inner\">
+
 					<div class=\"comment_left\">
 						<div class=\"comment\">".$row['comment']."</div>
 						<div class=\"comment_date\"><b><i>Дата оставления отзыва:</i></b> ".$row['period']."</div>
 					</div>
+
 					<div class=\"comment_right\">
 						<div class=\"comment_SubDel_wrapper\">
 							<a href=\"index.php?sub=".$row['id']."\"><i class=\"fas fa-check fa-2x\"></i></a>
@@ -45,6 +37,7 @@
 						</div>
 						<div class=\"comment_author\">by ".$row['name']."</div>
 					</div>
+
  				</div>";
  		$counter++;
  	}
@@ -55,7 +48,5 @@
  	echo "</div>";
  	$conn->close();
  	?>
-
- 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
  </body>
  </html>

@@ -1,38 +1,23 @@
 <?php
 function Del(){
-    $servername = "localhost";
-    $username 	= "root";
-    $password 	= "";
+    require_once (realpath('../settings.php'));
 
-    $conn 		= new mysqli($servername, $username, $password);
-
-    if($conn->connect_error){
-        die("Connection failed: " . $conn->connect_error);
-    }
-
-    $conn->query("USE Reviews");
+    $conn->query("USE `Reviews`");
+    
     $id 	= intval($_GET['del']);
-    $sql 	= "DELETE FROM `comment` WHERE `id`=$id";
+    $sql 	= "DELETE FROM `comment` WHERE `id` = '$id'";
 
     $conn->query($sql);
     $conn->close();
 }
 
 function Submit(){
-    $servername = "localhost";
-    $username 	= "root";
-    $password 	= "";
+    require_once (realpath('../settings.php'));
 
-    $conn 		= new mysqli($servername, $username, $password);
-
-    if($conn->connect_error){
-        die("Connection failed: " . $conn->connect_error);
-    }
-
-    $conn->query("USE Reviews");
+    $conn->query("USE `Reviews`");
 
 	$id 	= intval($_GET['sub']);
-	$sql 	= "UPDATE `comment` SET isCheked=TRUE WHERE `id`=$id";
+	$sql 	= "UPDATE `comment` SET `isCheked` = TRUE WHERE `id` = '$id'";
 
     $conn->query($sql);
     $conn->close();
