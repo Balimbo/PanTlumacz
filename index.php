@@ -6,22 +6,15 @@
 </head>
 <body>
 <?php 
-	$servername = "localhost";
-	$username 	= "root";
-	$password 	= "";
+	require_once 'settings.php';
 
-	$conn = new mysqli($servername, $username, $password);
-
-	if($conn->connect_error){
-		die("Connection failed: " . $conn->connect_error);
-	}
-
-	$sql = "CREATE DATABASE Reviews";
+	$sql = "CREATE DATABASE `Reviews`";
 
 	$conn->query($sql);
-	$conn->query("USE Reviews");
+	$conn->query("USE `Reviews`");
 
-	$sql = "CREATE TABLE comment(
+	// Database creation
+	$sql = "CREATE TABLE `comment` (
 		id INT NOT NULL AUTO_INCREMENT,
 		name VARCHAR(20) NOT NULL,
 		comment TEXT NOT NULL,

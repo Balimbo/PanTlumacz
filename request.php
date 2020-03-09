@@ -1,6 +1,9 @@
 <?php
-require 'phpMailer/class.phpmailer.php';
-require 'phpMailer/class.smtp.php';
+// Sending an order for email
+
+require_once 'phpMailer/class.phpmailer.php';
+require_once 'phpMailer/class.smtp.php';
+require_once 'settings.php';
 
 $name 		= htmlentities($_POST['firstName']);
 $fromLang 	= $_POST['fromLang'];
@@ -10,24 +13,24 @@ $comment 	= htmlentities($_POST['massage']);
 $message 	= "Имя заказчика: $name<br>Язык оригинала: $fromLang<br>Язык перевода: $toLang<br>Email: $email<br>Комментарий к заказу: $comment";
 
 
-$to 		= "yegor.l@mail.ru";//Адрес, на который должны приходить заказы
 $from 		= "pantlumatcz@mail.ru";
 $subject 	= "Заявка на перевод!";
 
 $mail = new PHPMailer;
 
+// Bot setup
 $mail->isSMTP();
-$mail->CharSet 		= "utf-8"; 
-$mail->Host 		= 'smtp.mail.ru';  
+$mail->CharSet 		= "utf-8";
+$mail->Host 		= $SMTPService;
 $mail->SMTPAuth 	= true;                      
-$mail->Username 	= 'pantlumatcz'; 
-$mail->Password 	= 'M8yOgD^C1^@u2*R9iE@KcA7pRiEbDqIDZA3Y1lL&'; 
+$mail->Username 	= $botMail; 
+$mail->Password 	= $botPassword; 
 $mail->SMTPSecure 	= 'ssl';                            
 $mail->Port 		= 465;
 $mail->setFrom($from);
 $mail->addAddress($to);
    
-// Прикрепление файлов
+// File attachment
 	for ($ct = 0; $ct < count($_FILES['userfile']['tmp_name']); $ct++) {
     $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['userfile']['name'][$ct]));
     $filename = $_FILES['userfile']['name'][$ct];
@@ -39,7 +42,7 @@ $mail->addAddress($to);
 } 
 
                            
-// Письмо
+// Sending email
 $mail->isHTML(true); 
 $mail->Subject = $subject;
 $mail->Body    = $message;
