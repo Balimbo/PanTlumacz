@@ -1,0 +1,107 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	/*overflow: hidden;*/
+}
+
+body
+{
+	font-family: 'Raleway', sans-serif;
+	color:#fff;
+	font-size:20px;
+	line-height: 1.6;
+}
+
+a
+{
+	text-decoration: none;
+	color:#fff;
+}
+
+/*Header_background*/
+header
+{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../../PT/images/header.jpg);
+	background-size: cover;
+	position:relative;	
+}
+header:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.7);
+  z-index: 1;
+}
+
+/*Menu*/
+.header_menu
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	height: 15%;
+	position: relative;
+	z-index: 1000;
+}
+
+.header_logo
+{
+	margin-left:50px;
+	font-size:27px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+	color:#fff;
+}
+
+/*Navigation*/
+.header_nav
+{
+	font-size:15px;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+
+.header_nav_link
+{
+	padding-left: 10px;
+}
+
+
+/*Title*/
+.header_title
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85%;
+	bottom:13%;
+	position:relative;
+	z-index:100;
+}
+
+.header_text
+{
+	font-size:70pt;
+	font-weight: bold;
+}
+
+.main_button
+{
+	display: inline-block;
+	vertical-align: top;
+	padding:10px 15px;
+	border: 3px solid;
+	font-size:14pt;
+	font-weight: bold;	
+	text-transform: uppercase;
+}
+
