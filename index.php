@@ -9,6 +9,9 @@
 </head>
 <body>
 	<body>
+
+        <!--Header-->
+
 	<header>
 			<div class="header_menu">
 				<div class="header_logo">PanTłumacz</div>
@@ -112,6 +115,72 @@
 
             </div>
 
+        </div>
+    </section>
+
+    <!--What we can?-->
+
+    <section class="section">
+        <div class="container">
+                <div class="capability_header">
+                    <h3 class="capability_caption">What we can?</h3>
+                    <p class="capability_text"> Lorem ipsum dolor sit amet, consectetur         adipisicing elit. Ipsum, hic!</p>   
+                </div>  
+    
+        
+                <div class="capability_main_block">
+    
+    
+                    <div class="capability_block">
+                        <div class="block_header">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="block_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe 
+                        </div>
+                    </div>
+                    <div class="capability_block">
+                        <div class="block_header">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="block_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe voluptate, tempore deserunt molestiae ducimus sint eaque.
+                        </div>
+                    </div>
+                    <div class="capability_block">
+                        <div class="block_header">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="block_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum 
+                        </div>
+                    </div>
+                    <div class="capability_block">
+                        <div class="block_header">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="block_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe voluptate, tempore deserunt molestiae ducimus sint eaque.
+                        </div>
+                    </div>
+                    <div class="capability_block">
+                        <div class="block_header">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="block_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum .
+                        </div>
+                    </div>
+                    <div class="capability_block">
+                        <div class="block_header">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="block_text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe voluptate, tempore deserunt molestiae ducimus sint eaque.
+                        </div>
+                    </div> 
+
+            </div>
         </div>
     </section>
 
