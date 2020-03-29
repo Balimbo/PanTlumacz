@@ -8,16 +8,29 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
+	<body>
 	<header>
 			<div class="header_menu">
 				<div class="header_logo">PanTłumacz</div>
 				<nav class="header_nav">
-					<a class="header_nav_link" href="#">Languages</a>
-					<a class="header_nav_link" href="#">What we can?</a>
-					<a class="header_nav_link" href="#">About us</a>
-					<a class="header_nav_link" href="#">Price list</a>
-					<a class="header_nav_link" href="#">Application</a>
-					<a class="header_nav_link" href="#">Comments</a>
+					<div class="header_nav_link">
+						<a href="#">Languages</a>
+					</div>
+					<div class="header_nav_link">
+						<a href="#">What we can?</a>
+					</div>
+					<div class="header_nav_link">
+						<a href="#">About us</a>
+					</div>
+					<div class="header_nav_link">
+						<a href="#">Price list</a>
+					</div>
+					<div class="header_nav_link">
+						<a href="#">Application</a>
+					</div>
+					<div class="header_nav_link">
+						<a href="#">Comments</a>
+					</div>
 				</nav>
 			</div>
 
@@ -26,7 +39,7 @@
 				<a class="main_button" href="#">Make a request</a>
 				
 			</div>
-	</header>
+
 
 	<!-- Language change -->
 
