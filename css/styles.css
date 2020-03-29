@@ -25,7 +25,7 @@ header
 {
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../../PT/images/header.jpg);
+	background-image: url(../images/header.jpeg);
 	background-size: cover;
 	position:relative;	
 }
