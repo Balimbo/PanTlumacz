@@ -42,6 +42,7 @@
 				<a class="main_button" href="#">Make a request</a>
 				
 			</div>
+        </header>
 
 
 	<!-- Language change -->
