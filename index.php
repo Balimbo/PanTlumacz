@@ -185,6 +185,136 @@
         </div>
     </section>
 
+<!-- Price list -->
+
+<section class="section">
+            <div class="container">
+
+            <div class="price_caption">
+                <h1>Price List</h1>
+            </div>
+            
+            <div class="main_price_block">
+                <div class="price_block">
+                    <div class="price_block_image">
+                        <a href="#">
+                        <img src="images/rus.png"  alt="Russian">
+                        </a>
+                    </div>
+                    
+                    <div class="price_block_text">
+                        <h4>
+                            Polski/Rosyjski, Rosyjski/Polski
+                        </h4>
+                        <p> tekst zwykły: 19 zł/str.<br>
+                            specjalistyczny: 22 zł/str. <br>                             
+                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                            jedna strona rozliczeniowa:  1125 znaków ze spacjami. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="price_block">
+                    <div class="price_block_image">
+                        <a href="#">
+                        <img src="images/brit.png"  alt="Russian">
+                        </a>
+                    </div>
+                    
+                    <div class="price_block_text">
+                        <h4>
+                            Polski/Angielski, Angielski/Polski
+                        </h4>
+                        <p> tekst zwykły: 22 zł/str.<br>
+                            specjalistyczny: 25 zł/str. <br>                             
+                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                            jedna strona rozliczeniowa:  1125 znaków ze spacjami. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="price_block">
+                    <div class="price_block_image">
+                        <a href="#">
+                        <img src="images/fr.png"  alt="Russian">
+                        </a>
+                    </div>
+                    
+                    <div class="price_block_text">
+                        <h4>
+                            Polski/Francuski, Francuski/Polski
+                        </h4>
+                        <p> tekst zwykły: 25 zł/str.<br>
+                            specjalistyczny: 28 zł/str. <br>                             
+                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                            jedna strona rozliczeniowa:  1125 znaków ze spacjami. 
+                        </p>
+                    </div>
+                </div>
+                    
+                <div class="price_block">
+                    <div class="price_block_image">
+                        <a href="#">
+                        <img src="images/ukr.png"  alt="Russian">
+                        </a>
+                    </div>
+                    
+                    <div class="price_block_text">
+                        <h4>
+                            Polski/Ukraiński, Ukraiński/Polski
+                        </h4>
+                        <p> tekst zwykły: 19 zł/str.<br>
+                            specjalistyczny: 22 zł/str. <br>                             
+                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                            jedna strona rozliczeniowa:  1125 znaków ze spacjami. 
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="price_block">
+                    <div class="price_block_image">
+                        <a href="#">
+                        <img src="images/germ.png"  alt="Russian">
+                        </a>
+                    </div>
+                    
+                    <div class="price_block_text">
+                        <h4>
+                            Polski/Niemiecki, Niemiecki/Polski
+                        </h4>
+                        <p> tekst zwykły: 22 zł/str.<br>
+                            specjalistyczny: 25 zł/str. <br>                             
+                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                            jedna strona rozliczeniowa:  1125 znaków ze spacjami. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="price_block">
+                    <div class="price_block_image">
+                        <a href="#">
+                        <img src="images/ital.png"  alt="Russian">
+                        </a>
+                    </div>
+                    
+                    <div class="price_block_text">
+                        <h4>
+                            Polski/Włoski, Włoski/Polski
+                        </h4>
+                        <p> tekst zwykły: 32 zł/str.<br>
+                            specjalistyczny: 35 zł/str. <br>                             
+                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                            jedna strona rozliczeniowa:  1125 znaków ze spacjami. 
+                        </p>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 <?php 
 	require_once 'settings.php';
 
