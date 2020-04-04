@@ -204,3 +204,43 @@ header:after {
 	padding: 10px;
 	background-color: #A59B9B;
 }
+
+
+/*Price list*/
+.price_caption
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-size:30px;
+}
+.main_price_block
+{
+	position:relative;
+	display: flex;
+	justify-content: space-between;
+  	flex-flow: wrap;
+  	margin-top:3%;
+}
+.price_block
+{
+	position:relative;
+	width:32%;
+	height:auto;
+	margin-bottom: 3%;
+	margin-left:1%;
+	
+}
+.price_block_image img 
+{
+	float:left;
+	height:70px;
+	width:70px;
+	border-radius: 100px;
+	background-color: white;
+	margin:0 10px 0px 0;
+}
+
+.price_block_text
+{
+	font-size:15px;
+}
