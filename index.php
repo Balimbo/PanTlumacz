@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/langchange.css">
     <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -372,9 +373,27 @@
 
                 </div>
             </div>
-        </div>
     </section>
 
+<footer>
+    <div class="footer__right">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </div>
+    <div class="footer__left">
+        <p class="footer__links">
+            <a href="#">Home</a>
+            <a href="#">Languages</a>
+            <a href="#">What we can?</a>
+            <a href="#">About us</a>
+            <a href="#">Price list</a>
+            <a href="#">Application</a>
+            <a href="#">Comments</a>
+        </p>
+        <p>PanTłumacz &copy; 2020</p>
+    </div>
+</footer>
 
 <?php
     require_once 'settings.php';
