@@ -36,7 +36,7 @@
     display: block;
     transition: opacity .2s linear;
     border-radius: 250px;
-    box-shadow: 0 0 0 1px black, 0 0 13px #333;
+    box-shadow: 0 0 0 0px black, 0 0 9px #333;
 }
 
 .card__text {

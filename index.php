@@ -5,6 +5,7 @@
     <title>PanTłumacz</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/langchange.css">
+    <link rel="stylesheet" href="css/aboutus.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -51,8 +52,7 @@
         <div class="container">
 
             <div class="section__header">
-                <h3 class="section__suptitle">Lorem ipsum</h3>
-                <h2 class="section__title">Lorem ipsum dolor</h2>
+                <h2 class="section__title">Languages</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa. Vel reiciendis inventore sed nisi libero, soluta ex velit, temporibus voluptatem, deleniti illo perferendis nam nulla nostrum eum molestias quam ipsam, dolor minima quae numquam quasi! Ad, minima deleniti!</p>
                 </div>
@@ -184,6 +184,67 @@
             </div>
         </div>
     </section>
+
+<!-- About us -->
+
+<section class="section">
+        <div class="container">
+
+            <div class="section__header">
+                <h2 class="section__title">About us</h2>
+                <div class="section__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
+                </div>
+            </div>
+
+        <div class="abus">
+
+                <div class="abus__item">
+                    <div class="abus__inner">
+                        <div class="abus__img">
+                            <img src="images/like.svg" height="150px" width="150px">
+                        </div>
+                    </div>
+                    <div class="abus__text">
+                        <h3>Качество</h3>
+                        <div class="abus__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias aperiam, ad, eum perspiciatis error culpa perferendis, quisquam quia officiis quam optio blanditiis consectetur fuga asperiores itaque repellat quod quis!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="abus__item">
+                    <div class="abus__inner">
+                        <div class="abus__img">
+                            <img src="images/clock.svg" height="150px" width="150px">
+                        </div>
+                    </div>
+                    <div class="abus__text">
+                        <h3>Пунктуальность</h3>
+                        <div class="abus__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias aperiam, ad, eum perspiciatis error culpa perferendis, quisquam quia officiis quam optio blanditiis consectetur fuga asperiores itaque repellat quod quis!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="abus__item">
+                    <div class="abus__inner">
+                        <div class="abus__img">
+                            <img src="images/speed.svg" height="150px" width="150px">
+                        </div>
+                    </div>
+                    <div class="abus__text">
+                        <h3>Срочность</h3>
+                        <div class="abus__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem molestias aperiam, ad, eum perspiciatis error culpa perferendis, quisquam quia officiis quam optio blanditiis consectetur fuga asperiores itaque repellat quod quis!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+</section>
 
 <!-- Price list -->
 
