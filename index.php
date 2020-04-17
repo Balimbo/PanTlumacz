@@ -400,33 +400,49 @@
             </div>
         </div>
 
-        <div class="reviews">
+        <div class="reviews__window">
 
-            <div class="reviews__item">
-                <p class="reviews__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam itaque laborum libero, repellat similique repudiandae accusantium, totam possimus nisi molestias, officiis aliquam debitis, earum dicta hic. Similique atque, soluta fuga minus, dolorum, debitis illum doloremque porro consectetur perferendis laborum rem nobis, magnam? Dignissimos at pariatur illum architecto quibusdam fuga nesciunt.
-                </p>
-                <div class="reviews__author">
+            <div class="reviews__arrow">
+                <button class="reviews__button">
+                    <img class="reviews__pic" src="images/arrow_left.svg">
+                </button>
+            </div>
+
+            <div class="reviews">
+
+                <div class="reviews__item">
+                    <p class="reviews__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam itaque laborum libero, repellat similique repudiandae accusantium, totam possimus nisi molestias, officiis aliquam debitis, earum dicta hic. Similique atque, soluta fuga minus, dolorum, debitis illum doloremque porro consectetur perferendis laborum rem nobis, magnam? Dignissimos at pariatur illum architecto quibusdam fuga nesciunt.
+                    </p>
+                    <div class="reviews__author">
                     bxr1nG
+                    </div>
                 </div>
+
+                <div class="reviews__item">
+                    <p class="reviews__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolores inventore, quibusdam adipisci voluptates obcaecati sint quas ipsum voluptatum nisi?
+                    </p>
+                    <div class="reviews__author">
+                        Andrej
+                    </div>
+                </div>
+
+                <div class="reviews__item">
+                    <p class="reviews__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At modi dolor officia error, corporis debitis, possimus ut ea voluptatibus. Magni asperiores corporis ut reiciendis ducimus aut tenetur modi voluptate maxime pariatur blanditiis molestiae, impedit, ex?
+                    </p>
+                    <div class="reviews__author">
+                        Balimbo
+                    </div>
+                </div>
+
             </div>
 
-            <div class="reviews__item">
-                <p class="reviews__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolores inventore, quibusdam adipisci voluptates obcaecati sint quas ipsum voluptatum nisi?
-                </p>
-                <div class="reviews__author">
-                    Andrej
-                </div>
-            </div>
-
-            <div class="reviews__item">
-                <p class="reviews__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At modi dolor officia error, corporis debitis, possimus ut ea voluptatibus. Magni asperiores corporis ut reiciendis ducimus aut tenetur modi voluptate maxime pariatur blanditiis molestiae, impedit, ex?
-                </p>
-                <div class="reviews__author">
-                    Balimbo
-                </div>
+            <div class="reviews__arrow">
+                <button class="reviews__button">
+                    <img class="reviews__pic" src="images/arrow_right.svg">
+                </button>
             </div>
 
         </div>
