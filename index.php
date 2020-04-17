@@ -63,55 +63,67 @@
 
                 <div class="card__item">
                     <div class="card__inner">
-                        <div class="card__img">
-                            <img src="images/rus.webp" height="250px" width="250px">
-                        </div>
-                        <div class="card__text">Polski/Rosyjski, Rosyjski/Polski</div>
+                        <a href="#" class="card__link">
+                            <div class="card__img">
+                                <img src="images/rus.webp" height="250px" width="250px">
+                            </div>
+                            <div class="card__text">Polski/Rosyjski, Rosyjski/Polski</div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="card__item">
                     <div class="card__inner">
-                        <div class="card__img">
-                            <img src="images/germ.webp" height="250px" width="250px">
-                        </div>
-                        <div class="card__text">Polski/Niemiecki, Niemiecki/Polski</div>
+                        <a href="#" class="card__link">
+                            <div class="card__img">
+                                <img src="images/germ.webp" height="250px" width="250px">
+                            </div>
+                            <div class="card__text">Polski/Niemiecki, Niemiecki/Polski</div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="card__item">
                     <div class="card__inner">
-                        <div class="card__img">
-                            <img src="images/fr.webp" height="250px" width="250px">
-                        </div>
-                        <div class="card__text">Polski/Francuski, Francuski/Polski</div>
+                        <a href="#" class="card__link">
+                            <div class="card__img">
+                                <img src="images/fr.webp" height="250px" width="250px">
+                            </div>
+                            <div class="card__text">Polski/Francuski, Francuski/Polski</div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="card__item">
                     <div class="card__inner">
-                        <div class="card__img">
-                            <img src="images/ukr.webp" height="250px" width="250px">
-                        </div>
-                        <div class="card__text">Polski/Ukraiński, Ukraiński/Polski</div>
+                        <a href="#" class="card__link">
+                            <div class="card__img">
+                                <img src="images/ukr.webp" height="250px" width="250px">
+                            </div>
+                            <div class="card__text">Polski/Ukraiński, Ukraiński/Polski</div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="card__item">
                     <div class="card__inner">
-                        <div class="card__img">
-                            <img src="images/brit.webp" height="250px" width="250px">
-                        </div>
-                        <div class="card__text">Polski/Angielski, Angielski/Polski</div>
+                        <a href="#" class="card__link">
+                            <div class="card__img">
+                                <img src="images/brit.webp" height="250px" width="250px">
+                            </div>
+                            <div class="card__text">Polski/Angielski, Angielski/Polski</div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="card__item">
                     <div class="card__inner">
-                        <div class="card__img">
-                            <img src="images/ital.webp" height="250px" width="250px">
-                        </div>
-                        <div class="card__text">Polski/Włoski, Włoski/Polski</div>
+                        <a href="#" class="card__link">
+                            <div class="card__img">
+                                <img src="images/ital.webp" height="250px" width="250px">
+                            </div>
+                            <div class="card__text">Polski/Włoski, Włoski/Polski</div>
+                        </a>
                     </div>
                 </div>
 
@@ -374,6 +386,8 @@
                 </div>
             </div>
     </section>
+
+<!-- Footer -->
 
 <footer>
     <div class="footer__right">

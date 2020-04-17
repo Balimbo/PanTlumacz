@@ -65,3 +65,10 @@
     color: #333;
     text-transform: uppercase;
 }
+
+.card__link {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    display: block;
+}
