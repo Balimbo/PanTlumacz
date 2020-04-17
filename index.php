@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/langchange.css">
     <link rel="stylesheet" href="css/aboutus.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reviews.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -262,7 +263,7 @@
 <!-- Price list -->
 
 <section class="section">
-            <div class="container">
+        <div class="container">
 
             <div class="price_caption">
                 <h1>Price List</h1>
@@ -383,9 +384,55 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+</section>
+
+<!-- Reviews -->
+
+<section class="section">
+    <div class="container">
+
+        <div class="section__header">
+            <h2 class="section__title">Reviews</h2>
+            <div class="section__text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ratione illum ab eos, optio nemo eveniet corporis, sapiente omnis dicta! Quaerat laboriosam aut, nihil voluptatum voluptatem assumenda dignissimos cumque, similique.</p>
+            </div>
+        </div>
+
+        <div class="reviews">
+
+            <div class="reviews__item">
+                <p class="reviews__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam itaque laborum libero, repellat similique repudiandae accusantium, totam possimus nisi molestias, officiis aliquam debitis, earum dicta hic. Similique atque, soluta fuga minus, dolorum, debitis illum doloremque porro consectetur perferendis laborum rem nobis, magnam? Dignissimos at pariatur illum architecto quibusdam fuga nesciunt.
+                </p>
+                <div class="reviews__author">
+                    bxr1nG
                 </div>
             </div>
-    </section>
+
+            <div class="reviews__item">
+                <p class="reviews__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolores inventore, quibusdam adipisci voluptates obcaecati sint quas ipsum voluptatum nisi?
+                </p>
+                <div class="reviews__author">
+                    Andrej
+                </div>
+            </div>
+
+            <div class="reviews__item">
+                <p class="reviews__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At modi dolor officia error, corporis debitis, possimus ut ea voluptatibus. Magni asperiores corporis ut reiciendis ducimus aut tenetur modi voluptate maxime pariatur blanditiis molestiae, impedit, ex?
+                </p>
+                <div class="reviews__author">
+                    Balimbo
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
 <!-- Footer -->
 
