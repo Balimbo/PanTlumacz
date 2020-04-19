@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Comments</title>
-	<style>
-		#comments
-		{
-			resize:none;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <title>Comments</title>
+    <link rel="stylesheet" href="css/reviewsForm.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div>
-	<form action="reviews.php" method="post">
-		<div id="CommentsNickname">
-			<label for="Nickname">Your nickname</label><br>
-			<input type="text" id="Nickname" name="nickname" placeholder="Enter your nickname">
-		</div>
+    <div>
+        <form action="reviews.php" method="post">
 
-		<div id="CommentsText">
-			<label for="review">Comments</label><br>
-			<textarea id="review" name="review" placeholder="Leave your comment" rows="10" cols="50"></textarea>
-		</div>
+            <div class="form__inner">
 
-		<div id="SubmitForComments">
-			<button type="submit">Send</button> 
-		</div>
-	</form>
-</div>
+                <h3>Leave your review</h3>
 
-<!-- livereload -->
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+                <div id="CommentsNickname">
+                    <input type="text" id="Nickname" name="nickname" placeholder="Enter your nickname">
+                </div>
+
+                <div id="CommentsText">
+                    <textarea id="review" name="review" placeholder="Enter your review" rows="15"></textarea>
+                </div>
+
+                <div id="SubmitForComments">
+                    <button type="submit">Send</button>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+    <!-- livereload -->
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+
+    </script>
 </body>
+
 </html>
