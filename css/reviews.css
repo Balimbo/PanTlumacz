@@ -70,3 +70,7 @@
     background-color: transparent;
     cursor: pointer;
 }
+
+.reviews__button:focus {
+    outline: 0;
+}

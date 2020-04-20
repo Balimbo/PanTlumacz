@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <body>
 
         <!--Header-->
 
@@ -53,7 +52,7 @@
     <section class="section">
         <div class="container">
 
-            <div class="section__header">
+            <div class="section__noText">
                 <h2 class="section__title">Languages</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa. Vel reiciendis inventore sed nisi libero, soluta ex velit, temporibus voluptatem, deleniti illo perferendis nam nulla nostrum eum molestias quam ipsam, dolor minima quae numquam quasi! Ad, minima deleniti!</p>
@@ -137,9 +136,11 @@
 
     <section class="section">
         <div class="container">
-                <div class="capability_header">
-                    <h3 class="capability_caption">What we can?</h3>
-                    <p class="capability_text"> Lorem ipsum dolor sit amet, consectetur         adipisicing elit. Ipsum, hic!</p>
+                <div class="section__noText">
+                    <h2 class="section__title">What we can?</h2>
+                    <div class="section__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
+                    </div>
                 </div>
 
 
@@ -265,8 +266,8 @@
 <section class="section">
         <div class="container">
 
-            <div class="price_caption">
-                <h1>Price List</h1>
+            <div class="section__noText">
+                <h2 class="section__title">Price List</h2>
             </div>
 
             <div class="main_price_block">
