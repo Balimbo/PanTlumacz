@@ -493,11 +493,10 @@
     $conn->close();
 ?>
 
-    <!--
-    Мешает футеру
-    <a href="form.html">HH</a><br>
-    <a href="comments.html">BB</a>
-    -->
+    <div class="hidden__elements">
+        <a href="form.html">HH</a><br>
+        <a href="comments.html">BB</a>
+    </div>
 
     <script src="js/jQuery.js"></script>
     <!-- Все скрипты подключаем сюда -->
