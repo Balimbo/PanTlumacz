@@ -8,7 +8,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    color:#fff;
+    color: #fff;
     font-size:20px;
     line-height: 1.6;
 }
@@ -22,7 +22,7 @@ body
 a
 {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
 
 .hidden__elements {
@@ -41,7 +41,7 @@ a
 header
 {
     width:100%;
-    height: 110vh;
+    height: 100.1vh;
     background-image: url(../images/header.jpeg);
     background-size: cover;
     position:relative;
@@ -127,49 +127,37 @@ header:after {
 
 /*Languages*/
 .section {
-    color:black;
-    padding: 5% 3%;
+    color: black;
+    margin-bottom: 60px;
+}
+
+.section:first-of-type {
+    margin-top: 60px;
 }
 
 .section__header {
-    width: 100%;
-    max-width: 950px;
-    margin: 0 auto 50px;
-
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.section__suptitle {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    color: #333;
+.section__noText {
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 .section__title {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     color: #333;
     text-transform: uppercase;
 }
 
 .section__text {
-    font-size: 15px;
-    color: #999;
+    font-size: 17px;
+    color: #888;
 }
 
 
-
-
-/*Capabilities*/
-.capability_header
-{
-    font-size:30px;
-    text-align: center;
-}
-.capability_caption
-{
-    text-transform: uppercase;
-}
 
 /*Capability blocks*/
 .capability_main_block
@@ -178,14 +166,13 @@ header:after {
     display: flex;
     justify-content: space-between;
       flex-flow: row wrap;
-      margin-top:3%;
 
 }
 .capability_block
 {
     font-size:15px;
     width: 30%;
-    margin-bottom:3%;
+    margin-top:3%;
     transition: 1s;
 }
 
@@ -211,28 +198,19 @@ header:after {
 
 
 /*Price list*/
-.price_caption
-{
-    text-transform: uppercase;
-    text-align: center;
-    font-size:30px;
-}
 .main_price_block
 {
     position:relative;
     display: flex;
     justify-content: space-between;
-      flex-flow: wrap;
-      margin-top:3%;
+    flex-flow: wrap;
 }
 .price_block
 {
     position:relative;
-    width:32%;
+    width:30%;
     height:auto;
-    margin-bottom: 3%;
-    margin-left:1%;
-
+    margin-top: 30px;;
 }
 .price_block_image img
 {
@@ -246,5 +224,5 @@ header:after {
 
 .price_block_text
 {
-    font-size:15px;
+    font-size:16px;
 }
