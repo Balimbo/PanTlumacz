@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/langchange.css">
@@ -40,7 +41,7 @@
             </div>
 
             <div class="header_title">
-                <h1 class="header_text">Translation Agency</h1>
+                <h1 class="header_text">Biuro Tłumaczeń</h1>
                 <a class="main_button" href="#">Make a request</a>
 
             </div>
