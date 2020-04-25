@@ -134,70 +134,86 @@
 
     <!--What we can?-->
 
-    <section class="section">
-        <div class="container">
-                <div class="section__noText">
-                    <h2 class="section__title">What we can?</h2>
+   <section class="section">
+         <div class="container">
+            <div class="section__noText">
+            <h2 class="section__title">What we can?</h2>
                     <div class="section__text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
                     </div>
                 </div>
-
-
-                <div class="capability_main_block">
-
-
-                    <div class="capability_block">
-                        <div class="block_header">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block_text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe
-                        </div>
-                    </div>
-                    <div class="capability_block">
-                        <div class="block_header">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block_text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe voluptate, tempore deserunt molestiae ducimus sint eaque.
-                        </div>
-                    </div>
-                    <div class="capability_block">
-                        <div class="block_header">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block_text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum
-                        </div>
-                    </div>
-                    <div class="capability_block">
-                        <div class="block_header">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block_text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe voluptate, tempore deserunt molestiae ducimus sint eaque.
-                        </div>
-                    </div>
-                    <div class="capability_block">
-                        <div class="block_header">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block_text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum .
-                        </div>
-                    </div>
-                    <div class="capability_block">
-                        <div class="block_header">
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="block_text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rem perspiciatis, animi voluptas tenetur illum placeat. Eveniet at corporis a. Magnam expedita saepe voluptate, tempore deserunt molestiae ducimus sint eaque.
-                        </div>
-                    </div>
-
+     <div class="can">
+         <img class="can__photo1" src="images/about.png" alt="">
+          <div class="can__right">
+            <div class="can__title">
+              Ulotki reklamowe i strony internetowe
             </div>
-        </div>
+            <div class="can__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+     </div>
+ </div>
+    </section>
+
+     <section class="section">
+         <div class="container">
+     <div class="can">
+        
+          <div class="can__right">
+            <div class="can__title">
+              Dokumentacja techniczna i firmowe dokumenty 
+            </div>
+            <div class="can__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+           <img class="can__photo1" src="images/can2.jpg" alt="">
+     </div>
+ </div>
+    </section>
+
+     <section class="section">
+         <div class="container">
+     <div class="can">
+         <img class="can__photo1" src="images/can3.png" alt="">
+          <div class="can__right">
+            <div class="can__title">
+              Prace dyplomowe i naukowe artykuły
+            </div>
+            <div class="can__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+     </div>
+ </div>
     </section>
 
 <!-- About us -->
