@@ -41,7 +41,7 @@ a
 header
 {
     width:100%;
-    height: 100.1vh;
+    height: 100vh;
     background-image: url(../images/header.jpeg);
     background-size: cover;
     position:relative;
@@ -72,7 +72,7 @@ header:after {
 .header_logo
 {
     display: flex;
-    margin-left:50px;
+    margin-left:30px;
     font-size:27px;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
@@ -183,10 +183,10 @@ header:after {
 }
 
 .can__right {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .can__title {
-
   color: #252525;
   font-size: 20px;
   font-weight: 700;
@@ -196,14 +196,13 @@ header:after {
 
 }
 .can__title:after {
-  display: block;
+  display: flex;
   content: "";
   height: 1px;
   width: 87%;
   background-color: rgb(0, 0, 0);
 }
 .can__text {
-padding:
 color: #000;
 font-size: 14px;
 font-weight: 400;
@@ -211,8 +210,6 @@ line-height: 25px;
 display: flex;
 flex-wrap: wrap;
 padding: 0 43px;
-
-
 }
 
 
@@ -246,7 +243,7 @@ padding: 0 43px;
     font-size:16px;
 }
 
-@media (max-width: 1200px)
+@media (max-width: 1185px)
 {
     /*header*/
     .header_nav_link
@@ -262,7 +259,7 @@ padding: 0 43px;
     .header_logo
     {
         font-size: 25px;
-        margin-left:20px;
+        margin-left:15px;
 
     }
 
@@ -270,9 +267,27 @@ padding: 0 43px;
     {
         font-size:85px;
     }
+
+    /*What we can*/
+    .can__title 
+    {
+        font-size:17px;
+        padding: 45px 0 13px 43px;
+    }
+    
+    .can__text 
+    {
+        font-size: 13px;
+    }
+
+    .can__photo1 
+    {
+        width: 400px;
+        height: 350px;
+    }
 }
 
-@media (max-width: 970px)
+@media (max-width: 1055px)
 {
     /*header*/
     .header_nav_link
@@ -294,16 +309,42 @@ padding: 0 43px;
 
     .header_text
     {
-        font-size:70px;
+        font-size:80px;
     }
 
     .main_button
     {
         font-size:20px;
     }
+
+    /*what we can*/
+    .section__title
+    {
+        font-size:30px;
+    }
+    .section__text
+    {
+        font-size:14px;
+    }
+    .can__title 
+    {
+        font-size:14px;
+        padding:20px 0 13px 43px;
+    }
+    
+    .can__text 
+    {
+        font-size: 11px;
+    }
+
+    .can__photo1 
+    {
+        width: 360px;
+        height: 290px;
+    }
 }
 
-@media (max-width: 800px)
+@media (max-width: 930px)
 {
     /*header*/
     .header_nav_link
@@ -315,16 +356,23 @@ padding: 0 43px;
     {
         display: none;
     }
+    
+    .header_text
+    {
+        font-size:70px;
+    }
 
     .header_logo
     {
         margin-left:13px;
     }
 
-    .main_button
+    /*what we can*/
+    .can__photo1 
     {
-        font-size:15px;
+        display: none;
     }
+    
 }
 
 @media (max-width: 600px)
@@ -344,6 +392,16 @@ padding: 0 43px;
     {
         font-size:13px;
     }
+    /*what we can*/
+    .can__title 
+    {
+        font-size:11px;
+    }
+    
+    .section__text
+    {
+        font-size:15px;
+    }
 }
 
 @media (max-width: 400px)
@@ -351,11 +409,64 @@ padding: 0 43px;
     /*header*/
     .header_text
     {
-        font-size:35px;
+        font-size:40px;
     }
 
     .main_button
     {
+        font-size:20px;
+    }
+
+     /*what we can*/
+    .section__title
+    {
+        font-size:30px;
+    }
+    .section__text
+    {
         font-size:13px;
+    }
+    .can__title 
+    {
+        font-size:18px;
+    }
+    
+    .can__text 
+    {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 340px)
+{
+    /*header*/
+    .header_text
+    {
+        font-size:35px;
+    }
+
+    .header_logo
+    {
+        font-size: 17px;
+    }
+
+    .main_button
+    {
+        font-size:15px;
+    }
+
+     /*what we can*/
+    .section__title
+    {
+        font-size:25px;
+    }
+    .can__title 
+    {
+        font-size:20px;
+    }
+    
+    .can__text 
+    {
+        font-size: 13px;
     }
 }
