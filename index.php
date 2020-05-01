@@ -15,7 +15,7 @@
 
         <!--Header-->
 
-    <header>
+     <header>
             <div class="header_menu">
                 <div class="header_logo">PanTłumacz</div>
                 <nav class="header_nav">
@@ -23,25 +23,26 @@
                         <a href="#">Languages</a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#">What we can?</a>
-                    </div>
-                    <div class="header_nav_link">
                         <a href="#">About us</a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#">Price list</a>
+                        <a href="#">What we can? </a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#">Application</a>
+                        <a href="#">Price list</a>
                     </div>
                     <div class="header_nav_link">
                         <a href="#">Comments</a>
                     </div>
                 </nav>
             </div>
-
+            
+            <button class="nav-toggle active" type="button">
+                <span class="nav-toggle_item"></span>
+            </button>
             <div class="header_title">
                 <h1 class="header_text">Biuro Tłumaczeń</h1>
+                <!-- <div class="header_subtext">Lorem ipsum dolor sit amet, consectetur adipisicing.</div> -->
                 <a class="main_button" href="#">Make a request</a>
 
             </div>
@@ -133,90 +134,6 @@
         </div>
     </section>
 
-    <!--What we can?-->
-
-   <section class="section">
-         <div class="container">
-            <div class="section__noText">
-            <h2 class="section__title">What we can?</h2>
-                    <div class="section__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
-                    </div>
-                </div>
-     <div class="can">
-         <img class="can__photo1" src="images/about.png" alt="">
-          <div class="can__right">
-            <div class="can__title">
-              Ulotki reklamowe i strony internetowe
-            </div>
-            <div class="can__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-     </div>
- </div>
-    </section>
-
-     <section class="section">
-         <div class="container">
-     <div class="can">
-        
-          <div class="can__right">
-            <div class="can__title">
-              Dokumentacja techniczna i firmowe dokumenty 
-            </div>
-            <div class="can__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-           <img class="can__photo1" src="images/can2.jpg" alt="">
-     </div>
- </div>
-    </section>
-
-     <section class="section">
-         <div class="container">
-     <div class="can">
-         <img class="can__photo1" src="images/can3.png" alt="">
-          <div class="can__right">
-            <div class="can__title">
-              Prace dyplomowe i naukowe artykuły
-            </div>
-            <div class="can__text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
-   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
-   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
-   ut aliquip ex ea commodo consequat.
-            </div>
-          </div>
-     </div>
- </div>
-    </section>
-
 <!-- About us -->
 
 <section class="section">
@@ -278,6 +195,86 @@
         </div>
 </section>
 
+    <!--What we can?-->
+
+    <section class="section">
+         <div class="container">
+            <div class="section__noText">
+            <h2 class="section__title">What we can?</h2>
+                    <div class="section__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
+                    </div>
+                </div>
+     <div class="can">
+         <img class="can__photo1" src="images/about.png" alt="">
+          <div class="can__right">
+            <div class="can__title">
+              Ulotki reklamowe i strony internetowe
+            </div>
+            <div class="can__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+     </div>
+
+    
+
+     
+     <div class="can">
+        
+          <div class="can__right">
+            <div class="can__title">
+              Dokumentacja techniczna i firmowe dokumenty 
+            </div>
+            <div class="can__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+           <img class="can__photo1" src="images/can2.jpg" alt="">
+     </div>
+    
+     <div class="can">
+         <img class="can__photo1" src="images/can3.png" alt="">
+          <div class="can__right">
+            <div class="can__title">
+              Prace dyplomowe i naukowe artykuły
+            </div>
+            <div class="can__text">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
+   euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim
+   ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis nisl
+   ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+     </div>
+ </div>
+    </section>
+
+
 <!-- Price list -->
 
 <section class="section">
@@ -285,6 +282,9 @@
 
             <div class="section__noText">
                 <h2 class="section__title">Price List</h2>
+                <div class="section__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
+                </div>
             </div>
 
             <div class="main_price_block">
@@ -295,15 +295,19 @@
                         </a>
                     </div>
 
-                    <div class="price_block_text">
-                        <h4>
-                            Polski/Rosyjski, Rosyjski/Polski
-                        </h4>
-                        <p> tekst zwykły: 19 zł/str.<br>
-                            specjalistyczny: 22 zł/str. <br>
-                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                            jedna strona rozliczeniowa:  1125 znaków ze spacjami.
-                        </p>
+                     <div class="price_block_main_text">
+                        <div class="price_block_title">
+                            <h4>
+                                Polski/Rosyjski,<br> Rosyjski/Polski
+                            </h4>
+                        </div>
+                        <div class="price_block_text">
+                            <p> tekst zwykły: 19 zł/str.<br>
+                                specjalistyczny: 22 zł/str. <br>
+                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                                jedna strona rozliczeniowa:  1125 znaków ze spacjami.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -314,15 +318,19 @@
                         </a>
                     </div>
 
-                    <div class="price_block_text">
-                        <h4>
-                            Polski/Angielski, Angielski/Polski
-                        </h4>
+                    <div class="price_block_main_text">
+                        <div class="price_block_title">
+                            <h4>
+                                Polski/Angielski,<br> Angielski/Polski
+                            </h4>
+                        </div>
+                        <div class="price_block_text">
                         <p> tekst zwykły: 22 zł/str.<br>
                             specjalistyczny: 25 zł/str. <br>
                             tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
                             jedna strona rozliczeniowa:  1125 znaków ze spacjami.
                         </p>
+                        </div>
                     </div>
                 </div>
 
@@ -333,15 +341,19 @@
                         </a>
                     </div>
 
-                    <div class="price_block_text">
-                        <h4>
-                            Polski/Francuski, Francuski/Polski
-                        </h4>
-                        <p> tekst zwykły: 25 zł/str.<br>
-                            specjalistyczny: 28 zł/str. <br>
+                    <div class="price_block_main_text">
+                        <div class="price_block_title">
+                            <h4>
+                                Polski/Francuski,<br> Francuski/Polski
+                            </h4>
+                        </div>
+                        <div class="price_block_text">   
+                            <p> tekst zwykły: 25 zł/str.<br>
+                                specjalistyczny: 28 zł/str. <br>
                             tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
                             jedna strona rozliczeniowa:  1125 znaków ze spacjami.
-                        </p>
+                             </p>
+                         </div>
                     </div>
                 </div>
 
@@ -352,15 +364,19 @@
                         </a>
                     </div>
 
-                    <div class="price_block_text">
-                        <h4>
-                            Polski/Ukraiński, Ukraiński/Polski
-                        </h4>
-                        <p> tekst zwykły: 19 zł/str.<br>
-                            specjalistyczny: 22 zł/str. <br>
-                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                            jedna strona rozliczeniowa:  1125 znaków ze spacjami.
-                        </p>
+                     <div class="price_block_main_text">
+                        <div class="price_block_title">
+                            <h4>
+                                Polski/Ukraiński,<br> Ukraiński/Polski
+                            </h4>
+                        </div>
+                        <div class="price_block_text">
+                            <p> tekst zwykły: 19 zł/str.<br>
+                                specjalistyczny: 22 zł/str. <br>
+                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                                jedna strona rozliczeniowa:  1125 znaków ze spacjami.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -371,15 +387,19 @@
                         </a>
                     </div>
 
-                    <div class="price_block_text">
-                        <h4>
-                            Polski/Niemiecki, Niemiecki/Polski
-                        </h4>
-                        <p> tekst zwykły: 22 zł/str.<br>
-                            specjalistyczny: 25 zł/str. <br>
-                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                            jedna strona rozliczeniowa:  1125 znaków ze spacjami.
-                        </p>
+                     <div class="price_block_main_text">
+                        <div class="price_block_title">
+                            <h4>
+                                Polski/Niemiecki,<br> Niemiecki/Polski
+                            </h4>
+                        </div>
+                        <div class="price_block_text">
+                            <p> tekst zwykły: 22 zł/str.<br>
+                                specjalistyczny: 25 zł/str. <br>
+                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                                jedna strona rozliczeniowa:  1125 znaków ze spacjami.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -390,15 +410,19 @@
                         </a>
                     </div>
 
-                    <div class="price_block_text">
-                        <h4>
-                            Polski/Włoski, Włoski/Polski
-                        </h4>
-                        <p> tekst zwykły: 32 zł/str.<br>
-                            specjalistyczny: 35 zł/str. <br>
-                            tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                            jedna strona rozliczeniowa:  1125 znaków ze spacjami.
-                        </p>
+                  <div class="price_block_main_text">
+                        <div class="price_block_title">
+                            <h4>
+                                Polski/Włoski, <br>Włoski/Polski
+                            </h4>
+                        </div>
+                         <div class="price_block_text">
+                            <p> tekst zwykły: 32 zł/str.<br>
+                                specjalistyczny: 35 zł/str. <br>
+                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
+                                jedna strona rozliczeniowa:  1125 znaków ze spacjami.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
