@@ -17,10 +17,11 @@
     margin: 0 auto;
 }
 
-.abus__img {
-}
+.abus__img {}
 
 .abus__img img {
+    height: 150px;
+    width: 150px;
     display: block;
 }
 
@@ -31,4 +32,46 @@
 
 .abus__description {
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+
+    .abus {
+        padding: 0 10px;
+    }
+
+    .abus__item {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1070px) {
+
+    .abus {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .abus__item {
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    .abus__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .abus__text {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .abus__img img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .abus__inner {
+        width: 100px;
+    }
 }

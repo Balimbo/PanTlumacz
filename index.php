@@ -36,7 +36,7 @@
                     </div>
                 </nav>
             </div>
-            
+
             <button class="nav-toggle active" type="button">
                 <span class="nav-toggle_item"></span>
             </button>
@@ -67,7 +67,7 @@
                     <div class="card__inner">
                         <a href="#" class="card__link">
                             <div class="card__img">
-                                <img src="images/rus.webp" height="250px" width="250px">
+                                <img src="images/rus.webp">
                             </div>
                             <div class="card__text">Polski/Rosyjski, Rosyjski/Polski</div>
                         </a>
@@ -78,7 +78,7 @@
                     <div class="card__inner">
                         <a href="#" class="card__link">
                             <div class="card__img">
-                                <img src="images/germ.webp" height="250px" width="250px">
+                                <img src="images/germ.webp">
                             </div>
                             <div class="card__text">Polski/Niemiecki, Niemiecki/Polski</div>
                         </a>
@@ -89,7 +89,7 @@
                     <div class="card__inner">
                         <a href="#" class="card__link">
                             <div class="card__img">
-                                <img src="images/fr.webp" height="250px" width="250px">
+                                <img src="images/fr.webp">
                             </div>
                             <div class="card__text">Polski/Francuski, Francuski/Polski</div>
                         </a>
@@ -100,7 +100,7 @@
                     <div class="card__inner">
                         <a href="#" class="card__link">
                             <div class="card__img">
-                                <img src="images/ukr.webp" height="250px" width="250px">
+                                <img src="images/ukr.webp">
                             </div>
                             <div class="card__text">Polski/Ukraiński, Ukraiński/Polski</div>
                         </a>
@@ -111,7 +111,7 @@
                     <div class="card__inner">
                         <a href="#" class="card__link">
                             <div class="card__img">
-                                <img src="images/brit.webp" height="250px" width="250px">
+                                <img src="images/brit.webp">
                             </div>
                             <div class="card__text">Polski/Angielski, Angielski/Polski</div>
                         </a>
@@ -122,7 +122,7 @@
                     <div class="card__inner">
                         <a href="#" class="card__link">
                             <div class="card__img">
-                                <img src="images/ital.webp" height="250px" width="250px">
+                                <img src="images/ital.webp">
                             </div>
                             <div class="card__text">Polski/Włoski, Włoski/Polski</div>
                         </a>
@@ -151,7 +151,7 @@
                 <div class="abus__item">
                     <div class="abus__inner">
                         <div class="abus__img">
-                            <img src="images/like.svg" height="150px" width="150px">
+                            <img src="images/like.svg">
                         </div>
                     </div>
                     <div class="abus__text">
@@ -165,7 +165,7 @@
                 <div class="abus__item">
                     <div class="abus__inner">
                         <div class="abus__img">
-                            <img src="images/clock.svg" height="150px" width="150px">
+                            <img src="images/clock.svg">
                         </div>
                     </div>
                     <div class="abus__text">
@@ -179,7 +179,7 @@
                 <div class="abus__item">
                     <div class="abus__inner">
                         <div class="abus__img">
-                            <img src="images/speed.svg" height="150px" width="150px">
+                            <img src="images/speed.svg">
                         </div>
                     </div>
                     <div class="abus__text">
@@ -226,14 +226,14 @@
           </div>
      </div>
 
-    
 
-     
+
+
      <div class="can">
-        
+
           <div class="can__right">
             <div class="can__title">
-              Dokumentacja techniczna i firmowe dokumenty 
+              Dokumentacja techniczna i firmowe dokumenty
             </div>
             <div class="can__text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh
@@ -250,7 +250,7 @@
           </div>
            <img class="can__photo1" src="images/can2.jpg" alt="">
      </div>
-    
+
      <div class="can">
          <img class="can__photo1" src="images/can3.png" alt="">
           <div class="can__right">
@@ -347,7 +347,7 @@
                                 Polski/Francuski,<br> Francuski/Polski
                             </h4>
                         </div>
-                        <div class="price_block_text">   
+                        <div class="price_block_text">
                             <p> tekst zwykły: 25 zł/str.<br>
                                 specjalistyczny: 28 zł/str. <br>
                             tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
