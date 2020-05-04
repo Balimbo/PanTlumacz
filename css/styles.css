@@ -231,6 +231,11 @@ header:after
     margin-bottom: 60px;
 }
 
+.section:last-of-type
+{
+    margin-bottom: 30px;
+}
+
 .section:first-of-type
 {
     margin-top: 60px;

@@ -514,6 +514,8 @@
     </div>
 </footer>
 
+<div class="hidden__elements">
+
 <?php
     require_once 'settings.php';
 
@@ -535,10 +537,9 @@
     $conn->close();
 ?>
 
-    <div class="hidden__elements">
-        <a href="form.html">HH</a><br>
-        <a href="comments.html">BB</a>
-    </div>
+    <a href="form.html">HH</a><br>
+    <a href="comments.html">BB</a>
+</div>
 
     <script src="js/jQuery.js"></script>
     <!-- Все скрипты подключаем сюда -->
