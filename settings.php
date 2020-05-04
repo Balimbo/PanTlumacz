@@ -1,6 +1,6 @@
 <?php
 $servername 	= "localhost";					// Server name
-$username 		= "root";						// Login to enter phpMyAdmin
+$username 		= "admin";						// Login to enter phpMyAdmin
 $password 		= "";							// Password to enter phpMyAdmin
 $to 			= "";			                // Email to which letters should be sent
 $SMTPService	= 'smtp.mail.ru';				// Service that provides SMTP services
