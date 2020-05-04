@@ -34,15 +34,18 @@ footer {
     max-width: 200px;
 }
 
-.footer__left {}
-
 .footer__right a {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: #555;
+    background-color: #666;
     border-radius: 5px;
     color: #fff;
+    transition: all .2s linear;
+}
+
+.footer__right a:hover {
+    background-color: #999;
 }
 
 .footer__right a img {
