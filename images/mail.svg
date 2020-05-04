@@ -11,22 +11,23 @@
    viewBox="0 0 24 24"
    width="24"
    version="1.1"
-   id="svg7497"
-   sodipodi:docname="speed.svg"
+   id="svg4706"
+   sodipodi:docname="mail.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
-     id="metadata7503">
+     id="metadata4712">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs7501" />
+     id="defs4710" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -38,25 +39,22 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1051"
-     id="namedview7499"
+     id="namedview4708"
      showgrid="false"
-     inkscape:zoom="9.8333333"
-     inkscape:cx="-3.7156641"
-     inkscape:cy="12"
+     inkscape:zoom="27.812867"
+     inkscape:cx="9.033005"
+     inkscape:cy="12.389044"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg7497" />
+     inkscape:current-layer="svg4706" />
+  <path
+     d="M 19.424726,4.6471824 H 4.5752734 c -1.0208999,0 -1.8469008,0.8352818 -1.8469008,1.8561817 l -0.00928,11.1370889 c 0,1.0209 0.8352818,1.856182 1.8561817,1.856182 H 19.424726 c 1.0209,0 1.856182,-0.835282 1.856182,-1.856182 V 6.5033641 c 0,-1.0208999 -0.835282,-1.8561817 -1.856182,-1.8561817 z m 0,3.7123634 L 11.999999,12.999999 4.5752734,8.3595458 V 6.5033641 l 7.4247256,4.6404529 7.424727,-4.6404529 z"
+     id="path4702"
+     inkscape:connector-curvature="0"
+     style="stroke-width:0.92809081;fill:#333333;fill-opacity:1" />
   <path
      d="M0 0h24v24H0z"
      fill="none"
-     id="path7491" />
-  <path
-     d="M20.38 8.57l-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44z"
-     id="path7493"
-     style="fill:#e10000;fill-opacity:1" />
-  <path
-     d="M10.59 15.41a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83z"
-     id="path7495"
-     style="fill:#e10000;fill-opacity:1" />
+     id="path4704" />
 </svg>

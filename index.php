@@ -496,9 +496,15 @@
 
 <footer>
     <div class="footer__right">
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+        <a href="#">
+            <img src="images/twitter.svg">
+        </a>
+        <a href="#">
+            <img src="images/facebook.svg">
+        </a>
+        <a href="#">
+            <img src="images/mail.svg">
+        </a>
     </div>
     <div class="footer__left">
         <p class="footer__links">
