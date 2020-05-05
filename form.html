@@ -2,40 +2,13 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
     <meta charset="UTF-8">
     <title>Application</title>
     <link rel="stylesheet" href="css/appForm.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-=======
-	<meta charset="UTF-8">
-	<title>Form</title>
-	<!--CSS-->
-	<style type="text/css">
-
-		body{
-			margin:0;
-			padding:0;
-		}		
-
-		.languages div{
-			float:left;
-			
-		}
-
-		.firstname{
-			margin-top: 3%;
-		}
-
-		#massage{
-			resize: none;
-		}
-	</style>
->>>>>>> 49fbe3c2391daa1683c4559d56f735915b877812
 </head>
 
 <body>
-<<<<<<< HEAD
     <div class="form">
         <form id="data" action="request.php" method="post" enctype='multipart/form-data'>
 
@@ -115,80 +88,6 @@
         </form>
     </div>
 
-=======
-	<div class="form">
-		<form id="data" action="request.php" method="post" enctype='multipart/form-data'>
-			<fieldset class="fieldForm">
-				<legend>Application Form</legend>
-				<!--Languages-->
-			<div class="languages">
-				<div>
-				<label for="fromLang">From language</label><br>
-			<select id="fromLang" name="fromLang" required="required" form="data">
-				<option disabled selected>language</option>
-				<option value="English">English</option>
-				<option value="Polski">Polski</option>
-				<option value="Deutsch">Deutsch</option>
-				<option value="Français">Français</option>
-				<option value="Italiana">Italiana</option>
-				<option value="Русский">Русский</option>
-				<option value="Український ">Український</option>
-			</select>
-				</div>
-
-				<div>
-				<label for="toLang">To language</label><br>
-			<select id="toLang" name="toLang" required="required" form="data">
-				<option disabled selected>language</option>
-				<option value="English">English</option>
-				<option value="Polski">Polski</option>
-				<option value="Deutsch">Deutsch</option>
-				<option value="Français">Français</option>
-				<option value="Italiana">Italiana</option>
-				<option value="Русский">Русский</option>
-				<option value="Український ">Український</option>
-			</select>
-				</div>
-			</div><br>
-
-			
-			<!-- Firstname-->
-		<div class="firstname">
-			<label for="firstname">Your name</label><br>
-				<input type ="text" id="firstname" name="firstName" placeholder="Enter your name" required="required">
-		</div>
-			
-			<!--Email-->
-		<div>
-			<label for="Email">Email address</label><br>
-			<input type="email" id="Email" name="email" placeholder="Enter your email" required="required">
-		</div>
-
-			<!--File-->
-		<div>
-			<label for="file"> <br>Attach your file:</label><br>
-			<input type="file" id="file" name="userfile[]">
-		</div><br>
-	
-			<!--Comments-->
-		<div>
-			<label for="massage">Comments</label><br>
-			<textarea id="massage" name="massage" placeholder="Leave a comment" rows="10" cols="50"></textarea>
-		</div>
-				
-			<!--Button-->
-		<div>
-			<button type="submit" name="submit">Send</button> 
-		</div>
-
-
-			</fieldset>
-		</form>
-	</div>
-
-<!--LiveReload-->
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
->>>>>>> 49fbe3c2391daa1683c4559d56f735915b877812
 </body>
 
 </html>
