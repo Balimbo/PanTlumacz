@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+<<<<<<< HEAD
+    <meta charset="UTF-8">
+    <title>Application</title>
+    <link rel="stylesheet" href="css/appForm.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+=======
 	<meta charset="UTF-8">
 	<title>Form</title>
 	<!--CSS-->
@@ -24,8 +31,91 @@
 			resize: none;
 		}
 	</style>
+>>>>>>> 49fbe3c2391daa1683c4559d56f735915b877812
 </head>
+
 <body>
+<<<<<<< HEAD
+    <div class="form">
+        <form id="data" action="request.php" method="post" enctype='multipart/form-data'>
+
+            <div class="form__inner">
+
+                <h3>Leave your application</h3>
+
+                <!--Languages-->
+                <div class="languages">
+
+                    <div class="fromLang">
+
+                        <p for="fromLang">From language</p>
+
+                        <select id="fromLang" name="fromLang" required="required" form="data">
+                            <option disabled selected>language</option>
+                            <option value="English">English</option>
+                            <option value="Polski">Polski</option>
+                            <option value="Deutsch">Deutsch</option>
+                            <option value="Français">Français</option>
+                            <option value="Italiana">Italiana</option>
+                            <option value="Русский">Русский</option>
+                            <option value="Український ">Український</option>
+                        </select>
+
+                    </div>
+
+                    <div class="toLang">
+
+                        <p for="toLang">To language</p>
+
+                        <select id="toLang" name="toLang" required="required" form="data">
+                            <option disabled selected>language</option>
+                            <option value="English">English</option>
+                            <option value="Polski">Polski</option>
+                            <option value="Deutsch">Deutsch</option>
+                            <option value="Français">Français</option>
+                            <option value="Italiana">Italiana</option>
+                            <option value="Русский">Русский</option>
+                            <option value="Український ">Український</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Firstname-->
+                <div class="firstname">
+                    <input type="text" id="firstname" name="firstName" placeholder="Enter your name" required="required">
+                </div>
+
+                <!--Email-->
+                <div>
+                    <input type="email" id="Email" name="email" placeholder="Enter your email" required="required">
+                </div>
+
+                <!--File-->
+                <div>
+                    <!-- <p for="file">Attach your file</p> -->
+                    <input type="file" id="file" name="userfile[]">
+                </div>
+
+                <!--Comments-->
+                <div>
+                    <textarea id="massage" name="massage" placeholder="Leave a comment" rows="10" cols="50"></textarea>
+                </div>
+
+                <!--Button-->
+                <div>
+                    <button type="submit" name="submit">Send</button>
+                </div>
+
+            </div>
+
+
+        </form>
+    </div>
+
+=======
 	<div class="form">
 		<form id="data" action="request.php" method="post" enctype='multipart/form-data'>
 			<fieldset class="fieldForm">
@@ -98,5 +188,7 @@
 
 <!--LiveReload-->
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+>>>>>>> 49fbe3c2391daa1683c4559d56f735915b877812
 </body>
+
 </html>
