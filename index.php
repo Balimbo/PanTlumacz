@@ -18,26 +18,26 @@
      <header>
             <div class="header_menu">
                 <div class="header_logo">PanTłumacz</div>
-                <nav class="header_nav">
+                <nav class="header_nav" id="nav">
                     <div class="header_nav_link">
-                        <a href="#">Languages</a>
+                        <a href="#" data-scroll="#languages">Languages</a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#">About us</a>
+                        <a href="#" data-scroll="#about">About us</a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#">What we can? </a>
+                        <a href="#" data-scroll="#can">What we can? </a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#">Price list</a>
+                        <a href="#" data-scroll="#price">Price list</a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#">Comments</a>
+                        <a href="#" data-scroll="#comments">Comments</a>
                     </div>
                 </nav>
             </div>
 
-            <button class="nav-toggle active" type="button">
+            <button class="nav-toggle" id="nav_toggle" type="button">
                 <span class="nav-toggle_item"></span>
             </button>
             <div class="header_title">
@@ -51,7 +51,7 @@
 
     <!-- Language change -->
 
-    <section class="section">
+    <section class="section" id="languages">
         <div class="container">
 
             <div class="section__noText">
@@ -136,7 +136,7 @@
 
 <!-- About us -->
 
-<section class="section">
+<section class="section" id="about">
         <div class="container">
 
             <div class="section__header">
@@ -197,7 +197,7 @@
 
     <!--What we can?-->
 
-    <section class="section">
+    <section class="section" id="can">
          <div class="container">
             <div class="section__noText">
             <h2 class="section__title">What we can?</h2>
@@ -277,7 +277,7 @@
 
 <!-- Price list -->
 
-<section class="section">
+<section class="section" id="price">
         <div class="container">
 
             <div class="section__noText">
@@ -432,7 +432,7 @@
 
 <!-- Reviews -->
 
-<section class="section">
+<section class="section" id="comments">
     <div class="container">
 
         <div class="section__header">
