@@ -22,7 +22,3 @@ $(function () {
 		console.log(temp);
 	});
 });
-
-$(document).ready(function () {
-	alert("regehe");
-})
