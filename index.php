@@ -519,7 +519,7 @@
         <p>PanTłumacz &copy; 2020</p>
     </div>
 </footer>
-
+<script type = "text/javascript" src="js/jQuery.js"></script>
 <div class="hidden__elements">
 
 <?php
@@ -547,7 +547,7 @@
     <a href="comments.html">BB</a>
 </div>
 
-    <script type = "text/javascript" src="js/jQuery.js"></script>
+    
     <!-- Все скрипты подключаем сюда -->
 </body>
 </html>
