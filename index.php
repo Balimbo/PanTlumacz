@@ -547,7 +547,7 @@
     <a href="comments.html">BB</a>
 </div>
 
-    <script src="js/jQuery.js"></script>
+    <script type = "text/javascript" src="js/jQuery.js"></script>
     <!-- Все скрипты подключаем сюда -->
 </body>
 </html>
