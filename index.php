@@ -519,8 +519,8 @@
         <p>PanTłumacz &copy; 2020</p>
     </div>
 </footer>
+
 <script type = "text/javascript" src="js/jQuery.js"></script>
-<script type = "text/javascript" src="js/header.js"></script>
 
 <div class="hidden__elements">
 
