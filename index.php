@@ -521,8 +521,8 @@
 </footer>
 
 <script type = "text/javascript" src="js/jQuery.js"></script>
+<!-- Все скрипты подключаем сюда -->
 
-<div class="hidden__elements">
 
 <?php
     require_once 'settings.php';
@@ -544,12 +544,6 @@
     $conn->query($sql);
     $conn->close();
 ?>
-
-    <a href="form.html">HH</a><br>
-    <a href="comments.html">BB</a>
-</div>
-
-    
-    <!-- Все скрипты подключаем сюда -->
+   
 </body>
 </html>
