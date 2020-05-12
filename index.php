@@ -527,7 +527,7 @@
     //$sql = "CREATE DATABASE `Reviews`";
 
     $conn->query($sql);
-    $conn->query("USE `bearwh_main`");
+    $conn->query("USE `bearwh_PanTlumatcz`");
 
     // Database creation
     $sql = "CREATE TABLE `comment` (
