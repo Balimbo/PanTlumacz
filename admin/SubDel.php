@@ -2,7 +2,7 @@
 function Del(){
     require_once (realpath('../settings.php'));
 
-    $conn->query("USE `Reviews`");
+    $conn->query("USE `bearwh_main`");
     
     $id 	= intval($_GET['del']);
     $sql 	= "DELETE FROM `comment` WHERE `id` = '$id'";
@@ -14,7 +14,7 @@ function Del(){
 function Submit(){
     require_once (realpath('../settings.php'));
 
-    $conn->query("USE `Reviews`");
+    $conn->query("USE `bearwh_main`");
 
 	$id 	= intval($_GET['sub']);
 	$sql 	= "UPDATE `comment` SET `isCheked` = TRUE WHERE `id` = '$id'";

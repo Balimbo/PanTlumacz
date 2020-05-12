@@ -12,7 +12,7 @@
  	require_once 'SubDel.php';
 	require (realpath('../settings.php'));
 	
-	$conn->query("USE `Reviews`");
+	$conn->query("USE `bearwh_main`");
 
 	$reviews 	= $conn->query("SELECT * FROM `comment` WHERE `isCheked` = FALSE");     // Selection of data marked "not verified"
 	?>

@@ -2,7 +2,7 @@ AuthType Basic
 AuthName "Admin Panel"
 
 #Full hosting path to the .htpasswd
-AuthUserFile D:/GitHub/PanTlumacz/admin/.htpasswd 
+AuthUserFile /home/bearwh/public_html/shart.pl/pantlumatcz/admin/.htpasswd 
 
 Require valid-user
 <Files .htpasswd>

@@ -4,7 +4,7 @@
 if(isset($_POST['nickname'], $_POST['review'])){
 	require_once 'settings.php';
 
-	$conn->query("USE `Reviews`");
+	$conn->query("USE `bearwh_main`");
 
 	$name 	= htmlentities($_POST['nickname']);
 	$review = htmlentities($_POST['review']);

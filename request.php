@@ -47,5 +47,6 @@ $mail->isHTML(true);
 $mail->Subject = $subject;
 $mail->Body    = $message;
 
-$mail->send();
+if($mail->send())
+	echo "Success";
 ?>
