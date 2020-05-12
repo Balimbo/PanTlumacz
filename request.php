@@ -47,6 +47,10 @@ $mail->isHTML(true);
 $mail->Subject = $subject;
 $mail->Body    = $message;
 
-if($mail->send())
-	echo "Success";
+if(!$mail->send()) {
+ echo "Message was not sent.\n";
+  echo 'Mailer error: ' . $mail->ErrorInfo;
+} else {
+  echo 'Message has been sent.';
+}
 ?>
