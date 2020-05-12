@@ -13,7 +13,7 @@ $comment 	= htmlentities($_POST['massage']);
 $message 	= "Имя заказчика: $name<br>Язык оригинала: $fromLang<br>Язык перевода: $toLang<br>Email: $email<br>Комментарий к заказу: $comment";
 
 
-$from 		= "pantlumatcz@mail.ru";
+$from 		= $botMail;
 $subject 	= "Заявка на перевод!";
 
 $mail = new PHPMailer;
