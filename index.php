@@ -205,7 +205,7 @@
                     </div>
                 </div>
      <div class="can">
-         <img class="can__photo1" src="images/about.png" alt="">
+         <img class="can__photo1" src="images/about.webp" alt="">
           <div class="can__right">
             <div class="can__title">
               Ulotki reklamowe i strony internetowe
@@ -247,11 +247,11 @@
    ut aliquip ex ea commodo consequat.
             </div>
           </div>
-           <img class="can__photo1" src="images/can2.jpg" alt="">
+           <img class="can__photo1" src="images/can2.webp" alt="">
      </div>
 
      <div class="can">
-         <img class="can__photo1" src="images/can3.png" alt="">
+         <img class="can__photo1" src="images/can3.webp" alt="">
           <div class="can__right">
             <div class="can__title">
               Prace dyplomowe i naukowe artykuły
