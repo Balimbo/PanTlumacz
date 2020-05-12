@@ -12,27 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php
-    require_once 'settings.php';
-
-    //$sql = "CREATE DATABASE `Reviews`";
-
-    $conn->query($sql);
-    $conn->query("USE `bearwh_main`");
-
-    // Database creation
-    $sql = "CREATE TABLE `comment` (
-        id INT NOT NULL AUTO_INCREMENT,
-        name VARCHAR(20) NOT NULL,
-        comment TEXT NOT NULL,
-        period VARCHAR(16) NOT NULL,
-        isCheked BOOLEAN default FALSE,
-        PRIMARY KEY(id))";
-
-    $conn->query($sql);
-    $conn->close();
-?>
-
         <!--Header-->
 
      <header>
@@ -542,6 +521,25 @@
 
 <script type = "text/javascript" src="js/jQuery.js"></script>
 <!-- Все скрипты подключаем сюда -->
-   
+   <?php
+    require_once 'settings.php';
+
+    //$sql = "CREATE DATABASE `Reviews`";
+
+    $conn->query($sql);
+    $conn->query("USE `bearwh_main`");
+
+    // Database creation
+    $sql = "CREATE TABLE `comment` (
+        id INT NOT NULL AUTO_INCREMENT,
+        name VARCHAR(20) NOT NULL,
+        comment TEXT NOT NULL,
+        period VARCHAR(16) NOT NULL,
+        isCheked BOOLEAN default FALSE,
+        PRIMARY KEY(id))";
+
+    $conn->query($sql);
+    $conn->close();
+?>
 </body>
 </html>
