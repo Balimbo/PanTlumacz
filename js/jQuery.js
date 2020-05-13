@@ -18,7 +18,7 @@ $(function () {
 		event.preventDefault();
 
 		$("#nav,#nav_toggle").toggleClass("active");
-		$(".header_nav").slideToggle("slow");
+		$(".header_nav").slideToggle("fast");
 		console.log(temp);
 	});
 });
