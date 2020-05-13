@@ -5,7 +5,6 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/langchange.css">
     <link rel="stylesheet" href="css/aboutus.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/reviews.css">
@@ -18,9 +17,6 @@
             <div class="header_menu">
                 <div class="header_logo">PanTłumacz</div>
                 <nav class="header_nav" id="nav">
-                    <div class="header_nav_link">
-                        <a href="#" data-scroll="#languages">Languages</a>
-                    </div>
                     <div class="header_nav_link">
                         <a href="#" data-scroll="#about">About us</a>
                     </div>
