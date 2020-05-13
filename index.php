@@ -49,7 +49,7 @@
 
 
     <!-- Language change -->
-
+<!--
     <section class="section" id="languages">
         <div class="container">
 
@@ -132,7 +132,7 @@
 
         </div>
     </section>
-
+-->
 <!-- About us -->
 
 <section class="section" id="about">
@@ -506,7 +506,7 @@
         </a>
     </div>
     <div class="footer__left">
-        <p class="footer__links">
+        <p class="footer__links underline-animation">
             <a href="#">Home</a>
             <a href="#">Languages</a>
             <a href="#">What we can?</a>
