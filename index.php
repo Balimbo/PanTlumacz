@@ -29,7 +29,7 @@
                         <a href="#" data-scroll="#price">Price list</a>
                     </div>
                     <div class="header_nav_link">
-                        <a href="#" data-scroll="#comments">Comments</a>
+                        <a href="#" data-scroll="#comments">Reviews</a>
                     </div>
                 </nav>
             </div>
@@ -438,55 +438,29 @@
             </div>
         
        <div class="reviews">
-            <!-- <a class="reviews_btn  reviews_btn--prev" href="#">Prev</a>
-            <a class="reviews_btn  reviews_btn--next" href="#">Next</a> -->
             <div class="slider">
-                <div class="reviews_item">
-                    <div class="reviews_text">
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. 
-                    </div>
-                <div class="reviews_author">Android</div>
-                </div>
+                <?php 
+                require (realpath('settings.php'));
 
-                <div class="reviews_item">
-                    <div class="reviews_text">
-                        "asgasssssssfdsfdsfsdfasd
-                    </div>
-                <div class="reviews_author">Jognny</div>
-                </div>
+                $conn->query("USE `bearwh_PanTlumatcz`");
+                //$conn->query("USE `Reviews`");
 
-                <div class="reviews_item">
-                    <div class="reviews_text">
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. 
-                    </div>
-                <div class="reviews_author">Android</div>
-                </div>
+                $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
+                $reviews = $conn->query($sql);
+                
+                $conn->close();
 
-                <div class="reviews_item">
-                    <div class="reviews_text">
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quidem.
+                while($row = $reviews->fetch_assoc())
+                { ?>
+                    <div class="reviews_item">
+                        <div class="reviews_text">
+                            "<?php echo $row['comment']?>" 
+                        </div>
+                        <div class="reviews_author">"<?php echo $row['name']?>"</div>
                     </div>
-                <div class="reviews_author">Android</div>
-                </div>
-
-                <div class="reviews_item">
-                    <div class="reviews_text">
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam cupiditate quia facere, nesciunt similique eaque molestias cumque necessitatibus, ex voluptates magnam ab amet reiciendis numquam omnis. Ipsum eius inventore tempore incidunt animi deserunt assumenda laudantium rerum ipsam odio iure alias similique, asperiores consequuntur perferendis aliquid hic, sit fugiat quam quo!
-                    </div>
-                <div class="reviews_author">Android</div>
-                </div>
-
-
-                <div class="reviews_item">
-                    <div class="reviews_text">
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae voluptatum quia unde sunt officia voluptates explicabo eveniet ducimus recusandae beatae quod, ipsum enim impedit commodi rem doloremque fugiat, voluptatem perferendis. umenda laudantium rerum ipsam odio iure alias similique, asperiores consequuntur perferendis aliquid hic, sit fugiat quam quo!
-                    </div>
-                <div class="reviews_author">Дядя Гриша</div>
-                </div>
+                <?php } ?>                
             </div>
         </div>
-        
-
     </div>
 </section>
 
@@ -507,17 +481,17 @@
     <div class="footer__left">
         <p class="footer__links underline-animation">
             <a href="#">Home</a>
-            <a href="#">What we can?</a>
-            <a href="#">About us</a>
-            <a href="#">Price list</a>
+            <a href="#" data-scroll="#can">What we can?</a>
+            <a href="#" data-scroll="#about">About us</a>
+            <a href="#" data-scroll="#price">Price list</a>
             <a href="#">Application</a>
-            <a href="#">Comments</a>
+            <a href="#" data-scroll="#comments">Reviews</a>
         </p>
         <p>PanTłumacz &copy; 2020</p>
     </div>
 </footer>
 
-<script type = "text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/jQuery.js"></script>
 <script type="text/javascript" src="js/header.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/testmodal.js"></script>

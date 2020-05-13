@@ -7,7 +7,6 @@ $SMTPService	= 'sigcum.kylos.pl';			// Service that provides SMTP services
 $botMail 		= 'requestbot@pantlumacz.pl';	// Login of the bot on a service that provides SMTP services
 $botPassword 	= '-M_%w$iERHaZ';				// Password from the same email
 
-
 // Not for change
 $conn = new mysqli($servername, $username, $password);	// Connect to phpMyAdmin
 
