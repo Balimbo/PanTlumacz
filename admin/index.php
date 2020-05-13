@@ -3,6 +3,7 @@
  <head>
  	<meta charset="UTF-8">
  	<title>Admin Panel</title>
+ 	<link rel="icon" href="http://pantlumacz.pl/favicon.ico" type="image/x-icon">
  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap" rel="stylesheet">
  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
  	<link rel="stylesheet" href="admin.css?<?echo time();?>">

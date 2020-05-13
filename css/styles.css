@@ -121,6 +121,7 @@ header:after
     top: 6%;
     right: 5%;
     z-index: 1000;
+    outline: none;
 }
 /*.header_nav.active
 {
@@ -142,7 +143,7 @@ header:after
     left: 0;
     margin: auto;
 
-    transition: background .1s linear;
+    transition: background .2s linear;
 }
 
 .nav-toggle.active .nav-toggle_item
@@ -163,7 +164,7 @@ header:after
     left: 0;
     z-index: 1;
 
-    transition: transform .1s linear;
+    transition: transform .2s linear;
 }
 
 .nav-toggle_item:before
@@ -571,11 +572,6 @@ padding: 0 43px;
 @media (max-width: 600px)
 {
     /*header*/
-    .header_logo
-    {
-        font-size:25px;
-        margin-left:10px;
-    }
 
     .header_nav
     {

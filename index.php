@@ -520,6 +520,7 @@
 </footer>
 
 <script type = "text/javascript" src="js/jQuery.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
 <!-- Все скрипты подключаем сюда -->
    <?php
     require_once 'settings.php';
