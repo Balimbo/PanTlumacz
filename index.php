@@ -429,60 +429,54 @@
 
 <section class="section" id="comments">
     <div class="container">
+         <div class="section__noText">
+                <h2 class="section__title">Reviews</h2>
+                <div class="section__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
+                </div>
+            </div>
+        
+        <div class="reviews">
+            <a class="reviews_btn  reviews_btn--prev" href="#">Prev</a>
+            <a class="reviews_btn  reviews_btn--next" href="#">Next</a>
+            <div data-slider>
+                <div class="reviews_item">
+                    <div class="reviews_text">
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. 
+                    </div>
+                <div class="reviews_author">Android</div>
+                </div>
 
-        <div class="section__header">
-            <h2 class="section__title">Reviews</h2>
-            <div class="section__text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ratione illum ab eos, optio nemo eveniet corporis, sapiente omnis dicta! Quaerat laboriosam aut, nihil voluptatum voluptatem assumenda dignissimos cumque, similique.</p>
+                <div class="reviews_item">
+                    <div class="reviews_text">
+                        "asgasssssssfdsfdsfsdfasd
+                    </div>
+                <div class="reviews_author">Jognny</div>
+                </div>
+
+                <div class="reviews_item">
+                    <div class="reviews_text">
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. 
+                    </div>
+                <div class="reviews_author">Android</div>
+                </div>
+
+                <div class="reviews_item">
+                    <div class="reviews_text">
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quidem.
+                    </div>
+                <div class="reviews_author">Android</div>
+                </div>
+
+                <div class="reviews_item">
+                    <div class="reviews_text">
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam cupiditate quia facere, nesciunt similique eaque molestias cumque necessitatibus, ex voluptates magnam ab amet reiciendis numquam omnis. Ipsum eius inventore tempore incidunt animi deserunt assumenda laudantium rerum ipsam odio iure alias similique, asperiores consequuntur perferendis aliquid hic, sit fugiat quam quo!
+                    </div>
+                <div class="reviews_author">Android</div>
+                </div>
             </div>
         </div>
-
-        <div class="reviews__window">
-
-            <div class="reviews__arrow">
-                <button class="reviews__button">
-                    <img class="reviews__pic" src="images/arrow_left.svg">
-                </button>
-            </div>
-
-            <div class="reviews">
-
-                <div class="reviews__item">
-                    <p class="reviews__text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam itaque laborum libero, repellat similique repudiandae accusantium, totam possimus nisi molestias, officiis aliquam debitis, earum dicta hic. Similique atque, soluta fuga minus, dolorum, debitis illum doloremque porro consectetur perferendis laborum rem nobis, magnam? Dignissimos at pariatur illum architecto quibusdam fuga nesciunt.
-                    </p>
-                    <div class="reviews__author">
-                    bxr1nG
-                    </div>
-                </div>
-
-                <div class="reviews__item">
-                    <p class="reviews__text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolores inventore, quibusdam adipisci voluptates obcaecati sint quas ipsum voluptatum nisi?
-                    </p>
-                    <div class="reviews__author">
-                        Andrej
-                    </div>
-                </div>
-
-                <div class="reviews__item">
-                    <p class="reviews__text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At modi dolor officia error, corporis debitis, possimus ut ea voluptatibus. Magni asperiores corporis ut reiciendis ducimus aut tenetur modi voluptate maxime pariatur blanditiis molestiae, impedit, ex?
-                    </p>
-                    <div class="reviews__author">
-                        Balimbo
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="reviews__arrow">
-                <button class="reviews__button">
-                    <img class="reviews__pic" src="images/arrow_right.svg">
-                </button>
-            </div>
-
-        </div>
+        
 
     </div>
 </section>
@@ -516,7 +510,9 @@
 
 <script type = "text/javascript" src="js/jQuery.js"></script>
 <script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/testmodal.js"></script>
+<script type="text/javascript" src="js/reviews.js"></script>
 <!-- Все скрипты подключаем сюда -->
    <?php
     require_once 'settings.php';
