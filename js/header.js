@@ -11,7 +11,7 @@ $(function () {
 
 
 
-	var temp = $("#nav_toggle").click(function (event) {
+	let temp = $("#nav_toggle").click(function (event) {
 		if(Date.now() - lastCall > 500){
 		event.preventDefault();
 
@@ -20,5 +20,14 @@ $(function () {
 		lastCall = Date.now();
 	}
 	});
+	
+	window.onresize = function( event ) {
+		if(document.body.clientWidth >= 930)
+			$("#nav").css({"display" : "flex"});
+		else if($("#nav_toggle").hasClass("active"))
+			$("#nav").css({"display" : "block"});
+		else if(!$("#nav_toggle").hasClass("active"))
+			$("#nav").css({"display" : "none"});
+	};
 	
 });

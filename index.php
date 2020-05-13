@@ -19,9 +19,6 @@
                 <div class="header_logo">PanTłumacz</div>
                 <nav class="header_nav" id="nav">
                     <div class="header_nav_link">
-                        <a href="#" data-scroll="#languages">Languages</a>
-                    </div>
-                    <div class="header_nav_link">
                         <a href="#" data-scroll="#about">About us</a>
                     </div>
                     <div class="header_nav_link">

@@ -24,6 +24,7 @@ a
 {
     text-decoration: none;
     color: #fff;
+    outline: none;
 }
 
 .hidden__elements
@@ -411,6 +412,7 @@ padding: 0 43px;
 {
     font-size: 19px;
 }
+
 
 @media (max-width: 1195px)
 {
