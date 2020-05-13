@@ -1,12 +1,12 @@
 $(document).ready(function () {
-	$("[data-slider]").slick({
+	$(".slider").slick({
   		infinite: true,
-  		fade:false,
-  		speed: 300,
+  		speed: 1000,
   		slidesToShow: 1,
-  		slidesToScroll: 1,	
-  		// adaptiveHeight: true;
-  		// rtl: true
+  		adaptiveHeight: true,
+  		autoplay:true,
+  		autoplaySpeed:5000,
+  		draggable:false,
 	});
 
 

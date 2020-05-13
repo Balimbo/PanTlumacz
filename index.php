@@ -437,10 +437,10 @@
                 </div>
             </div>
         
-        <div class="reviews">
-            <a class="reviews_btn  reviews_btn--prev" href="#">Prev</a>
-            <a class="reviews_btn  reviews_btn--next" href="#">Next</a>
-            <div data-slider>
+       <div class="reviews">
+            <!-- <a class="reviews_btn  reviews_btn--prev" href="#">Prev</a>
+            <a class="reviews_btn  reviews_btn--next" href="#">Next</a> -->
+            <div class="slider">
                 <div class="reviews_item">
                     <div class="reviews_text">
                         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. 
@@ -474,6 +474,14 @@
                         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam cupiditate quia facere, nesciunt similique eaque molestias cumque necessitatibus, ex voluptates magnam ab amet reiciendis numquam omnis. Ipsum eius inventore tempore incidunt animi deserunt assumenda laudantium rerum ipsam odio iure alias similique, asperiores consequuntur perferendis aliquid hic, sit fugiat quam quo!
                     </div>
                 <div class="reviews_author">Android</div>
+                </div>
+
+
+                <div class="reviews_item">
+                    <div class="reviews_text">
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta mquam nobis accusamus molestias laudantium inventore ipsam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae voluptatum quia unde sunt officia voluptates explicabo eveniet ducimus recusandae beatae quod, ipsum enim impedit commodi rem doloremque fugiat, voluptatem perferendis. umenda laudantium rerum ipsam odio iure alias similique, asperiores consequuntur perferendis aliquid hic, sit fugiat quam quo!
+                    </div>
+                <div class="reviews_author">Дядя Гриша</div>
                 </div>
             </div>
         </div>
