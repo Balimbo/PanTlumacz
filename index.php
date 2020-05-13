@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/testmodal.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 </head>
 <body>
         <!--Header-->
