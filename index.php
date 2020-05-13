@@ -5,10 +5,10 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/langchange.css">
     <link rel="stylesheet" href="css/aboutus.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/reviews.css">
+    <link rel="stylesheet" href="css/testmodal.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -42,10 +42,95 @@
             <div class="header_title">
                 <h1 class="header_text">Biuro Tłumaczeń</h1>
                 <!-- <div class="header_subtext">Lorem ipsum dolor sit amet, consectetur adipisicing.</div> -->
-                <a class="main_button" href="#">Make a request</a>
+                <a id="modal__request__open" class="main_button" href="#">Make a request</a>
 
             </div>
         </header>
+
+<!-- Request -->
+
+<div id="modal__request" class="modal__request">
+<span class="modal__request__close">&times;</span>
+
+        <form class="modal__request__content" id="data" action="request.php" method="post" enctype='multipart/form-data'>
+
+
+            <div class="modal__request__inner">
+
+                <h3>Leave your application</h3>
+
+                <!--Languages-->
+                <div class="modal__request__languages">
+
+                    <div class="modal__request__fromLang">
+
+                        <p class="modal__request__p" for="modal__request__fromLang">From language</p>
+
+                        <select class="modal__request__select" id="fromLang" name="fromLang" required="required" form="data">
+                            <option disabled selected>language</option>
+                            <option value="English">English</option>
+                            <option value="Polski">Polski</option>
+                            <option value="Deutsch">Deutsch</option>
+                            <option value="Français">Français</option>
+                            <option value="Italiana">Italiana</option>
+                            <option value="Русский">Русский</option>
+                            <option value="Український ">Український</option>
+                        </select>
+
+                    </div>
+
+                    <div class="modal__request__toLang">
+
+                        <p class="modal__request__p" for="modal__request__toLang">To language</p>
+
+                        <select class="modal__request__select" id="toLang" name="toLang" required="required" form="data">
+                            <option disabled selected>language</option>
+                            <option value="English">English</option>
+                            <option value="Polski">Polski</option>
+                            <option value="Deutsch">Deutsch</option>
+                            <option value="Français">Français</option>
+                            <option value="Italiana">Italiana</option>
+                            <option value="Русский">Русский</option>
+                            <option value="Український ">Український</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Firstname-->
+                <div class="modal__request__firstname">
+                    <input class="modal__request__input" type="text" id="firstname" name="firstName" placeholder="Enter your name" required="required">
+                </div>
+
+                <!--Email-->
+                <div>
+                    <input class="modal__request__input" type="email" id="Email" name="email" placeholder="Enter your email" required="required">
+                </div>
+
+                <!--File-->
+                <div>
+                    <!-- <p for="file">Attach your file</p> -->
+                    <input class="modal__request__input" type="file" id="modal__request__file" name="userfile[]">
+                </div>
+
+                <!--Comments-->
+                <div>
+                    <textarea class="modal__request__textarea" id="massage" name="massage" placeholder="Leave a comment" rows="10" cols="50"></textarea>
+                </div>
+
+                <!--Button-->
+                <div>
+                    <button class="modal__request__button" type="submit" name="submit">Send</button>
+                </div>
+
+            </div>
+
+
+        </form>
+    </div>
+
 
 <!-- About us -->
 
@@ -434,6 +519,7 @@
 
 <script type = "text/javascript" src="js/jQuery.js"></script>
 <script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/testmodal.js"></script>
 <!-- Все скрипты подключаем сюда -->
    <?php
     require_once 'settings.php';
