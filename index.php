@@ -521,8 +521,6 @@
    <?php
     require_once 'settings.php';
 
-    //$sql = "CREATE DATABASE `Reviews`";
-
     $conn->query($sql);
     $conn->query("USE `bearwh_PanTlumatcz`");
 

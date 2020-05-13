@@ -27,6 +27,25 @@ a
     outline: none;
 }
 
+/*Text animation*/
+.underline-animation a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #D9751E;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+
+.underline-animation a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 .hidden__elements
 {
     display: none; /*скрыл какие-то ссылки после футера*/
@@ -104,8 +123,8 @@ header:after
 }
 .header_nav_link a:hover
 {
-    color:#D76D6D;
-    text-decoration: underline;
+    color:#D9751E;
+    /*text-decoration: underline;*/
 }
 
 .nav-toggle
@@ -335,10 +354,11 @@ header:after
   display: flex;
   flex-direction: row;
   margin-top:50px;
+  align-items: center;
 }
 .can__photo1
 {
-  width: 500px;
+  width: 600px;
   height: 400px;
   display: block;
 }

@@ -25,24 +25,6 @@ footer {
     margin-right: 0;
 }
 
-.underline-animation a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #D9751E;
-    transform-origin: bottom right;
-    transition: transform 0.2s ease-out;
-}
-
-.underline-animation a:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
 .footer__links a:hover {
     color: #D9751E;
 }
