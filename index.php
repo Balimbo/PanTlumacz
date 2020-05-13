@@ -498,7 +498,7 @@
 <script type="text/javascript" src="js/reviews.js"></script>
 <!-- Все скрипты подключаем сюда -->
    <?php
-    require_once 'settings.php';
+    require (realpath('settings.php'));
 
     $conn->query($sql);
     $conn->query("USE `bearwh_PanTlumatcz`");
