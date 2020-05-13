@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 *
 {
     margin:0;
@@ -17,7 +24,8 @@ body
 *:before,
 *:after
 {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 a
@@ -32,18 +40,30 @@ a
     content: '';
     position: absolute;
     width: 100%;
-    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
     height: 2px;
     bottom: 0;
     left: 0;
     background-color: #D9751E;
-    transform-origin: bottom right;
+    -webkit-transform-origin: bottom right;
+        -ms-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.2s ease-out;
+    transition: -webkit-transform 0.2s ease-out;
+    -o-transition: transform 0.2s ease-out;
     transition: transform 0.2s ease-out;
+    transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
 }
 
 .underline-animation a:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+            transform-origin: bottom left;
 }
 
 .hidden__elements
@@ -84,9 +104,15 @@ header:after
 /*Menu*/
 .header_menu
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     height: 15%;
     position: relative;
@@ -95,6 +121,8 @@ header:after
 
 .header_logo
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left:30px;
     font-size:27px;
@@ -106,6 +134,8 @@ header:after
 /*Navigation*/
 .header_nav
 {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     font-size:18px;
     text-transform: uppercase;
@@ -119,6 +149,8 @@ header:after
 
 .header_nav_link a
 {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 .header_nav_link a:hover
@@ -163,6 +195,10 @@ header:after
     left: 0;
     margin: auto;
 
+    -webkit-transition: background .2s linear;
+
+    -o-transition: background .2s linear;
+
     transition: background .2s linear;
 }
 
@@ -184,7 +220,15 @@ header:after
     left: 0;
     z-index: 1;
 
+    -webkit-transition: -webkit-transform .2s linear;
+
+    transition: -webkit-transform .2s linear;
+
+    -o-transition: transform .2s linear;
+
     transition: transform .2s linear;
+
+    transition: transform .2s linear, -webkit-transform .2s linear;
 }
 
 .nav-toggle_item:before
@@ -199,23 +243,38 @@ header:after
 
 .nav-toggle.active .nav-toggle_item:before
 {
-    transform-origin: left top;
-    transform: rotate(45deg) translate3d(0px, -3px, 0)
+    -webkit-transform-origin: left top;
+        -ms-transform-origin: left top;
+            transform-origin: left top;
+    -webkit-transform: rotate(45deg) translate3d(0px, -3px, 0);
+            transform: rotate(45deg) translate3d(0px, -3px, 0)
 }
 
 .nav-toggle.active .nav-toggle_item:after
 {
-    transform-origin: left bottom;
-    transform: rotate(-45deg) translate3d(0px, 3px, 0);
+    -webkit-transform-origin: left bottom;
+        -ms-transform-origin: left bottom;
+            transform-origin: left bottom;
+    -webkit-transform: rotate(-45deg) translate3d(0px, 3px, 0);
+            transform: rotate(-45deg) translate3d(0px, 3px, 0);
 }
 
 /*Title*/
 .header_title
 {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 85%;
     bottom:13%;
     position:relative;
@@ -258,6 +317,8 @@ header:after
     font-weight: bold;
     text-transform: uppercase;
     top:40px;
+    -webkit-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
     transition: all 0.8s ease;
 }
 .main_button:before {
@@ -270,6 +331,8 @@ header:after
     left: auto;
     right: 0;
     z-index: -1;
+    -webkit-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
     transition: all 0.8s ease;
   }
   .main_button:hover {
@@ -351,10 +414,17 @@ header:after
 .can
 {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top:50px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .can__photo1
 {
@@ -365,8 +435,13 @@ header:after
 
 .can__right
 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .can__title
@@ -381,6 +456,8 @@ header:after
 
 .can__title:after
 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   content: "";
   height: 1px;
@@ -394,8 +471,11 @@ color: #000;
 font-size: 14px;
 font-weight: 400;
 line-height: 25px;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 padding: 0 43px;
 }
 
@@ -403,9 +483,14 @@ padding: 0 43px;
 .main_price_block
 {
     position:relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
 }
 .price_block
 {

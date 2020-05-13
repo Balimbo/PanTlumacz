@@ -18,6 +18,8 @@ footer {
     margin-right: 12px;
     color: #D99E89;
     position: relative;
+    -webkit-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
     transition: color 0.2s ease-out;
 }
 
@@ -40,6 +42,8 @@ footer {
     height: 40px;
     background-color: #D99E89;
     border-radius: 5px;
+    -webkit-transition: background .2s linear;
+    -o-transition: background .2s linear;
     transition: background .2s linear;
 }
 

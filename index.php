@@ -442,8 +442,8 @@
                 <?php 
                 require (realpath('settings.php'));
 
-                $conn->query("USE `bearwh_PanTlumatcz`");
-                //$conn->query("USE `Reviews`");
+                //$conn->query("USE `bearwh_PanTlumatcz`");
+                $conn->query("USE `Reviews`");
 
                 $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
                 $reviews = $conn->query($sql);
