@@ -215,7 +215,7 @@
                     </div>
                 </div>
      <div class="can wow animate__bounceInLeft" data-wow-duration="1s">
-         <img class="can__photo1" src="images/about.webp" alt="">
+         <img class="can__photo1" src="images/about.webp" height="350" width="500" alt="">
           <div class="can__right">
             <div class="can__title">
               Tłumaczenie szeptane 
@@ -235,11 +235,11 @@
               Tłumaczenie konsekutywne to metoda, w której przekład następuje dopiero w momencie, kiedy prelegent skończy mówić (lub też gdy zrobi pauzę). Zwykle tłumacz stoi bądź siedzi wtedy blisko wypowiadającej się osoby, uważnie jej słucha i notuje najpotrzebniejsze informacje. Gdy mowa się skończy lub zostanie przerwana, przekłada całość wypowiedzi w języku znanym odbiorcom tak, jakby to on przemawiał. Oferta naszego biura tłumaczeń obejmuje również taką usługę, dostępną w trzech językach: polskim, rosyjskim i ukraińskim.
             </div>
           </div>
-           <img class="can__photo1" src="images/can2.webp" alt="">
+           <img class="can__photo1" src="images/can2.webp" height="350" width="500" alt="">
      </div>
 
      <div class="can wow animate__bounceInLeft" data-wow-duration="1s">
-         <img class="can__photo1" src="images/can3.webp" alt="">
+         <img class="can__photo1" src="images/can3.webp" height="350" width="500" alt="">
           <div class="can__right">
             <div class="can__title">
               Dokumentacja techniczna i firmowa,<br> prace dyplomowe i naukowe artykuły
