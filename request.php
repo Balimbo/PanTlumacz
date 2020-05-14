@@ -50,11 +50,11 @@ $mail->Body    = $message;
 if(!$mail->send()) {
     // echo "Message was not sent.\n";
     // echo 'Mailer error: ' . $mail->ErrorInfo;
-    header("Location: ./");
+    header("Location: ./10");
     exit;
 } else {
     //echo 'Message has been sent.';
-    header("Location: ./");
+    header("Location: ./11");
     exit;
 }
 ?>

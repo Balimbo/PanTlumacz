@@ -12,23 +12,22 @@ if(isset($_POST['nickname'], $_POST['review'])){
 	
 	if($conn->query($sql))
 		{
-			//	Удача
 			$conn->close();
-			header("Location: ./");
+			header("Location: ./?data=20");
 			exit;
 		}
 	else 
 		{
 			//echo "ERROR: " . $conn->error;
 			$conn->close();
-			header("Location: ./");
+			header("Location: ./?data=21");
 			exit;
 		}
 }
 else
 	{
 		//echo "Something is empty";
-		header("Location: ./");
+		header("Location: ./data=21");
 		exit;
 	}
 
