@@ -1,8 +1,8 @@
-var popup = document.getElementsByClassName("popupContent")[0];
+let popup = document.getElementsByClassName("popupContent")[0];
 
-var ppbtn = document.getElementById("popupBtn");
+let ppbtn = document.getElementById("popupBtn");
 
-var ppdiv = document.getElementsByClassName("popupBody")[0];
+let ppdiv = document.getElementsByClassName("popupBody")[0];
 
 ppbtn.onclick = function () {
     let ppcheck = false;
