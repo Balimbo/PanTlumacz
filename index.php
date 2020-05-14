@@ -46,8 +46,11 @@
             <div class="header_title">
                 <h1 class="header_text">Biuro Tłumaczeń</h1>
                 <!-- <div class="header_subtext">Lorem ipsum dolor sit amet, consectetur adipisicing.</div> -->
-                <a id="modal__request__open" class="main_button" href="#">Make a request</a>
-
+                <!-- <a id="modal__request__open" class="main_button" href="#">Make a request</a> -->
+                <div class="button">
+                    <a id="modal__request__open"  href="#">Make a request<span class="shift">›</span></a>
+                    <div class="mask"></div>
+                </div>
             </div>
         </header>
 

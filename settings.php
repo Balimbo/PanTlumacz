@@ -19,3 +19,4 @@ if($conn->connect_error){
 
 // $conn->query("USE `bearwh_PanTlumatcz`");
  $conn->query("USE `Reviews`");
+?>
