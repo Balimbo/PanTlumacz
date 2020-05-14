@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
-    <link rel="stylesheet" href="css/aboutus.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/reviews.css">
-    <link rel="stylesheet" href="css/testmodal.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/reviews.css">
+    <link rel="stylesheet" type="text/css" href="css/testmodal.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" href="css/popupWindow.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/weCan.css">
-    <link rel="stylesheet" href="css/priceList.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/popupWindow.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/weCan.css">
+    <link rel="stylesheet" type="text/css" href="css/priceList.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>

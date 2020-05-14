@@ -112,17 +112,17 @@ header:after
 }
 
 .button:hover {
-    border-color: #fff;
+    border-color: #D99E89;
 }
 
 .button:hover a {
-    color: #fff;
+    color: #D99E89;
 }
 
 .button:hover .mask {
-    background: #fff;
+    background: #D99E89;
     -webkit-transform: translate3d(120%,-100px,0) rotate3d(0,0,1,90deg);
-    transform: translate3d(120%,-100px,0) rotate3d(0,0,1,90deg);
+    transform: translate3d(190%,-100px,0) rotate3d(0,0,1,90deg);
 }
 
 .button:hover .shift {
