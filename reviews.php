@@ -4,8 +4,6 @@
 if(isset($_POST['nickname'], $_POST['review'])){
 	require_once 'settings.php';
 
-	$conn->query("USE `bearwh_PanTlumatcz`");
-
 	$name 	= htmlentities($_POST['nickname']);
 	$review = htmlentities($_POST['review']);
 	$date 	= strval(date('d.m.o G:i'));
@@ -13,12 +11,25 @@ if(isset($_POST['nickname'], $_POST['review'])){
 	$sql = "INSERT INTO `comment` (`name`, `comment`, `period`) VALUES ('$name', '$review', '$date')";
 	
 	if($conn->query($sql))
-		echo "Success";
+		{
+			//	Удача
+			$conn->close();
+			header("Location: ./");
+			exit;
+		}
 	else 
-		echo "ERROR: " . $conn->error;
+		{
+			//echo "ERROR: " . $conn->error;
+			$conn->close();
+			header("Location: ./");
+			exit;
+		}
 }
 else
-	echo "Something is empty";
+	{
+		//echo "Something is empty";
+		header("Location: ./");
+		exit;
+	}
 
-$conn->close();
 ?>

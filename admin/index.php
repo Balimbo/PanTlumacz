@@ -12,8 +12,6 @@
  	<?php
  	require_once 'SubDel.php';
 	require (realpath('../settings.php'));
-	
-	$conn->query("USE `bearwh_PanTlumatcz`");
 
 	$reviews 	= $conn->query("SELECT * FROM `comment` WHERE `isCheked` = FALSE");     // Selection of data marked "not verified"
 	?>

@@ -48,9 +48,13 @@ $mail->Subject = $subject;
 $mail->Body    = $message;
 
 if(!$mail->send()) {
- echo "Message was not sent.\n";
-  echo 'Mailer error: ' . $mail->ErrorInfo;
+    // echo "Message was not sent.\n";
+    // echo 'Mailer error: ' . $mail->ErrorInfo;
+    header("Location: ./");
+    exit;
 } else {
-  echo 'Message has been sent.';
+    //echo 'Message has been sent.';
+    header("Location: ./");
+    exit;
 }
 ?>

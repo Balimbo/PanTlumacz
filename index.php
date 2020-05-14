@@ -10,10 +10,16 @@
     <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/testmodal.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" href="css/popupWindow.css">
 </head>
 <body>
-        <!--Header-->
+    
+    <div class="popup_window_inner">
+        <div class="popup_window">Удача</div>
+    </div>
+
+    <!--Header-->
 
      <header>
             <div class="header_menu">
