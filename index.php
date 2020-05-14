@@ -27,13 +27,9 @@
     <!-- PopUp Window -->
 
     <div id="myPopup" class="popup">
-
         <div class="popupContent popupHidden popupVisuallyHidden">
-            <div class="popupBody">
-                <p>Удача</p>
-            </div>
+            <div class="popupBody"></div>
         </div>
-
     </div>
 
     <!--Header-->

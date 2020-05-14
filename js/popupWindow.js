@@ -1,17 +1,72 @@
-let popup = document.getElementsByClassName("popupContent")[0];
+$(function () {
+    let errors = ['10', '11', '20', '21'];
 
-let ppbtn = document.getElementById("popupBtn");
+    let ppdiv = document.getElementsByClassName("popupBody")[0];
 
-let ppdiv = document.getElementsByClassName("popupBody")[0];
+    var params = window.location.search.replace('?','').split('&').reduce(
+        function(p,e){
+            var a = e.split('=');
+            p[ decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
+            return p;
+        },
+        {}
+    );
+    for (var i = errors.length - 1; i >= 0; i--) {
+        if(params['data'] === errors[i] )
+            {
+                Popup(params['data']);
+                break;
+            }
+    }
+      
 
-ppbtn.onclick = function () {
-    let ppcheck = false;
-    popup.classList.remove('popupHidden');
-    setTimeout(function () {
-        popup.classList.remove('popupVisuallyHidden');
-    }, 20);
 
-    setTimeout(function () {
+    function Popup(err) {
+        let popup = document.getElementsByClassName("popupContent")[0];
+
+        if(err == '10')
+        {
+            popup.classList.add('ppContGreen');
+            $(".popupBody").html("Twoje zgłoszenie zostało zaakceptowane przez moderatora! Wkrótce odpowiemy na twoją pocztę.");
+        }
+        else if (err === '11')
+        {
+            popup.classList.add('ppContRed');
+            $(".popupBody").html("Wystąpił błąd na serwerze. Przepraszamy.");
+        }
+        else if(err === "20")
+        {
+            popup.classList.add('ppContGreen');
+            $(".popupBody").html("Komentarz został pomyślnie pozostawiony.");
+        }
+        else if(err === "21")
+        {
+            popup.classList.add('ppContRed');
+            $(".popupBody").html("Wystąpił błąd na serwerze. Przepraszamy.");
+        }
+        else 
+            return;
+
+        popup.classList.remove('popupHidden');
+        setTimeout(function () {
+            popup.classList.remove('popupVisuallyHidden');
+        }, 20);
+
+        setTimeout(function () {
+            popup.classList.add('popupVisuallyHidden');
+            popup.addEventListener('transitionend', function (e) {
+                popup.classList.add('popupHidden');
+            }, {
+                capture: false,
+                once: true,
+                passive: false
+            });
+        }, 3000);
+    }
+
+    ppdiv.onclick = function () {
+        let popup = document.getElementsByClassName("popupContent")[0];
+
         popup.classList.add('popupVisuallyHidden');
         popup.addEventListener('transitionend', function (e) {
             popup.classList.add('popupHidden');
@@ -20,17 +75,5 @@ ppbtn.onclick = function () {
             once: true,
             passive: false
         });
-    }, 3000);
-}
-
-ppdiv.onclick = function () {
-    ppcheck = true;
-    popup.classList.add('popupVisuallyHidden');
-    popup.addEventListener('transitionend', function (e) {
-        popup.classList.add('popupHidden');
-    }, {
-        capture: false,
-        once: true,
-        passive: false
-    });
-}
+    }
+});
