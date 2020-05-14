@@ -51,7 +51,7 @@
                 <!-- <div class="header_subtext">Lorem ipsum dolor sit amet, consectetur adipisicing.</div> -->
                 <!-- <a id="modal__request__open" class="main_button" href="#">Make a request</a> -->
                 <div class="button">
-                    <a id="modal__request__open"  href="#">Make a request<span class="shift">›</span></a>
+                    <a id="modal__request__open"  href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
                     <div class="mask"></div>
                 </div>
             </div>
