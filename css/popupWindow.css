@@ -1,16 +1,27 @@
-.popup_window{
-	opacity: .5;
-	background: #29C23B;
-	border: solid 2px #22861C;
-	position: absolute;
-	z-index: 1000;
-	width: 500px;
-	text-align: center;
+.popup {
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
-.popup_window_inner{
-	position: relative;
-	display: flex;
-	justify-content: center;
-	top: 10px;
+.popupContent {
+    display: flex;
+    opacity: 0.9;
+    margin-top: 10px;
+    background-color: #41f04a;
+    border-radius: 4px;
+    transition: all 0.2s linear;
+}
+
+.popupBody {
+    padding: 10px 30px;
+}
+
+.popupHidden {
+    display: none;
+}
+
+.popupVisuallyHidden {
+    opacity: 0;
 }

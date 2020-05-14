@@ -14,10 +14,18 @@
     <link rel="stylesheet" href="css/popupWindow.css">
 </head>
 <body>
-    
-    <div class="popup_window_inner">
-        <div class="popup_window">Удача</div>
+
+   <!-- PopUp Window -->
+
+<div id="myPopup" class="popup">
+
+    <div class="popupContent popupHidden popupVisuallyHidden">
+        <div class="popupBody">
+            <p>Удача</p>
+        </div>
     </div>
+
+</div>
 
     <!--Header-->
 
@@ -442,10 +450,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
                 </div>
             </div>
-        
+
        <div class="reviews">
             <div class="slider">
-                <?php 
+                <?php
                 require (realpath('settings.php'));
 
                 $conn->query("USE `bearwh_PanTlumatcz`");
@@ -453,18 +461,18 @@
 
                 $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
                 $reviews = $conn->query($sql);
-                
+
                 $conn->close();
 
                 while($row = $reviews->fetch_assoc())
                 { ?>
                     <div class="reviews_item">
                         <div class="reviews_text">
-                            "<?php echo $row['comment']?>" 
+                            "<?php echo $row['comment']?>"
                         </div>
                         <div class="reviews_author">"<?php echo $row['name']?>"</div>
                     </div>
-                <?php } ?>                
+                <?php } ?>
             </div>
         </div>
     </div>
@@ -502,6 +510,7 @@
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/testmodal.js"></script>
 <script type="text/javascript" src="js/reviews.js"></script>
+<script type="text/javascript" src="js/popupWindow.js"></script>
 <!-- Все скрипты подключаем сюда -->
    <?php
     require (realpath('settings.php'));
