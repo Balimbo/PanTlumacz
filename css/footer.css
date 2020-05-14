@@ -4,7 +4,7 @@ footer {
     text-align: left;
     font-size: 18px;
     padding: 45px 50px;
-    color: #D99E89;
+    color: #fff;
 }
 
 .footer__links {
@@ -16,7 +16,7 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 12px;
-    color: #D99E89;
+    color: #fff;
     position: relative;
     -webkit-transition: color 0.2s ease-out;
     -o-transition: color 0.2s ease-out;
@@ -28,7 +28,7 @@ footer {
 }
 
 .footer__links a:hover {
-    color: #D9751E;
+    color: #D99E89;
 }
 
 .footer__right {
@@ -40,7 +40,7 @@ footer {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: #D99E89;
+    background-color: #fff;
     border-radius: 5px;
     -webkit-transition: background .2s linear;
     -o-transition: background .2s linear;
@@ -48,7 +48,7 @@ footer {
 }
 
 .footer__right a:hover {
-    background-color: #D9751E;
+    background-color: #D99E89;
 }
 
 .footer__right a img {
