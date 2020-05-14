@@ -14,11 +14,14 @@
     <link rel="stylesheet" type="text/css" href="css/weCan.css">
     <link rel="stylesheet" type="text/css" href="css/priceList.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 
     <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>
+    <script>
+        
+        new WOW().init();
+    </script>
 </head>
 <body>
 
@@ -228,7 +231,7 @@
      <div class="can wow animate__bounceInRight" data-wow-duration="1s">
 
           <div class="can__right">
-            <div class="can__title">
+            <div class="can__title" style="padding-left: 0;">
              Tłumaczenie konsekutywne
             </div>
             <div class="can__text">
