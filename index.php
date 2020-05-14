@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/aboutus.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/reviews.css">
@@ -12,19 +11,23 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" href="css/popupWindow.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/weCan.css">
+    <link rel="stylesheet" href="css/priceList.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </head>
 <body>
-    
-    <div class="popup_window_inner">
-        <div class="popup_window">Удача</div>
-    </div>
 
     <!--Header-->
 
     <header>
             <div class="header_menu">
-                <div class="header_logo">PanTłumacz</div>
-                <nav class="header_nav" id="nav">
+                <div class="header_logo wow animate__bounceInLeft" data-wow-duration="1s">PanTłumacz</div>
+                <nav class="header_nav wow animate__bounceInRight" data-wow-duration="1s" id="nav">
                     <div class="header_nav_link">
                         <a href="#" data-scroll="#about">O nas</a>
                     </div>
@@ -47,11 +50,9 @@
                 <span class="nav-toggle_item"></span>
             </button>
             <div class="header_title">
-                <h1 class="header_text">Biuro Tłumaczeń</h1>
-                <!-- <div class="header_subtext">Lorem ipsum dolor sit amet, consectetur adipisicing.</div> -->
-                <!-- <a id="modal__request__open" class="main_button" href="#">Make a request</a> -->
-                <div class="button">
-                    <a id="modal__request__open"  href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
+                <h1 class="header_text wow animate__zoomInUp" data-wow-duration="1s">Biuro Tłumaczeń</h1>
+                <div class="button wow animate__zoomInDown" data-wow-duration="1s">
+                    <a id="modal__request__open" href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
                     <div class="mask"></div>
                 </div>
             </div>
@@ -147,7 +148,7 @@
 <section class="section" id="about">
         <div class="container">
 
-            <div class="section__header">
+            <div class="section__header wow animate__bounceIn" data-wow-duration="1s">
                 <h2 class="section__title">O nas</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
@@ -156,7 +157,7 @@
 
         <div class="abus">
 
-                <div class="abus__item">
+                <div class="abus__item wow animate__bounceInLeft" data-wow-duration="1s">
                     <div class="abus__inner">
                         <div class="abus__img">
                             <img src="images/like.svg">
@@ -170,7 +171,7 @@
                     </div>
                 </div>
 
-                <div class="abus__item">
+                <div class="abus__item wow animate__bounceInUp" data-wow-duration="1s">
                     <div class="abus__inner">
                         <div class="abus__img">
                             <img src="images/clock.svg">
@@ -184,7 +185,7 @@
                     </div>
                 </div>
 
-                <div class="abus__item">
+                <div class="abus__item wow animate__bounceInRight" data-wow-duration="1s">
                     <div class="abus__inner">
                         <div class="abus__img">
                             <img src="images/speed.svg">
@@ -207,24 +208,24 @@
 
     <section class="section" id="can">
          <div class="container">
-            <div class="section__noText">
+            <div class="section__noText wow animate__bounceIn" data-wow-duration="1s">
             <h2 class="section__title">Oferta</h2>
                     <div class="section__text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
                     </div>
                 </div>
-     <div class="can">
+     <div class="can wow animate__bounceInLeft" data-wow-duration="1s">
          <img class="can__photo1" src="images/about.webp" alt="">
           <div class="can__right">
             <div class="can__title">
               Tłumaczenie szeptane 
             </div>
-            <div class="can__text">
+            <div class="can__text can__text__right">
              Tłumaczenie szeptane (potocznie zwane też „szeptanką”, od francuskiego słowa „chuchotage”) polega na cichym przekładaniu wypowiedzi przemawiającej osoby dla małej grupy słuchaczy na bieżąco. Technika ta zazwyczaj znajduje zastosowanie w momencie, gdy tylko kilka osób (najlepiej maksymalnie trzy) nie zna języka, w którym prowadzone jest spotkanie. Nasze biuro tłumaczeń z Olsztyna oferuje Państwu tego rodzaju usługę w j. rosyjskim, ukraińskim i polskim.
             </div>
           </div>
      </div>
-     <div class="can">
+     <div class="can wow animate__bounceInRight" data-wow-duration="1s">
 
           <div class="can__right">
             <div class="can__title">
@@ -237,13 +238,13 @@
            <img class="can__photo1" src="images/can2.webp" alt="">
      </div>
 
-     <div class="can">
+     <div class="can wow animate__bounceInLeft" data-wow-duration="1s">
          <img class="can__photo1" src="images/can3.webp" alt="">
           <div class="can__right">
             <div class="can__title">
               Dokumentacja techniczna i firmowa,<br> prace dyplomowe i naukowe artykuły
             </div>
-            <div class="can__text">
+            <div class="can__text can__text__right">
              Jesteśmy w stanie przełożyć nawet 55 stron dokumentacji technicznej każdego dnia. Może to dotyczyć dowolnego sprzętu lub instalacji – od czajnika po wyciąg szybowy. <br>
              Bez obaw mogą nam Państwo powierzyć korespondencję firmową, umowy, karty gwarancyjne lub certyfikaty.<br>
              Częściowo lub w całości pracy licencjackie, magisterskie lub doktorskie. Używanie narzędzi tłumaczenia takich jak MemoQ pozwala na zachowanie terminologii na każdej ilości stron.<br>
@@ -260,7 +261,7 @@
 <section class="section" id="price">
         <div class="container">
 
-            <div class="section__noText">
+            <div class="section__noText wow animate__bounceIn" data-wow-duration="1s">
                 <h2 class="section__title">Cennik</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
@@ -268,7 +269,7 @@
             </div>
 
             <div class="main_price_block">
-                <div class="price_block">
+                <div class="price_block wow animate__bounceInLeft" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                         <img src="images/rus.webp"  alt="Russian">
@@ -291,7 +292,7 @@
                     </div>
                 </div>
 
-                <div class="price_block">
+                <div class="price_block wow animate__bounceIn" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                         <img src="images/brit.webp"  alt="Russian">
@@ -314,7 +315,7 @@
                     </div>
                 </div>
 
-                <div class="price_block">
+                <div class="price_block wow animate__bounceInRight" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                         <img src="images/fr.webp"  alt="Russian">
@@ -337,7 +338,7 @@
                     </div>
                 </div>
 
-                <div class="price_block">
+                <div class="price_block wow animate__bounceInLeft" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                         <img src="images/ukr.webp"  alt="Russian">
@@ -360,7 +361,7 @@
                     </div>
                 </div>
 
-                <div class="price_block">
+                <div class="price_block wow animate__bounceInUp" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                         <img src="images/germ.webp"  alt="Russian">
@@ -383,7 +384,7 @@
                     </div>
                 </div>
 
-                <div class="price_block">
+                <div class="price_block wow animate__bounceInRight" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                         <img src="images/ital.webp"  alt="Russian">
@@ -414,14 +415,14 @@
 
 <section class="section" id="comments">
     <div class="container">
-         <div class="section__noText">
+         <div class="section__noText wow animate__bounceIn" data-wow-duration="1s">
                 <h2 class="section__title">Opinie</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
                 </div>
             </div>
         
-       <div class="reviews">
+       <div class="reviews wow animate__bounceInUp" data-wow-duration="1s">
             <div class="slider">
                 <?php 
                 require (realpath('settings.php'));
@@ -480,6 +481,7 @@
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/testmodal.js"></script>
 <script type="text/javascript" src="js/reviews.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 <!-- Все скрипты подключаем сюда -->
    <?php
     require (realpath('settings.php'));
