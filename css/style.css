@@ -265,6 +265,10 @@ a
     {
         display: none;
     }
+    #can__title__right
+    {
+      padding-left: 43px;
+    }
     .can__text{
         padding-left: 43px;
     }

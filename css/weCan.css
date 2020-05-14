@@ -72,3 +72,7 @@ display: flex;
   padding-left: 43px;
 }
 
+#can__title__right
+{
+  padding-left: 0;
+}

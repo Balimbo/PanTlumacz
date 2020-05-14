@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/aboutus.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/reviews.css">
@@ -15,13 +16,9 @@
     <link rel="stylesheet" type="text/css" href="css/priceList.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
 
     <script src="js/wow.min.js"></script>
-    <script>
-        
-        new WOW().init();
-    </script>
+    <script src="js/wowStart.js"></script>
 </head>
 <body>
 
@@ -231,7 +228,7 @@
      <div class="can wow animate__bounceInRight" data-wow-duration="1s">
 
           <div class="can__right">
-            <div class="can__title" style="padding-left: 0;">
+            <div class="can__title" id="can__title__right">
              Tłumaczenie konsekutywne
             </div>
             <div class="can__text">
