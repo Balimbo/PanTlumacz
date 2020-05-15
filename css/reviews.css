@@ -102,6 +102,22 @@
   right:5%;
   transform: rotate(135deg);
 }*/
+.reviews_text.higher
+{
+  max-height: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#more_btn
+{
+  align-items: center;
+  position: relative;
+  width: 50%;
+  border: none center;
+  outline: none;
+  cursor: pointer;
+}
 
 @media (max-width: 830px) 
 {
