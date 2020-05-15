@@ -27,7 +27,7 @@ $(function () {
         if(err == '10')
         {
             popup.classList.add('ppContGreen');
-            $(".popupBody").html("Twoje zgłoszenie zostało zaakceptowane przez moderatora! Wkrótce odpowiemy na twoją pocztę.");
+            $(".popupBody").html("Zgłoszenie pana/pani zostało zaakceptowane przez moderatora! Wkrótce odpowiemy na twoją pocztę.");
         }
         else if (err === '11')
         {
@@ -61,7 +61,7 @@ $(function () {
                 once: true,
                 passive: false
             });
-        }, 3000);
+        }, 7000);
     }
 
     ppdiv.onclick = function () {

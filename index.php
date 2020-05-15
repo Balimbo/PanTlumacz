@@ -17,12 +17,22 @@
     <link rel="stylesheet" type="text/css" href="css/priceList.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script src="js/wow.min.js"></script>
-    <script src="js/wowStart.js"></script>
+    <link rel="stylesheet" href="css/preloader.css">   
 </head>
 
 <body>
+
+    <!-- Preloader -->
+    <div class="loader__inner">
+        <div class="loader">
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__ball"></div>
+        </div>
+    </div>
 
     <!-- PopUp Window -->
 
@@ -61,8 +71,8 @@
         </button>
         <div class="header_title">
             <h1 class="header_text wow animate__zoomInUp" data-wow-duration="1s">Biuro Tłumaczeń</h1>
-            <div class="button wow animate__zoomInDown" data-wow-duration="1s">
-                <a id="modal__request__open" href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
+            <div id="modal__request__open" class="button wow animate__zoomInDown" data-wow-duration="1s">
+                <a href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
                 <div class="mask"></div>
             </div>
         </div>
@@ -434,7 +444,7 @@
 
             <div class="reviews">
 
-                <div class="reviews wow animate__bounceInUp" data-wow-duration="1s">
+                <div class="reviews wow animate__bounceIn" data-wow-duration="1s">
                     <div class="slider">
                         <?php
                 require (realpath('settings.php'));
@@ -490,15 +500,15 @@
     </footer>
 
     <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/wowStart.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/testmodal.js"></script>
     <script type="text/javascript" src="js/reviews.js"></script>
     <script type="text/javascript" src="js/popupWindow.js"></script>
-    <script>
-        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
 
-    </script>
     <!-- Все скрипты подключаем сюда -->
     <?php
     require (realpath('settings.php'));

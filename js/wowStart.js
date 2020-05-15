@@ -1,3 +1,4 @@
+$(function () {
 wow = new WOW(
   {
   boxClass:     'wow',      // default
@@ -8,3 +9,4 @@ wow = new WOW(
 }
 )
 wow.init();
+});

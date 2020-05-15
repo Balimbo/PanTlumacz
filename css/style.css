@@ -2,6 +2,7 @@
 {
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body
@@ -11,7 +12,13 @@ body
     font-size:20px;
     line-height: 1.6;
     background-image: url(../images/pattern.webp);
+    overflow-x: hidden;
 
+}
+
+::selection{
+    background: #C51818;
+    color: #fff;
 }
 
 *,
@@ -267,14 +274,15 @@ a
     }
     #can__title__right
     {
-      padding-left: 43px;
+      padding-left: 15px;
     }
     .can__text{
-        padding-left: 43px;
+        padding-left: 15px;
     }
      .can__title
     {
         font-size:17px;
+        padding-left: 15px;
     }
     .can__text
     {
