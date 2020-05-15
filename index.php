@@ -22,6 +22,23 @@
 
 <body>
 
+    <?php
+    require (realpath('settings.php'));
+
+    // Database creation
+    $sql = "CREATE TABLE `comment` (
+        id INT NOT NULL AUTO_INCREMENT,
+        name VARCHAR(50) NOT NULL,
+        comment TEXT NOT NULL,
+        period VARCHAR(16) NOT NULL,
+        isCheked BOOLEAN default FALSE,
+        PRIMARY KEY(id))";
+
+    $conn->query($sql);
+    $conn->close();
+?>
+
+
     <!-- Preloader -->
     <div class="loader__inner">
         <div class="loader">
@@ -449,7 +466,7 @@
                         <?php
                         require (realpath('settings.php'));
 
-                        if(!$conn->query("USE `bearwh_PanTlumatcz`"))
+                        if(!$conn->query("USE `bearwh_PanTlumacz`"))
                             {?>
                                 <div class="reviews__item">
                                    Комментарии временно недоступны из-за неполадок с сервером. Приносим свои извинения.
@@ -468,7 +485,7 @@
                             <div class="reviews_text">
                                 "<?php echo $row['comment']?>"
                             </div>
-                            <div class="reviews_author">"<?php echo $row['name']?>"</div>
+                            <div class="reviews_author"><?php echo $row['name']?></div>
                         </div>
                         <?php }} ?>
                     </div>
@@ -487,7 +504,7 @@
             <a href="#">
                 <img src="images/facebook.svg">
             </a>
-            <a href="#">
+            <a href="mailto:hello@mail.ru">
                 <img src="images/mail.svg">
             </a>
         </div>
@@ -515,24 +532,6 @@
     <script type="text/javascript" src="js/popupWindow.js"></script>
 
     <!-- Все скрипты подключаем сюда -->
-    <?php
-    require (realpath('settings.php'));
-
-    $conn->query($sql);
-    $conn->query("USE `bearwh_PanTlumatcz`");
-
-    // Database creation
-    $sql = "CREATE TABLE `comment` (
-        id INT NOT NULL AUTO_INCREMENT,
-        name VARCHAR(20) NOT NULL,
-        comment TEXT NOT NULL,
-        period VARCHAR(16) NOT NULL,
-        isCheked BOOLEAN default FALSE,
-        PRIMARY KEY(id))";
-
-    $conn->query($sql);
-    $conn->close();
-?>
 </body>
 
 </html>

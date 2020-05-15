@@ -60,12 +60,6 @@ header:after
     margin:20px auto 10px;
     background-color: #FFFFFF;
 }
-/*.header_subtext
-{
-    margin-top:10px;
-    font-size: 21px;
-    color: #888;
-}*/
 
 .button {
     top: 50px;
@@ -195,10 +189,6 @@ header:after
     z-index: 1000;
     outline: none;
 }
-/*.header_nav.active
-{
-    display: block;
-}*/
 
 .nav-toggle_item
 {
