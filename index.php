@@ -49,19 +49,19 @@
             <div class="header_logo wow animate__bounceInLeft" data-wow-duration="1s">PanTłumacz</div>
             <nav class="header_nav wow animate__bounceInRight" data-wow-duration="1s" id="nav">
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#about">O nas</a>
+                    <a href="#" class="animated__link" data-scroll="#about">O nas</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#can">Oferta</a>
+                    <a href="#" class="animated__link" data-scroll="#can">Oferta</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#price">Cennik</a>
+                    <a href="#" class="animated__link" data-scroll="#price">Cennik</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#comments">Opinie</a>
+                    <a href="#" class="animated__link" data-scroll="#comments">Opinie</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#footer">Kontakt</a>
+                    <a href="#" class="animated__link" data-scroll="#footer">Kontakt</a>
                 </div>
             </nav>
         </div>
@@ -492,13 +492,13 @@
             </a>
         </div>
         <div class="footer__left">
-            <p class="footer__links underline-animation">
-                <a href="#" data-scroll="#header">Główna</a>
-                <a href="#" data-scroll="#can">Oferta</a>
-                <a href="#" data-scroll="#about">O nas</a>
-                <a href="#" data-scroll="#price">Cennik</a>
-                <a href="#">Aplikacja</a>
-                <a href="#" data-scroll="#comments">Opinie</a>
+            <p class="footer__links">
+                <a href="#" class="animated__link" data-scroll="#header">Główna</a>
+                <a href="#" class="animated__link" data-scroll="#can">Oferta</a>
+                <a href="#" class="animated__link" data-scroll="#about">O nas</a>
+                <a href="#" class="animated__link" data-scroll="#price">Cennik</a>
+                <a href="#" class="animated__link">Aplikacja</a>
+                <a href="#" class="animated__link" data-scroll="#comments">Opinie</a>
             </p>
             <p>PanTłumacz &copy; 2020</p>
         </div>

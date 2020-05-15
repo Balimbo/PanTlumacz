@@ -13,22 +13,13 @@ footer {
 
 .footer__links a {
     display: inline-block;
-    text-decoration: none;
     text-transform: uppercase;
     margin-right: 12px;
-    color: #fff;
     position: relative;
-    -webkit-transition: color 0.2s ease-out;
-    -o-transition: color 0.2s ease-out;
-    transition: color 0.2s ease-out;
 }
 
 .footer__links a:last-child {
     margin-right: 0;
-}
-
-.footer__links a:hover {
-    color: #D99E89;
 }
 
 .footer__right {

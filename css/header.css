@@ -176,14 +176,7 @@ header:after
 
 .header_nav_link a
 {
-    -webkit-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
-.header_nav_link a:hover
-{
-    color:#D99E89;
-    /*text-decoration: underline;*/
+    padding-bottom: 2px;   
 }
 
 .nav-toggle

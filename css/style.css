@@ -36,37 +36,18 @@ a
     outline: none;
 }
 
-/*Text animation*/
-.underline-animation a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    -webkit-transform: scaleX(0);
-        -ms-transform: scaleX(0);
-            transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #D99E89;
-    -webkit-transform-origin: bottom right;
-        -ms-transform-origin: bottom right;
-            transform-origin: bottom right;
-    -webkit-transition: -webkit-transform 0.2s ease-out;
-    transition: -webkit-transform 0.2s ease-out;
-    -o-transition: transform 0.2s ease-out;
-    transition: transform 0.2s ease-out;
-    transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+.animated__link{
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 
-.underline-animation a:hover::before {
-    -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-            transform: scaleX(1);
-    -webkit-transform-origin: bottom left;
-        -ms-transform-origin: bottom left;
-            transform-origin: bottom left;
-}
-
+.animated__link:hover {
+    background-size: 100% 2px;
+    color: #D99E89;
+}   
 
 /*Container*/
 .container
