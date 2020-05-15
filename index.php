@@ -447,25 +447,30 @@
                 <div class="reviews wow animate__bounceIn" data-wow-duration="1s">
                     <div class="slider">
                         <?php
-                require (realpath('settings.php'));
+                        require (realpath('settings.php'));
 
-                $conn->query("USE `bearwh_PanTlumatcz`");
-                //$conn->query("USE `Reviews`");
+                        if(!$conn->query("USE `bearwh_PanTlumatcz`"))
+                            {?>
+                                <div class="reviews__item">
+                                   Комментарии временно недоступны из-за неполадок с сервером. Приносим свои извинения.
+                                </div>
+                            <?php }
+                        else{
 
-                $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
-                $reviews = $conn->query($sql);
+                        $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
+                        $reviews = $conn->query($sql);
 
-                $conn->close();
+                        $conn->close();
 
-                while($row = $reviews->fetch_assoc())
-                { ?>
+                        while($row = $reviews->fetch_assoc())
+                        { ?>
                         <div class="reviews_item">
                             <div class="reviews_text">
                                 "<?php echo $row['comment']?>"
                             </div>
                             <div class="reviews_author">"<?php echo $row['name']?>"</div>
                         </div>
-                        <?php } ?>
+                        <?php }} ?>
                     </div>
                 </div>
             </div>
