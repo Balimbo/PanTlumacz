@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/priceList.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="css/preloader.css">   
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">   
 </head>
 
 <body>
@@ -44,7 +44,7 @@
 
     <!--Header-->
 
-    <header>
+    <header id="header">
         <div class="header_menu">
             <div class="header_logo wow animate__bounceInLeft" data-wow-duration="1s">PanTłumacz</div>
             <nav class="header_nav wow animate__bounceInRight" data-wow-duration="1s" id="nav">
@@ -381,7 +381,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__bounceInUp" data-wow-duration="1s">
+                <div class="price_block wow animate__bounceIn" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/germ.webp" alt="Russian">
@@ -488,7 +488,7 @@
         </div>
         <div class="footer__left">
             <p class="footer__links underline-animation">
-                <a href="#">Główna</a>
+                <a href="#" data-scroll="#header">Główna</a>
                 <a href="#" data-scroll="#can">Oferta</a>
                 <a href="#" data-scroll="#about">O nas</a>
                 <a href="#" data-scroll="#price">Cennik</a>

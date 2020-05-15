@@ -12,7 +12,7 @@ body
     font-size:20px;
     line-height: 1.6;
     background-image: url(../images/pattern.webp);
-    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
