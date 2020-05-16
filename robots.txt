@@ -1,0 +1,8 @@
+User-agent : *
+
+Disallow : /css
+Disallow : /js
+Disallow : /images
+Disallow : /cgi-bin
+Disallow : /admin
+Disallow : /phpMailer

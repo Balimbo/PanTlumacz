@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/aboutus.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -21,9 +22,39 @@
 
     <script src="js/wow.min.js"></script>
     <script src="js/wowStart.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/preloader.css"> 
 </head>
 
 <body>
+
+    <?php
+    require (realpath('settings.php'));
+
+    // Database creation
+    $sql = "CREATE TABLE `comment` (
+        id INT NOT NULL AUTO_INCREMENT,
+        name VARCHAR(50) NOT NULL,
+        comment TEXT NOT NULL,
+        period VARCHAR(16) NOT NULL,
+        isCheked BOOLEAN default FALSE,
+        PRIMARY KEY(id))";
+
+    $conn->query($sql);
+    $conn->close();
+?>
+
+
+    <!-- Preloader -->
+    <div class="loader__inner">
+        <div class="loader">
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__bar"></div>
+          <div class="loader__ball"></div>
+        </div>
+    </div>
 
     <!-- PopUp Window -->
 
@@ -35,24 +66,24 @@
 
     <!--Header-->
 
-    <header>
+    <header id="header">
         <div class="header_menu">
             <div class="header_logo wow animate__bounceInLeft" data-wow-duration="1s">PanTłumacz</div>
             <nav class="header_nav wow animate__bounceInRight" data-wow-duration="1s" id="nav">
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#about">O nas</a>
+                    <a href="#" class="animated__link" data-scroll="#about">O nas</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#can">Oferta</a>
+                    <a href="#" class="animated__link" data-scroll="#can">Oferta</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#price">Cennik</a>
+                    <a href="#" class="animated__link" data-scroll="#price">Cennik</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#comments">Opinie</a>
+                    <a href="#" class="animated__link" data-scroll="#comments">Opinie</a>
                 </div>
                 <div class="header_nav_link">
-                    <a href="#" data-scroll="#footer">Kontakt</a>
+                    <a href="#" class="animated__link" data-scroll="#footer">Kontakt</a>
                 </div>
             </nav>
         </div>
@@ -62,8 +93,8 @@
         </button>
         <div class="header_title">
             <h1 class="header_text wow animate__zoomInUp" data-wow-duration="1s">Biuro Tłumaczeń</h1>
-            <div class="button wow animate__zoomInDown" data-wow-duration="1s">
-                <a id="modal__request__open" href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
+            <div id="modal__request__open" class="button wow animate__zoomInDown" data-wow-duration="1s">
+                <a href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
                 <div class="mask"></div>
             </div>
         </div>
@@ -372,7 +403,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__bounceInUp" data-wow-duration="1s">
+                <div class="price_block wow animate__bounceIn" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/germ.webp" alt="Russian">
@@ -435,28 +466,33 @@
 
             <div class="reviews">
 
-                <div class="reviews wow animate__bounceInUp" data-wow-duration="1s">
+                <div class="reviews wow animate__bounceIn" data-wow-duration="1s">
                     <div class="slider">
                         <?php
-                require (realpath('settings.php'));
+                        require (realpath('settings.php'));
 
-                $conn->query("USE `bearwh_PanTlumatcz`");
-                //$conn->query("USE `Reviews`");
+                        if(!$conn->query("USE `bearwh_PanTlumacz`"))
+                            {?>
+                                <div class="reviews__item">
+                                   Комментарии временно недоступны из-за неполадок с сервером. Приносим свои извинения.
+                                </div>
+                            <?php }
+                        else{
 
-                $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
-                $reviews = $conn->query($sql);
+                        $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
+                        $reviews = $conn->query($sql);
 
-                $conn->close();
+                        $conn->close();
 
-                while($row = $reviews->fetch_assoc())
-                { ?>
+                        while($row = $reviews->fetch_assoc())
+                        { ?>
                         <div class="reviews_item">
                             <div class="reviews_text">
                                 "<?php echo $row['comment']?>"
                             </div>
-                            <div class="reviews_author">"<?php echo $row['name']?>"</div>
+                            <div class="reviews_author"><?php echo $row['name']?></div>
                         </div>
-                        <?php } ?>
+                        <?php }} ?>
                     </div>
                 </div>
 
@@ -503,52 +539,34 @@
             <a href="#">
                 <img src="images/facebook.svg">
             </a>
-            <a href="#">
+            <a href="mailto:hello@mail.ru">
                 <img src="images/mail.svg">
             </a>
         </div>
         <div class="footer__left">
-            <p class="footer__links underline-animation">
-                <a href="#">Główna</a>
-                <a href="#" data-scroll="#can">Oferta</a>
-                <a href="#" data-scroll="#about">O nas</a>
-                <a href="#" data-scroll="#price">Cennik</a>
-                <a href="#">Aplikacja</a>
-                <a href="#" data-scroll="#comments">Opinie</a>
+            <p class="footer__links">
+                <a href="#" class="animated__link" data-scroll="#header">Główna</a>
+                <a href="#" class="animated__link" data-scroll="#can">Oferta</a>
+                <a href="#" class="animated__link" data-scroll="#about">O nas</a>
+                <a href="#" class="animated__link" data-scroll="#price">Cennik</a>
+                <a href="#" class="animated__link">Aplikacja</a>
+                <a href="#" class="animated__link" data-scroll="#comments">Opinie</a>
             </p>
             <p>PanTłumacz &copy; 2020</p>
         </div>
     </footer>
 
     <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/preloader.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/wowStart.js"></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/testmodal.js"></script>
     <script type="text/javascript" src="js/reviews.js"></script>
     <script type="text/javascript" src="js/popupWindow.js"></script>
-    <script>
-        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
 
-    </script>
     <!-- Все скрипты подключаем сюда -->
-    <?php
-    require (realpath('settings.php'));
-
-    $conn->query($sql);
-    $conn->query("USE `bearwh_PanTlumatcz`");
-
-    // Database creation
-    $sql = "CREATE TABLE `comment` (
-        id INT NOT NULL AUTO_INCREMENT,
-        name VARCHAR(20) NOT NULL,
-        comment TEXT NOT NULL,
-        period VARCHAR(16) NOT NULL,
-        isCheked BOOLEAN default FALSE,
-        PRIMARY KEY(id))";
-
-    $conn->query($sql);
-    $conn->close();
-?>
 </body>
 
 </html>

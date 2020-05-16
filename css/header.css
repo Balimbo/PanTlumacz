@@ -49,6 +49,7 @@ header:after
     font-size:90px;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
+    letter-spacing: 0.2rem;
 }
 
 .header_text:after
@@ -60,12 +61,6 @@ header:after
     margin:20px auto 10px;
     background-color: #FFFFFF;
 }
-/*.header_subtext
-{
-    margin-top:10px;
-    font-size: 21px;
-    color: #888;
-}*/
 
 .button {
     top: 50px;
@@ -75,7 +70,7 @@ header:after
     background-size: cover;
     border: 2px solid white;
     text-transform: uppercase;
-    letter-spacing: .3rem;
+    letter-spacing: .2rem;
     padding: 20px 15px;
     text-align: center;
 
@@ -152,7 +147,7 @@ header:after
     display: -ms-flexbox;
     display: flex;
     margin-left:30px;
-    font-size:27px;
+    font-size:40px;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
     color:#fff;
@@ -176,14 +171,7 @@ header:after
 
 .header_nav_link a
 {
-    -webkit-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
-.header_nav_link a:hover
-{
-    color:#D99E89;
-    /*text-decoration: underline;*/
+    padding-bottom: 2px;   
 }
 
 .nav-toggle
@@ -202,10 +190,6 @@ header:after
     z-index: 1000;
     outline: none;
 }
-/*.header_nav.active
-{
-    display: block;
-}*/
 
 .nav-toggle_item
 {
