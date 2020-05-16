@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reviewsForm.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css"/>
 
     <script src="js/wow.min.js"></script>
     <script src="js/wowStart.js"></script>
