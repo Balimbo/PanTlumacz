@@ -47,14 +47,14 @@ $mail->isHTML(true);
 $mail->Subject = $subject;
 $mail->Body    = $message;
 
-if(!$mail->send()) {
+if($mail->send()) {
     // echo "Message was not sent.\n";
     // echo 'Mailer error: ' . $mail->ErrorInfo;
-    header("Location: ./10");
+    header("Location: ./?data=10");
     exit;
 } else {
     //echo 'Message has been sent.';
-    header("Location: ./11");
+    header("Location: ./?data=11");
     exit;
 }
 ?>
