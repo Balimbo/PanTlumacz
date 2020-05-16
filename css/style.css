@@ -3,11 +3,11 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Jost* Book';
 }
 
 body
 {
-    font-family: 'Raleway', sans-serif;
     color: #fff;
     font-size:20px;
     line-height: 1.6;
@@ -148,8 +148,8 @@ a
     /*What we can*/
     .can__title
     {
-        font-size:17px;
-        padding: 45px 0 13px 43px;
+        font-size:20px;
+        padding: 0px 0 13px 43px;
     }
 
     .can__text
@@ -255,19 +255,16 @@ a
     }
     #can__title__right
     {
-      padding-left: 15px;
+      padding-left: 0px;
     }
     .can__text{
-        padding-left: 15px;
+        padding-left: 0px;
+        font-size: 15px;
     }
      .can__title
     {
         font-size:17px;
-        padding-left: 15px;
-    }
-    .can__text
-    {
-        font-size: 15px;
+        padding-left: 0px;
     }
     .can
     {
@@ -359,7 +356,7 @@ a
 
     .header_logo
     {
-        font-size:20px;
+        font-size:25px;
         margin-left:10px;
     }
 

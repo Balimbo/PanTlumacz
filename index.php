@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanTłumacz</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/aboutus.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
