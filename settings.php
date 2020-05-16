@@ -2,7 +2,7 @@
 $servername     = "localhost";                    // Server name
 // $username         = "bearwh";                        // Login to enter phpMyAdmin
 // $password         = "X689Jty6pt";                    // Password to enter phpMyAdmin
-$username         = "admin";                        // Login to enter phpMyAdmin
+$username         = "root";                        // Login to enter phpMyAdmin
 $password         = "";                            // Password to enter phpMyAdmin
 $to             = "tm477301@gmail.com";            // Email to which letters should be sent
 $SMTPService    = 'sigcum.kylos.pl';            // Service that provides SMTP services

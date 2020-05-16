@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/priceList.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reviewsForm.css">
 
     <script src="js/wow.min.js"></script>
     <script src="js/wowStart.js"></script>
@@ -458,7 +459,37 @@
                         <?php } ?>
                     </div>
                 </div>
+
+                <!-- Review create -->
+
+                <div class="reviewCreate">
+                    <form action="reviews.php" class="reviewCreate__form">
+
+                        <div class="reviewCreate__title">
+                            <p>Leave your review</p>
+                        </div>
+
+                        <div class="reviewCreate__form__inner">
+
+                                <div id="CommentsNickname">
+                                    <input type="text" id="Nickname" name="nickname" placeholder="Enter your nickname">
+                                </div>
+
+                                <div id="CommentsText">
+                                    <textarea id="review" name="review" placeholder="Enter your review" rows="12"></textarea>
+                                </div>
+
+                                <div id="SubmitForComments">
+                                    <button type="submit">Send</button>
+                                </div>
+
+                        </div>
+
+                    </form>
+                </div>
+
             </div>
+
         </div>
     </section>
 
