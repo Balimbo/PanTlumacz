@@ -2,14 +2,20 @@
     position: fixed;
     z-index: 9999;
     left: 50%;
-    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
 }
 
 .popupContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     opacity: 0.9;
     margin-top: 10px;
     border-radius: 4px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
 

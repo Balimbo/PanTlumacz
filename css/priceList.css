@@ -38,6 +38,8 @@
 .price_block_main_text:hover span
 {
     color:#BF1B28;
+    -webkit-transition: .2s linear;
+    -o-transition: .2s linear;
     transition: .2s linear;
 
 }
