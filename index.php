@@ -209,7 +209,9 @@
                     <div class="abus__text">
                         <h3>JAKOŚĆ</h3>
                         <div class="abus__description">
-                            <p>Nasze biuro tłumaczeń w Olsztynie zatrudnia wyłącznie zaufanych specjalistów z wieloletnią praktyką w zawodzie. Uważamy, że najlepsze efekty uzyskuje się przekładając teksty na język ojczysty, więc mamy w swoim zespole tłumaczy z Niemiec, Ukrainy, Francji, Wielkiej Brytanii, Polski, Białorusi oraz Rosji. Każde zlecenie jest realizowane poprzez pracę w grupie, dzięki czemu tekst ulega wielokrotnemu sprawdzeniu, co znacząco redukuje ryzyko błędu. JAKOŚĆ jest zawsze naszym najwyższym priorytetem.</p>
+                           <div class="abus__description">
+                            <p>Nasze biuro tłumaczeń w Olsztynie zatrudnia wyłącznie zaufanych <span>specjalistów</span> z wieloletnią praktyką w zawodzie. Uważamy, że najlepsze efekty uzyskuje się przekładając teksty na język ojczysty, więc mamy w swoim zespole tłumaczy z Niemiec, Ukrainy, Francji, Wielkiej Brytanii, Polski, Białorusi oraz Rosji. Każde zlecenie jest realizowane poprzez <span>pracę w grupie</span>, dzięki czemu tekst ulega wielokrotnemu sprawdzeniu, co znacząco redukuje ryzyko błędu. <span>JAKOŚĆ</span> jest zawsze naszym najwyższym priorytetem.</p>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -223,7 +225,7 @@
                     <div class="abus__text">
                         <h3>PUNKTUALNOŚĆ</h3>
                         <div class="abus__description">
-                            <p> Nie stanowi też dla nas problemu zlecenie z ograniczeniem czasowym – jesteśmy w stanie przygotować nawet 15 stron tekstu dziennie. Na początek, dokonujemy wyceny przesłanych nam treści i określamy termin realizacji zlecenia. Jeśli spotkamy się z aprobatą klienta, przekazujemy tekst osobie, która specjalizuje się w związanej z nim dziedzinie. Potem następuje ponowna weryfikacja poprawności i korekta, przy udziale dwóch innych tłumaczy oraz rodzimego użytkownika języka tekstu oryginalnego.</p>
+                             <p> Nie stanowi też dla nas problemu zlecenie z ograniczeniem czasowym – jesteśmy w stanie przygotować nawet <span>15 stron tekstu dziennie</span>. Na początek, dokonujemy wyceny przesłanych nam treści i określamy termin <span>realizacji zlecenia</span>. Jeśli spotkamy się z aprobatą klienta, przekazujemy tekst osobie, która specjalizuje się w związanej z nim dziedzinie. Potem następuje ponowna weryfikacja poprawności i korekta, przy udziale dwóch innych tłumaczy oraz rodzimego użytkownika języka tekstu oryginalnego.</p>
                         </div>
                     </div>
                 </div>
@@ -237,7 +239,7 @@
                     <div class="abus__text">
                         <h3>TERMINOWOŚĆ</h3>
                         <div class="abus__description">
-                            <p>Realizacja każdego zadania NA CZAS jest naszym kredo, co pozwala nam cieszyć się dużym gronem w pełni zadowolonych, stałych klientów.Niezależnie od tego, czy zamawiają Państwo w naszym biurze tłumaczeń przekład na język rosyjski, ukraiński, angielski czy inny, tekst zostaje podwójnie sprawdzony przez pracujących u nas NATIVE SPEAKER-ów.</p>
+                           <p>Realizacja każdego zadania NA CZAS jest <span>naszym kredo</span>, co pozwala nam cieszyć się dużym gronem w pełni zadowolonych, stałych klientów. Niezależnie od tego, czy zamawiają Państwo w naszym biurze tłumaczeń przekład na język rosyjski, ukraiński, angielski czy inny, tekst zostaje podwójnie sprawdzony przez pracujących u nas <span>NATIVE SPEAKER-ów</span>.</p>
                         </div>
                     </div>
                 </div>
@@ -326,10 +328,10 @@
                             </h4>
                         </div>
                         <div class="price_block_text">
-                            <p> tekst zwykły: 19 zł/str.<br>
-                                specjalistyczny: 22 zł/str. <br>
-                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                                jedna strona rozliczeniowa: 1125 znaków ze spacjami.
+                            <p> tekst zwykły:<span> 19 zł/str</span>.<br>
+                                specjalistyczny: <span>22 zł/str</span>. <br>
+                                tłumaczenie ekspresowe - <span>do 15 stron dziennie: wycena indywidualna</span>.<br>
+                                jedna strona rozliczeniowa: <span>1125 znaków ze spacjami</span>.
                             </p>
                         </div>
                     </div>
@@ -349,10 +351,10 @@
                             </h4>
                         </div>
                         <div class="price_block_text">
-                            <p> tekst zwykły: 22 zł/str.<br>
-                                specjalistyczny: 25 zł/str. <br>
-                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                                jedna strona rozliczeniowa: 1125 znaków ze spacjami.
+                            <p> tekst zwykły:<span> 22 zł/str</span>.<br>
+                                specjalistyczny: <span>25 zł/str</span>. <br>
+                                tłumaczenie ekspresowe - <span>do 15 stron dziennie: wycena indywidualna</span>.<br>
+                                jedna strona rozliczeniowa: <span>1125 znaków ze spacjami</span>.
                             </p>
                         </div>
                     </div>
@@ -372,10 +374,10 @@
                             </h4>
                         </div>
                         <div class="price_block_text">
-                            <p> tekst zwykły: 25 zł/str.<br>
-                                specjalistyczny: 28 zł/str. <br>
-                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                                jedna strona rozliczeniowa: 1125 znaków ze spacjami.
+                            <p> tekst zwykły:<span> 25 zł/str</span>.<br>
+                                specjalistyczny: <span>28 zł/str</span>. <br>
+                                tłumaczenie ekspresowe - <span>do 15 stron dziennie: wycena indywidualna</span>.<br>
+                                jedna strona rozliczeniowa: <span>1125 znaków ze spacjami</span>.
                             </p>
                         </div>
                     </div>
@@ -395,10 +397,10 @@
                             </h4>
                         </div>
                         <div class="price_block_text">
-                            <p> tekst zwykły: 19 zł/str.<br>
-                                specjalistyczny: 22 zł/str. <br>
-                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                                jedna strona rozliczeniowa: 1125 znaków ze spacjami.
+                            <p> tekst zwykły:<span> 19 zł/str</span>.<br>
+                                specjalistyczny: <span>22 zł/str</span>. <br>
+                                tłumaczenie ekspresowe - <span>do 15 stron dziennie: wycena indywidualna</span>.<br>
+                                jedna strona rozliczeniowa: <span>1125 znaków ze spacjami</span>.
                             </p>
                         </div>
                     </div>
@@ -418,10 +420,10 @@
                             </h4>
                         </div>
                         <div class="price_block_text">
-                            <p> tekst zwykły: 22 zł/str.<br>
-                                specjalistyczny: 25 zł/str. <br>
-                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                                jedna strona rozliczeniowa: 1125 znaków ze spacjami.
+                            <p> tekst zwykły:<span> 22 zł/str</span>.<br>
+                                specjalistyczny: <span>25 zł/str</span>. <br>
+                                tłumaczenie ekspresowe - <span>do 15 stron dziennie: wycena indywidualna</span>.<br>
+                                jedna strona rozliczeniowa: <span>1125 znaków ze spacjami</span>.
                             </p>
                         </div>
                     </div>
@@ -441,10 +443,10 @@
                             </h4>
                         </div>
                         <div class="price_block_text">
-                            <p> tekst zwykły: 32 zł/str.<br>
-                                specjalistyczny: 35 zł/str. <br>
-                                tłumaczenie ekspresowe - do 15 stron dziennie: wycena indywidualna.<br>
-                                jedna strona rozliczeniowa: 1125 znaków ze spacjami.
+                            <p> tekst zwykły:<span> 32 zł/str</span>.<br>
+                                specjalistyczny: <span>35 zł/str</span>. <br>
+                                tłumaczenie ekspresowe - <span>do 15 stron dziennie: wycena indywidualna</span>.<br>
+                                jedna strona rozliczeniowa: <span>1125 znaków ze spacjami</span>.
                             </p>
                         </div>
                     </div>
