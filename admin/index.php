@@ -20,7 +20,7 @@
 
 	<div class="unchecked_comments">
 	<?php $counter = 0;
- 	while ($row = $reviews->fetch_assoc()) { ?>
+ 	while ($row = $reviews->fetch_assoc()) {  // Each new iteration, the record is transformed into an associative array until the $reviews array ends ?>
  		<div class="comment_inner">
 
 					<div class="comment_left">

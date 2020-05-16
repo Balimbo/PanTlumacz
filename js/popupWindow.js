@@ -1,8 +1,13 @@
 $(function () {
     let errors = ['10', '11', '20', '21'];
+    // 10 - Success in submitting a review
+    // 11 - failure to submit review
+    // 20 - successful attempt to send an application
+    // 21 - unsuccessful attempt to submit an application
 
     let ppdiv = document.getElementsByClassName("popupBody")[0];
 
+    // function that returns data from url after site name
     var params = window.location.search.replace('?','').split('&').reduce(
         function(p,e){
             var a = e.split('=');
@@ -11,6 +16,8 @@ $(function () {
         },
         {}
     );
+
+    // Checking for codes in url
     for (var i = errors.length - 1; i >= 0; i--) {
         if(params['data'] === errors[i] )
             {
@@ -20,11 +27,11 @@ $(function () {
     }
       
 
-
+    // function that depending on params ['data'] displays a green / red pop-up window about the successful / unsuccessful form submission
     function Popup(err) {
         let popup = document.getElementsByClassName("popupContent")[0];
 
-        if(err == '10')
+        if(err === '10')
         {
             popup.classList.add('ppContGreen');
             $(".popupBody").html("Zgłoszenie pana/pani zostało zaakceptowane przez moderatora! Wkrótce odpowiemy na twoją pocztę.");

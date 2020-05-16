@@ -5,6 +5,7 @@ require_once 'phpMailer/class.phpmailer.php';
 require_once 'phpMailer/class.smtp.php';
 require_once 'settings.php';
 
+// Message generation
 $name 		= htmlentities($_POST['firstName']);
 $fromLang 	= $_POST['fromLang'];
 $toLang 	= $_POST['toLang'];
@@ -14,7 +15,7 @@ $message 	= "Имя заказчика: $name<br>Язык оригинала: $f
 
 
 $from 		= $botMail;
-$subject 	= "Заявка на перевод!";
+$subject 	= "Заявка на перевод!";     // Message subject
 
 $mail = new PHPMailer;
 
@@ -48,12 +49,12 @@ $mail->Subject = $subject;
 $mail->Body    = $message;
 
 if($mail->send()) {
-    // echo "Message was not sent.\n";
-    // echo 'Mailer error: ' . $mail->ErrorInfo;
+    //echo 'Message has been sent.';
     header("Location: ./?data=10");
     exit;
 } else {
-    //echo 'Message has been sent.';
+    // echo "Message was not sent.\n";
+    // echo 'Mailer error: ' . $mail->ErrorInfo;
     header("Location: ./?data=11");
     exit;
 }

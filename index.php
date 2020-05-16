@@ -486,25 +486,28 @@
 
                         if(!$conn->query("USE `bearwh_PanTlumacz`"))
                             {?>
-                                <div class="reviews__item">
-                                   Комментарии временно недоступны из-за неполадок с сервером. Приносим свои извинения.
+                                <div class="reviews__item" align="center">
+                                   Komentarze są tymczasowo niedostępne z powodu problemów z serwerem. Przepraszamy.
                                 </div>
                             <?php }
                         else{
 
-                        $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
-                        $reviews = $conn->query($sql);
+                            // Six random entries in the database are selected, after which they are displayed using an associative array. 
+                            // Each new iteration, the record is transformed into an associative array until the $reviews array ends
 
-                        $conn->close();
+                            $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
+                            $reviews = $conn->query($sql);
 
-                        while($row = $reviews->fetch_assoc())
-                        { ?>
-                        <div class="reviews_item">
-                            <div class="reviews_text">
-                                "<?php echo $row['comment']?>"
+                            $conn->close();
+
+                            while($row = $reviews->fetch_assoc())
+                            { ?>
+                            <div class="reviews_item">
+                                <div class="reviews_text">
+                                    "<?php echo $row['comment']?>"
+                                </div>
+                                <div class="reviews_author"><?php echo $row['name']?></div>
                             </div>
-                            <div class="reviews_author"><?php echo $row['name']?></div>
-                        </div>
                         <?php }} ?>
                     </div>
                 </div>
