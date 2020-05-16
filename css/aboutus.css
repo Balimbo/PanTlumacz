@@ -39,6 +39,18 @@
     text-align: justify;
 }
 
+.abus__text:hover span
+{
+    color:#BF1B28;
+    transition: .2s linear;
+}
+
+.abus__text:hover h3
+{
+     color:#BF1B28;
+    transition: .2s linear;
+}
+
 @media (max-width: 1200px) {
 
     .abus {

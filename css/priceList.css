@@ -35,3 +35,15 @@
 {
     font-size: 19px;
 }
+.price_block_main_text:hover span
+{
+    color:#BF1B28;
+    transition: .2s linear;
+
+}
+
+.price_block_main_text span
+{
+    font-style:italic;
+
+}
