@@ -171,7 +171,7 @@
 
                 <!--Comments-->
                 <div>
-                    <textarea class="modal__request__textarea" id="massage" name="massage" placeholder="Uwagi" rows="10" cols="50"></textarea>
+                    <textarea class="modal__request__textarea" id="massage" name="massage" placeholder="Uwagi" rows="6"></textarea>
                 </div>
 
                 <!--Button-->
