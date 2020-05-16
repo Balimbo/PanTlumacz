@@ -94,7 +94,7 @@
         <div class="header_title">
             <h1 class="header_text wow animate__zoomInUp" data-wow-duration="1s">Biuro Tłumaczeń</h1>
             <div id="modal__request__open" class="button wow animate__zoomInDown" data-wow-duration="1s">
-                <a href="#">Prześlij swoją aplikację<span class="shift">›</span></a>
+                <a href="#">Wyceń tłumaczenie<span class="shift">›</span></a>
                 <div class="mask"></div>
             </div>
         </div>
