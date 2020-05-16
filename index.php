@@ -502,7 +502,7 @@
                 <!-- Review create -->
 
                 <div class="reviewCreate">
-                    <form action="reviews.php" class="reviewCreate__form">
+                    <form action="reviews.php" class="reviewCreate__form" method="post">
 
                         <div class="reviewCreate__title">
                             <p>Leave your review</p>
