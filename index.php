@@ -22,7 +22,7 @@
 
     <script src="js/wow.min.js"></script>
     <script src="js/wowStart.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/preloader.css"> 
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 </head>
 
 <body>
@@ -107,6 +107,7 @@
 
         <form class="modal__request__content" id="data" action="request.php" method="post" enctype='multipart/form-data'>
 
+            <span class="modal__request__close modal__request__mobile__close">&times;</span>
 
             <div class="modal__request__inner">
 
@@ -508,7 +509,7 @@
                         <div class="reviewCreate__form__inner">
 
                                 <div id="CommentsNickname">
-                                    <input type="text" id="Nickname" name="nickname" placeholder="Enter your nickname">
+                                    <input type="text" id="Nickname" name="nickname" maxlength="50" placeholder="Enter your nickname">
                                 </div>
 
                                 <div id="CommentsText">

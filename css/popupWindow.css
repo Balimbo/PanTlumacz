@@ -32,3 +32,11 @@
 .popupVisuallyHidden {
     opacity: 0;
 }
+
+@media (max-width: 600px) {
+
+    .popupBody {
+        padding: 10px 10px;
+    }
+
+}
