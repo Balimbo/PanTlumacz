@@ -416,7 +416,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__fadeIn" data-wow-duration="1s">
+                <div class="price_block wow animate__fadeInUp" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/germ.webp" alt="Russian">
