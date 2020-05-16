@@ -8,11 +8,6 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
-Header set Cache-Control "public"
-Header set Expires "Fri, 3 Dec 2100 20:00:00 GMT"
-FileETag None
-</FilesMatch>
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www.pantlumacz.pl
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$

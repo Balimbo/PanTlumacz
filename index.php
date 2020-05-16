@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PanTłumacz</title>
+    <title>PanTłumacz - tłumaczenia olsztyn | tekstu | artykułów</title>
+    <link rel="shortcut icon" href="http://www.pantlumacz.pl/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/aboutus.css">
@@ -20,10 +21,20 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reviewsForm.css">
     <link rel="stylesheet" type="text/css" href="fonts/fonts.css"/>
-
-    <script src="js/wow.min.js"></script>
-    <script src="js/wowStart.js"></script>
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
+
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "logo": "http://www.pantlumacz.pl/image/logo.png",
+    "url": "http://www.pantlumacz.pl/",
+    "name": "PanTłumacz",
+    "description": "Biuro tłumaczeń",
+    "telephone": "794922852",
+    "email": "biuro@pantlumacz.pl "
+  }
+  </script>
 </head>
 
 <body>
@@ -31,7 +42,7 @@
     <?php
     require (realpath('settings.php'));
 
-    // Database creation
+    // Table creation
     $sql = "CREATE TABLE `comment` (
         id INT NOT NULL AUTO_INCREMENT,
         name VARCHAR(50) NOT NULL,
@@ -69,8 +80,8 @@
 
     <header id="header">
         <div class="header_menu">
-            <div class="header_logo wow animate__bounceInLeft" data-wow-duration="1s">PanTłumacz</div>
-            <nav class="header_nav wow animate__bounceInRight" data-wow-duration="1s" id="nav">
+            <div class="header_logo wow animate__fadeInLeft" data-wow-duration="1s">PanTłumacz</div>
+            <nav class="header_nav wow animate__fadeInRight" data-wow-duration="1s" id="nav">
                 <div class="header_nav_link">
                     <a href="#" class="animated__link" data-scroll="#about">O nas</a>
                 </div>
@@ -181,8 +192,6 @@
                 </div>
 
             </div>
-
-
         </form>
     </div>
 
@@ -192,7 +201,7 @@
     <section class="section" id="about">
         <div class="container">
 
-            <div class="section__header wow animate__bounceIn" data-wow-duration="1s">
+            <div class="section__header wow animate__fadeIn" data-wow-duration="1s">
                 <h2 class="section__title">O nas</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
@@ -201,7 +210,7 @@
 
             <div class="abus">
 
-                <div class="abus__item wow animate__bounceInLeft" data-wow-duration="1s">
+                <div class="abus__item wow animate__fadeInLeft" data-wow-duration="1s">
                     <div class="abus__inner">
                         <div class="abus__img">
                             <img src="images/like.svg">
@@ -217,7 +226,7 @@
                     </div>
                 </div>
 
-                <div class="abus__item wow animate__bounceInUp" data-wow-duration="1s">
+                <div class="abus__item wow animate__fadeInUp" data-wow-duration="1s">
                     <div class="abus__inner">
                         <div class="abus__img">
                             <img src="images/clock.svg">
@@ -231,7 +240,7 @@
                     </div>
                 </div>
 
-                <div class="abus__item wow animate__bounceInRight" data-wow-duration="1s">
+                <div class="abus__item wow animate__fadeInRight" data-wow-duration="1s">
                     <div class="abus__inner">
                         <div class="abus__img">
                             <img src="images/speed.svg">
@@ -254,13 +263,13 @@
 
     <section class="section" id="can">
         <div class="container">
-            <div class="section__noText wow animate__bounceIn" data-wow-duration="1s">
+            <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
                 <h2 class="section__title">Oferta</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
                 </div>
             </div>
-            <div class="can wow animate__bounceInLeft" data-wow-duration="1s">
+            <div class="can wow animate__fadeInLeft" data-wow-duration="1s">
                 <img class="can__photo1" src="images/about.webp" height="350" width="500" alt="">
                 <div class="can__right">
                     <div class="can__title">
@@ -271,7 +280,7 @@
                     </div>
                 </div>
             </div>
-            <div class="can wow animate__bounceInRight" data-wow-duration="1s">
+            <div class="can wow animate__fadeInRight" data-wow-duration="1s">
 
                 <div class="can__right">
                     <div class="can__title" id="can__title__right">
@@ -284,7 +293,7 @@
                 <img class="can__photo1" src="images/can2.webp" height="350" width="500" alt="">
             </div>
 
-            <div class="can wow animate__bounceInLeft" data-wow-duration="1s">
+            <div class="can wow animate__fadeInLeft" data-wow-duration="1s">
                 <img class="can__photo1" src="images/can3.webp" height="350" width="500" alt="">
                 <div class="can__right">
                     <div class="can__title">
@@ -307,7 +316,7 @@
     <section class="section" id="price">
         <div class="container">
 
-            <div class="section__noText wow animate__bounceIn" data-wow-duration="1s">
+            <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
                 <h2 class="section__title">Cennik</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
@@ -315,7 +324,7 @@
             </div>
 
             <div class="main_price_block">
-                <div class="price_block wow animate__bounceInLeft" data-wow-duration="1s">
+                <div class="price_block wow animate__fadeInLeft" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/rus.webp" alt="Russian">
@@ -338,7 +347,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__bounceIn" data-wow-duration="1s">
+                <div class="price_block wow animate__fadeIn" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/brit.webp" alt="Russian">
@@ -361,7 +370,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__bounceInRight" data-wow-duration="1s">
+                <div class="price_block wow animate__fadeInRight" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/fr.webp" alt="Russian">
@@ -384,7 +393,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__bounceInLeft" data-wow-duration="1s">
+                <div class="price_block wow animate__fadeInLeft" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/ukr.webp" alt="Russian">
@@ -407,7 +416,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__bounceIn" data-wow-duration="1s">
+                <div class="price_block wow animate__fadeIn" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/germ.webp" alt="Russian">
@@ -430,7 +439,7 @@
                     </div>
                 </div>
 
-                <div class="price_block wow animate__bounceInRight" data-wow-duration="1s">
+                <div class="price_block wow animate__fadeInRight" data-wow-duration="1s">
                     <div class="price_block_image">
                         <a href="#">
                             <img src="images/ital.webp" alt="Russian">
@@ -461,7 +470,7 @@
 
     <section class="section" id="comments">
         <div class="container">
-            <div class="section__noText wow animate__bounceIn" data-wow-duration="1s">
+            <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
                 <h2 class="section__title">Opinie</h2>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
@@ -470,7 +479,7 @@
 
             <div class="reviews">
 
-                <div class="reviews wow animate__bounceIn" data-wow-duration="1s">
+                <div class="reviews wow animate__fadeInRight" data-wow-duration="1s">
                     <div class="slider">
                         <?php
                         require (realpath('settings.php'));
@@ -502,7 +511,7 @@
 
                 <!-- Review create -->
 
-                <div class="reviewCreate">
+                <div class="reviewCreate wow animate__fadeInLeft" data-wow-duration="1s">
                     <form action="reviews.php" class="reviewCreate__form" method="post">
 
                         <div class="reviewCreate__title">
@@ -522,12 +531,9 @@
                                 <div id="SubmitForComments">
                                     <button type="submit">Send</button>
                                 </div>
-
                         </div>
-
                     </form>
                 </div>
-
             </div>
 
         </div>
@@ -543,7 +549,7 @@
             <a href="#">
                 <img src="images/facebook.svg">
             </a>
-            <a href="mailto:hello@mail.ru">
+            <a href="mailto:biuro@pantlumacz.pl">
                 <img src="images/mail.svg">
             </a>
         </div>
@@ -553,7 +559,7 @@
                 <a href="#" class="animated__link" data-scroll="#can">Oferta</a>
                 <a href="#" class="animated__link" data-scroll="#about">O nas</a>
                 <a href="#" class="animated__link" data-scroll="#price">Cennik</a>
-                <a href="#" class="animated__link">Aplikacja</a>
+                <a href="#" class="animated__link" data-scroll="#header">Aplikacja</a>
                 <a href="#" class="animated__link" data-scroll="#comments">Opinie</a>
             </p>
             <p>PanTłumacz &copy; 2020</p>
@@ -569,8 +575,5 @@
     <script type="text/javascript" src="js/testmodal.js"></script>
     <script type="text/javascript" src="js/reviews.js"></script>
     <script type="text/javascript" src="js/popupWindow.js"></script>
-
-    <!-- Все скрипты подключаем сюда -->
 </body>
-
 </html>
