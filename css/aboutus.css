@@ -39,6 +39,9 @@
     text-align: justify;
 }
 
+.abus__description p{
+    font-family:'Jost* Light';
+}
 .abus__text:hover span
 {
     color:#BF1B28;
