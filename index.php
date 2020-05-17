@@ -281,7 +281,7 @@
                         Częściowo lub w całości pracy licencjackie, magisterskie lub doktorskie. Używanie narzędzi tłumaczenia takich jak MemoQ pozwala na zachowanie terminologii na każdej ilości stron.
                         Mamy spore doświadczenie w tłumaczeniu artykułów technicznych, naukowych, historycznych oraz informacyjnych.
 
-                       
+
                     </div>
                 </div>
             </div>
@@ -494,7 +494,7 @@
                             <?php }
                         else{
 
-                            // Six random entries in the database are selected, after which they are displayed using an associative array. 
+                            // Six random entries in the database are selected, after which they are displayed using an associative array.
                             // Each new iteration, the record is transformed into an associative array until the $reviews array ends
 
                             $sql = "SELECT * FROM `comment` WHERE `isCheked` = TRUE ORDER BY RAND() LIMIT 6";
@@ -547,17 +547,7 @@
     <!-- Footer -->
 
     <footer id="footer">
-        <div class="footer__right">
-            <a href="#">
-                <img src="images/twitter.svg">
-            </a>
-            <a href="#">
-                <img src="images/facebook.svg">
-            </a>
-            <a href="mailto:biuro@pantlumacz.pl">
-                <img src="images/mail.svg">
-            </a>
-        </div>
+
         <div class="footer__left">
             <p class="footer__links">
                 <a href="#" class="animated__link" data-scroll="#header">Główna</a>
@@ -567,8 +557,38 @@
                 <a href="#" class="animated__link" data-scroll="#header">Aplikacja</a>
                 <a href="#" class="animated__link" data-scroll="#comments">Opinie</a>
             </p>
-            <p>PanTłumacz &copy; 2020</p>
+
+            <p class="footer__copy__pc">PanTłumacz &copy; 2020</p>
         </div>
+
+        <div class="footer__right">
+
+            <div class="footer__nums">
+
+                <p class="footer__phone"><a href="tel: +48794922852" style="background: none;">Telefon: + 48 794 922 852</a></p>
+
+                <p class="footer__acc">Nr konta: 49 1050 1764 1000 0092 3168 3658</p>
+
+            </div>
+
+            <div class="footer__images">
+
+                <a href="#">
+                    <img src="images/twitter.svg">
+                </a>
+                <a href="#">
+                    <img src="images/facebook.svg">
+                </a>
+                <a href="mailto:biuro@pantlumacz.pl">
+                    <img src="images/mail.svg">
+                </a>
+
+            </div>
+
+        </div>
+
+        <p class="footer__copy__mobile">PanTłumacz &copy; 2020</p>
+
     </footer>
 
     <script type="text/javascript" src="js/jQuery.js"></script>
