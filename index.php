@@ -204,7 +204,7 @@
             <div class="section__header wow animate__fadeIn" data-wow-duration="1s">
                <h3 class="section__title">O nas</h3>
                 <div class="section__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
+                    <p>Dlaczego dokładnie my? W tej sekcji możesz zapoznać się z naszymi możliwościami, drobnymi szczegółami naszej pracy.</p>
                 </div>
             </div>
 
@@ -266,7 +266,7 @@
             <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
                 <h3 class="section__title">Oferta</h3>
                 <div class="section__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
+                    <p>Nasze biuro ma dużą listę naszych możliwości. Poniżej możesz zapoznać się z głównymi, ale wiedz, że możemy zrobić znacznie więcej.</p>
                 </div>
             </div>
             <div class="can wow animate__fadeInLeft" data-wow-duration="1s">
@@ -321,7 +321,7 @@
             <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
                 <h3 class="section__title">Cennik</h3>
                 <div class="section__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
+                    <p>Jeśli mówimy o cenie, uczciwie oceniamy ilość wykonanej pracy i nigdy nie staramy się zapewnić, aby klient był nadmiernie wynagrodzony.</p>
                 </div>
             </div>
 
@@ -475,7 +475,7 @@
             <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
                 <h3 class="section__title">Opinie</h3>
                 <div class="section__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
+                    <p>Zostaw swoją opinię na temat naszego biura, aby przyszli klienci wiedzieli na jakim poziomie pracujemy</p>
                 </div>
             </div>
 
