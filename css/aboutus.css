@@ -42,6 +42,9 @@
 .abus__text:hover span
 {
     color:#BF1B28;
+}
+
+.abus__text span{
     -webkit-transition: .2s linear;
     -o-transition: .2s linear;
     transition: .2s linear;
@@ -50,6 +53,9 @@
 .abus__text:hover h3
 {
      color:#BF1B28;
+}
+
+.abus__text h3{
     -webkit-transition: .2s linear;
     -o-transition: .2s linear;
     transition: .2s linear;
