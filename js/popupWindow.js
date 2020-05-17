@@ -8,9 +8,9 @@ $(function () {
     let ppdiv = document.getElementsByClassName("popupBody")[0];
 
     // function that returns data from url after site name
-    var params = window.location.search.replace('?', '').split('&').reduce(
+    let params = window.location.search.replace('?', '').split('&').reduce(
         function (p, e) {
-            var a = e.split('=');
+            let a = e.split('=');
             p[decodeURIComponent(a[0])] = decodeURIComponent(a[1]);
             return p;
         }, {}
@@ -61,6 +61,7 @@ $(function () {
         }, 7000);
     }
 
+    // hide pop up when you click on it
     ppdiv.onclick = function () {
         let popup = document.getElementsByClassName("popupContent")[0];
 
