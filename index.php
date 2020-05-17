@@ -520,21 +520,21 @@
                     <form action="reviews.php" class="reviewCreate__form" method="post">
 
                         <div class="reviewCreate__title">
-                            <p>Leave your review</p>
+                            <p>Zostaw swoją opinię</p>
                         </div>
 
                         <div class="reviewCreate__form__inner">
 
                                 <div id="CommentsNickname">
-                                    <input type="text" id="Nickname" name="nickname" maxlength="50" placeholder="Enter your nickname" required>
+                                    <input type="text" id="Nickname" name="nickname" maxlength="50" placeholder="Wpisz swój pseudonim" required>
                                 </div>
 
                                 <div id="CommentsText">
-                                    <textarea id="review" name="review" placeholder="Enter your review" rows="12" required></textarea>
+                                    <textarea id="review" name="review" placeholder="Wpisz swoją recenzję" rows="12" required></textarea>
                                 </div>
 
                                 <div id="SubmitForComments">
-                                    <button type="submit">Send</button>
+                                    <button type="submit">Wysłać</button>
                                 </div>
                         </div>
                     </form>

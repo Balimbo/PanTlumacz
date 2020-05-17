@@ -140,3 +140,11 @@ font-style: normal;
 font-weight: normal;
 src: local('Jost* BlackItalic'), url('Jost900BlackItalic.woff') format('woff');
 }
+
+
+@font-face {
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: normal;
+src: local('Dancing Script'), url('DancingScript-Medium.ttf') format('opentype');
+}
