@@ -202,7 +202,7 @@
         <div class="container">
 
             <div class="section__header wow animate__fadeIn" data-wow-duration="1s">
-                <h2 class="section__title">O nas</h2>
+               <h3 class="section__title">O nas</h3>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
                 </div>
@@ -261,10 +261,10 @@
 
     <!--What we can?-->
 
-    <section class="section" id="can">
+   <section class="section" id="can">
         <div class="container">
             <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
-                <h2 class="section__title">Oferta</h2>
+                <h3 class="section__title">Oferta</h3>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore architecto, cum sed. Nemo veritatis at ipsam recusandae, autem nesciunt quasi atque enim perferendis alias, mollitia vel qui, voluptatum non sunt.</p>
                 </div>
@@ -273,10 +273,15 @@
                 <img class="can__photo1" src="images/about.webp" height="350" width="500" alt="">
                 <div class="can__right">
                     <div class="can__title">
-                        Tłumaczenie szeptane
+                       <h2> Dokumentacja techniczna i firmowa,<br> prace dyplomowe i naukowe artykuły</h2>
                     </div>
                     <div class="can__text can__text__right">
-                        Tłumaczenie szeptane (potocznie zwane też „szeptanką”, od francuskiego słowa „chuchotage”) polega na cichym przekładaniu wypowiedzi przemawiającej osoby dla małej grupy słuchaczy na bieżąco. Technika ta zazwyczaj znajduje zastosowanie w momencie, gdy tylko kilka osób (najlepiej maksymalnie trzy) nie zna języka, w którym prowadzone jest spotkanie. Nasze biuro tłumaczeń z Olsztyna oferuje Państwu tego rodzaju usługę w j. rosyjskim, ukraińskim i polskim.
+                        Jesteśmy w stanie przełożyć nawet 55 stron dokumentacji technicznej każdego dnia. Może to dotyczyć dowolnego sprzętu lub instalacji – od czajnika po wyciąg szybowy.
+                        Bez obaw mogą nam Państwo powierzyć korespondencję firmową, umowy, karty gwarancyjne lub certyfikaty.
+                        Częściowo lub w całości pracy licencjackie, magisterskie lub doktorskie. Używanie narzędzi tłumaczenia takich jak MemoQ pozwala na zachowanie terminologii na każdej ilości stron.
+                        Mamy spore doświadczenie w tłumaczeniu artykułów technicznych, naukowych, historycznych oraz informacyjnych.
+
+                       
                     </div>
                 </div>
             </div>
@@ -297,13 +302,10 @@
                 <img class="can__photo1" src="images/can3.webp" height="350" width="500" alt="">
                 <div class="can__right">
                     <div class="can__title">
-                        Dokumentacja techniczna i firmowa,<br> prace dyplomowe i naukowe artykuły
+                        Tłumaczenie szeptane
                     </div>
                     <div class="can__text can__text__right">
-                        Jesteśmy w stanie przełożyć nawet 55 stron dokumentacji technicznej każdego dnia. Może to dotyczyć dowolnego sprzętu lub instalacji – od czajnika po wyciąg szybowy. <br>
-                        Bez obaw mogą nam Państwo powierzyć korespondencję firmową, umowy, karty gwarancyjne lub certyfikaty.<br>
-                        Częściowo lub w całości pracy licencjackie, magisterskie lub doktorskie. Używanie narzędzi tłumaczenia takich jak MemoQ pozwala na zachowanie terminologii na każdej ilości stron.<br>
-                        Mamy spore doświadczenie w tłumaczeniu artykułów technicznych, naukowych, historycznych oraz informacyjnych.
+                        Tłumaczenie szeptane (potocznie zwane też „szeptanką”, od francuskiego słowa „chuchotage”) polega na cichym przekładaniu wypowiedzi przemawiającej osoby dla małej grupy słuchaczy na bieżąco. Technika ta zazwyczaj znajduje zastosowanie w momencie, gdy tylko kilka osób (najlepiej maksymalnie trzy) nie zna języka, w którym prowadzone jest spotkanie. Nasze biuro tłumaczeń z Olsztyna oferuje Państwu tego rodzaju usługę w j. rosyjskim, ukraińskim i polskim.
                     </div>
                 </div>
             </div>
@@ -317,7 +319,7 @@
         <div class="container">
 
             <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
-                <h2 class="section__title">Cennik</h2>
+                <h3 class="section__title">Cennik</h3>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
                 </div>
@@ -471,7 +473,7 @@
     <section class="section" id="comments">
         <div class="container">
             <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
-                <h2 class="section__title">Opinie</h2>
+                <h3 class="section__title">Opinie</h3>
                 <div class="section__text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, fuga, quaerat. Aperiam repellat atque laborum, quasi libero, alias maiores optio culpa.</p>
                 </div>
