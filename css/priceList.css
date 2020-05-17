@@ -1,54 +1,50 @@
-.main_price_block
-{
-    position:relative;
+.main_price_block {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-flow: wrap;
-        flex-flow: wrap;
+    flex-flow: wrap;
 }
-.price_block
-{
-    width:30%;
-    height:auto;
+
+.price_block {
+    width: 30%;
+    height: auto;
     margin-top: 30px;
 }
-.price_block_image img
-{
+
+.price_block_image img {
     position: relative;
-    float:left;
-    height:70px;
-    width:70px;
+    float: left;
+    height: 70px;
+    width: 70px;
     border-radius: 100px;
     background-color: white;
-    margin:0 10px 0px 0;
+    margin: 0 10px 0px 0;
 }
 
-.price_block_text
-{
-    font-size:16px;
+.price_block_text {
+    font-size: 16px;
 }
 
-.price_block_text p
-{
-    font-family:'Jost* Light'
+.price_block_text p {
+    font-family: 'Jost* Light'
 }
-.price_block_title
-{
+
+.price_block_title {
     font-size: 19px;
 }
-.price_block_main_text:hover span
-{
-    color:#BF1B28;
+
+.price_block_main_text:hover span {
+    color: #BF1B28;
 
 }
 
-.price_block_main_text span
-{
-    font-style:italic;
+.price_block_main_text span {
+    font-style: italic;
     -webkit-transition: .2s linear;
     -o-transition: .2s linear;
     transition: .2s linear;

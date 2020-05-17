@@ -20,21 +20,22 @@
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reviewsForm.css">
-    <link rel="stylesheet" type="text/css" href="fonts/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
     <link rel="stylesheet" type="text/css" href="css/preloader.css">
 
     <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "LocalBusiness",
-    "logo": "http://www.pantlumacz.pl/image/logo.png",
-    "url": "http://www.pantlumacz.pl/",
-    "name": "PanTłumacz",
-    "description": "Biuro tłumaczeń",
-    "telephone": "794922852",
-    "email": "biuro@pantlumacz.pl "
-  }
-  </script>
+        {
+            "@context": "http://schema.org",
+            "@type": "LocalBusiness",
+            "logo": "http://www.pantlumacz.pl/image/logo.png",
+            "url": "http://www.pantlumacz.pl/",
+            "name": "PanTłumacz",
+            "description": "Biuro tłumaczeń",
+            "telephone": "794922852",
+            "email": "biuro@pantlumacz.pl "
+        }
+
+    </script>
 </head>
 
 <body>
@@ -59,12 +60,12 @@
     <!-- Preloader -->
     <div class="loader__inner">
         <div class="loader">
-          <div class="loader__bar"></div>
-          <div class="loader__bar"></div>
-          <div class="loader__bar"></div>
-          <div class="loader__bar"></div>
-          <div class="loader__bar"></div>
-          <div class="loader__ball"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__bar"></div>
+            <div class="loader__ball"></div>
         </div>
     </div>
 
@@ -202,7 +203,7 @@
         <div class="container">
 
             <div class="section__header wow animate__fadeIn" data-wow-duration="1s">
-               <h3 class="section__title">O nas</h3>
+                <h3 class="section__title">O nas</h3>
                 <div class="section__text">
                     <p>Dlaczego dokładnie my? W tej sekcji możesz zapoznać się z naszymi możliwościami, drobnymi szczegółami naszej pracy.</p>
                 </div>
@@ -219,9 +220,9 @@
                     <div class="abus__text">
                         <h3>JAKOŚĆ</h3>
                         <div class="abus__description">
-                           <div class="abus__description">
-                            <p>Nasze biuro tłumaczeń w Olsztynie zatrudnia wyłącznie zaufanych <span>specjalistów</span> z wieloletnią praktyką w zawodzie. Uważamy, że najlepsze efekty uzyskuje się przekładając teksty na język ojczysty, więc mamy w swoim zespole tłumaczy z Niemiec, Ukrainy, Francji, Wielkiej Brytanii, Polski, Białorusi oraz Rosji. Każde zlecenie jest realizowane poprzez <span>pracę w grupie</span>, dzięki czemu tekst ulega wielokrotnemu sprawdzeniu, co znacząco redukuje ryzyko błędu. <span>JAKOŚĆ</span> jest zawsze naszym najwyższym priorytetem.</p>
-                        </div>
+                            <div class="abus__description">
+                                <p>Nasze biuro tłumaczeń w Olsztynie zatrudnia wyłącznie zaufanych <span>specjalistów</span> z wieloletnią praktyką w zawodzie. Uważamy, że najlepsze efekty uzyskuje się przekładając teksty na język ojczysty, więc mamy w swoim zespole tłumaczy z Niemiec, Ukrainy, Francji, Wielkiej Brytanii, Polski, Białorusi oraz Rosji. Każde zlecenie jest realizowane poprzez <span>pracę w grupie</span>, dzięki czemu tekst ulega wielokrotnemu sprawdzeniu, co znacząco redukuje ryzyko błędu. <span>JAKOŚĆ</span> jest zawsze naszym najwyższym priorytetem.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -235,7 +236,7 @@
                     <div class="abus__text">
                         <h3>PUNKTUALNOŚĆ</h3>
                         <div class="abus__description">
-                             <p> Nie stanowi też dla nas problemu zlecenie z ograniczeniem czasowym – jesteśmy w stanie przygotować nawet <span>15 stron tekstu dziennie</span>. Na początek, dokonujemy wyceny przesłanych nam treści i określamy termin <span>realizacji zlecenia</span>. Jeśli spotkamy się z aprobatą klienta, przekazujemy tekst osobie, która specjalizuje się w związanej z nim dziedzinie. Potem następuje ponowna weryfikacja poprawności i korekta, przy udziale dwóch innych tłumaczy oraz rodzimego użytkownika języka tekstu oryginalnego.</p>
+                            <p> Nie stanowi też dla nas problemu zlecenie z ograniczeniem czasowym – jesteśmy w stanie przygotować nawet <span>15 stron tekstu dziennie</span>. Na początek, dokonujemy wyceny przesłanych nam treści i określamy termin <span>realizacji zlecenia</span>. Jeśli spotkamy się z aprobatą klienta, przekazujemy tekst osobie, która specjalizuje się w związanej z nim dziedzinie. Potem następuje ponowna weryfikacja poprawności i korekta, przy udziale dwóch innych tłumaczy oraz rodzimego użytkownika języka tekstu oryginalnego.</p>
                         </div>
                     </div>
                 </div>
@@ -249,7 +250,7 @@
                     <div class="abus__text">
                         <h3>TERMINOWOŚĆ</h3>
                         <div class="abus__description">
-                           <p>Realizacja każdego zadania NA CZAS jest <span>naszym kredo</span>, co pozwala nam cieszyć się dużym gronem w pełni zadowolonych, stałych klientów. Niezależnie od tego, czy zamawiają Państwo w naszym biurze tłumaczeń przekład na język rosyjski, ukraiński, angielski czy inny, tekst zostaje podwójnie sprawdzony przez pracujących u nas <span>NATIVE SPEAKER-ów</span>.</p>
+                            <p>Realizacja każdego zadania NA CZAS jest <span>naszym kredo</span>, co pozwala nam cieszyć się dużym gronem w pełni zadowolonych, stałych klientów. Niezależnie od tego, czy zamawiają Państwo w naszym biurze tłumaczeń przekład na język rosyjski, ukraiński, angielski czy inny, tekst zostaje podwójnie sprawdzony przez pracujących u nas <span>NATIVE SPEAKER-ów</span>.</p>
                         </div>
                     </div>
                 </div>
@@ -261,7 +262,7 @@
 
     <!--What we can?-->
 
-   <section class="section" id="can">
+    <section class="section" id="can">
         <div class="container">
             <div class="section__noText wow animate__fadeIn" data-wow-duration="1s">
                 <h3 class="section__title">Oferta</h3>
@@ -273,7 +274,7 @@
                 <img class="can__photo1" src="images/about.webp" height="350" width="500" alt="">
                 <div class="can__right">
                     <div class="can__title">
-                       <h2> Dokumentacja techniczna i firmowa,<br> prace dyplomowe i naukowe artykuły</h2>
+                        <h2> Dokumentacja techniczna i firmowa,<br> prace dyplomowe i naukowe artykuły</h2>
                     </div>
                     <div class="can__text can__text__right">
                         Jesteśmy w stanie przełożyć nawet 55 stron dokumentacji technicznej każdego dnia. Może to dotyczyć dowolnego sprzętu lub instalacji – od czajnika po wyciąg szybowy.
@@ -488,10 +489,10 @@
 
                         if(!$conn->query("USE `bearwh_PanTlumacz`"))
                             {?>
-                                <div class="reviews__item" align="center">
-                                   Komentarze są tymczasowo niedostępne z powodu problemów z serwerem. Przepraszamy.
-                                </div>
-                            <?php }
+                        <div class="reviews__item" align="center">
+                            Komentarze są tymczasowo niedostępne z powodu problemów z serwerem. Przepraszamy.
+                        </div>
+                        <?php }
                         else{
 
                             // Six random entries in the database are selected, after which they are displayed using an associative array.
@@ -504,12 +505,12 @@
 
                             while($row = $reviews->fetch_assoc())
                             { ?>
-                            <div class="reviews_item">
-                                <div class="reviews_text">
-                                    "<?php echo $row['comment']?>"
-                                </div>
-                                <div class="reviews_author"><?php echo $row['name']?></div>
+                        <div class="reviews_item">
+                            <div class="reviews_text">
+                                "<?php echo $row['comment']?>"
                             </div>
+                            <div class="reviews_author"><?php echo $row['name']?></div>
+                        </div>
                         <?php }} ?>
                     </div>
                 </div>
@@ -525,17 +526,17 @@
 
                         <div class="reviewCreate__form__inner">
 
-                                <div id="CommentsNickname">
-                                    <input type="text" id="Nickname" name="nickname" maxlength="50" placeholder="Wpisz swój pseudonim" required>
-                                </div>
+                            <div id="CommentsNickname">
+                                <input type="text" id="Nickname" name="nickname" maxlength="50" placeholder="Wpisz swój pseudonim" required>
+                            </div>
 
-                                <div id="CommentsText">
-                                    <textarea id="review" name="review" placeholder="Wpisz swoją recenzję" rows="12" required></textarea>
-                                </div>
+                            <div id="CommentsText">
+                                <textarea id="review" name="review" placeholder="Wpisz swoją recenzję" rows="12" required></textarea>
+                            </div>
 
-                                <div id="SubmitForComments">
-                                    <button type="submit">Wysłać</button>
-                                </div>
+                            <div id="SubmitForComments">
+                                <button type="submit">Wysłać</button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -601,4 +602,5 @@
     <script type="text/javascript" src="js/reviews.js"></script>
     <script type="text/javascript" src="js/popupWindow.js"></script>
 </body>
+
 </html>

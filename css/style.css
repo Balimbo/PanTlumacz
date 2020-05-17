@@ -1,48 +1,44 @@
-*
-{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Jost* Book';
 }
 
-body
-{
+body {
     color: #fff;
-    font-size:20px;
+    font-size: 20px;
     line-height: 1.6;
     background-image: url(../images/pattern.webp);
     overflow-y: hidden;
 
 }
 
-::-moz-selection{
+::-moz-selection {
     background: #C51818;
     color: #fff;
 }
 
-::selection{
+::selection {
     background: #C51818;
     color: #fff;
 }
 
 *,
 *:before,
-*:after
-{
+*:after {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: #fff;
     outline: none;
 }
 
-.animated__link{
+.animated__link {
     background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
     background-image: -o-linear-gradient(currentColor, currentColor);
     background-image: linear-gradient(currentColor, currentColor);
@@ -57,403 +53,354 @@ a
 .animated__link:hover {
     background-size: 100% 2px;
     color: #D99E89;
-}   
+}
 
 /*Container*/
-.container
-{
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /*Languages*/
-.section
-{
+.section {
     color: black;
     margin-bottom: 60px;
 }
 
-.section:last-of-type
-{
+.section:last-of-type {
     margin-bottom: 30px;
 }
 
-.section:first-of-type
-{
+.section:first-of-type {
     margin-top: 60px;
 }
 
-.section__header
-{
+.section__header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.section__noText
-{
+.section__noText {
     text-align: center;
     margin-bottom: 0px;
 }
 
-.section__title
-{
+.section__title {
     font-size: 35px;
     font-weight: 700;
     color: #333;
     text-transform: uppercase;
 }
 
-.section__title:before
-{
+.section__title:before {
     display: block;
     content: "";
     height: 3px;
     width: 100%;
-    margin:0px auto 10px;
+    margin: 0px auto 10px;
     background-color: #121111;
 }
 
-.section__title:after
-{
+.section__title:after {
     display: block;
     content: "";
     height: 3px;
     width: 50%;
-    margin:10px auto 20px;
+    margin: 10px auto 20px;
     background-color: #121111;
 }
 
-.section__text
-{
+.section__text {
     font-size: 17px;
     color: #888;
     margin-bottom: 20px;
-    font-family:'Jost* Thin';
+    font-family: 'Jost* Thin';
 }
 
 
-@media (max-width: 1195px)
-{
+@media (max-width: 1195px) {
+
     /*header*/
-    .header_nav_link
-    {
-        margin-left:15px;
+    .header_nav_link {
+        margin-left: 15px;
     }
 
-    .header_nav
-    {
-        margin-right:25px;
+    .header_nav {
+        margin-right: 25px;
     }
 
-    .header_logo
-    {
-        margin-left:20px;
+    .header_logo {
+        margin-left: 20px;
     }
 
-    .header_text
-    {
-        font-size:85px;
+    .header_text {
+        font-size: 85px;
     }
 
     /*What we can*/
-    .can__title
-    {
-        font-size:20px;
+    .can__title {
+        font-size: 20px;
         padding: 0px 0 13px 43px;
     }
 
-    .can__text
-    {
+    .can__text {
         font-size: 17px;
     }
 
-    .can__photo1
-    {
+    .can__photo1 {
         width: 400px;
         height: 350px;
     }
+
     /*Price List*/
-    .main_price_block
-    {
+    .main_price_block {
         padding: 0 0 0 20px;
     }
 
 }
 
-@media (max-width: 1055px)
-{
+@media (max-width: 1055px) {
+
     /*header*/
-    .header_nav_link
-    {
-        margin-left:10px;
+    .header_nav_link {
+        margin-left: 10px;
     }
 
-    .header_nav
-    {
-        font-size:15px;
-        margin-right:20px;
+    .header_nav {
+        font-size: 15px;
+        margin-right: 20px;
     }
 
 
-    .header_text
-    {
-        font-size:80px;
+    .header_text {
+        font-size: 80px;
     }
 
     /*what we can*/
-    .section__text
-    {
-        font-size:15px;
-    }
-    .can__title
-    {
-        font-size:20px;
-        padding:0px 0 13px 43px;
-    }
-
-    .can__text
-    {
+    .section__text {
         font-size: 15px;
     }
 
-    .can__photo1
-    {
+    .can__title {
+        font-size: 20px;
+        padding: 0px 0 13px 43px;
+    }
+
+    .can__text {
+        font-size: 15px;
+    }
+
+    .can__photo1 {
         width: 380px;
         height: 310px;
     }
 }
 
-@media (max-width: 945px)
-{
+@media (max-width: 945px) {
     /*header*/
 
-    .header_nav
-    {
+    .header_nav {
         display: none;
         /*display: block;*/
         text-align: right;
         width: 100%;
-        font-size:18px;
+        font-size: 18px;
         position: absolute;
         top: 80%;
         left: 0;
-       background:none;
+        background: none;
     }
 
-    .header_nav_link
-    {
-       display: block;
-       margin:0;
-       padding:5px 20px;
+    .header_nav_link {
+        display: block;
+        margin: 0;
+        padding: 5px 20px;
     }
 
-    .nav-toggle
-    {
+    .nav-toggle {
         display: block;
     }
 
 
-    .header_text
-    {
-        font-size:70px;
+    .header_text {
+        font-size: 70px;
     }
 
     /*what we can*/
-    .can__photo1
-    {
+    .can__photo1 {
         display: none;
     }
-    #can__title__right
-    {
-      padding-left: 0px;
+
+    #can__title__right {
+        padding-left: 0px;
     }
-    .can__text{
+
+    .can__text {
         padding-left: 0px;
         font-size: 17px;
         margin-bottom: 30px;
     }
-     .can__title
-    {
-        font-size:20px;
+
+    .can__title {
+        font-size: 20px;
         padding-left: 0px;
     }
-    .can
-    {
-        margin-top:10px;
-    }
 
-     /*Price List*/
-    .main_price_block
-    {
-        padding: 0 0 0 10px;
-    }
-    .price_block
-    {
-        width:50%;
-        padding-left:20px;
-    }
-
-}
-
-@media (max-width: 600px)
-{
-    /*header*/
-
-    .header_nav
-    {
-        font-size:15px;
-    }
-
-    .header_nav_link
-    {
-       padding:4px 20px;
-    }
-
-    .header_text
-    {
-        font-size:46px;
-    }
-
-    .button a
-    {
-        font-size:15px;
-    }
-
-    /*what we can*/
-    .can
-    {
-        padding:0 15px;
-    }
-    .can__title:after
-    {
-       width:98%;
-    }
-    .can__title
-    {
-        font-size:18px;
-    }
-    .can__title h2
-    {
-        font-size:18px;
-    }
-    .can__text
-    {
-        font-size:15px;
-    }
-
-    .section__text
-    {
-        font-size:15px;
+    .can {
+        margin-top: 10px;
     }
 
     /*Price List*/
-    .main_price_block
-    {
+    .main_price_block {
+        padding: 0 0 0 10px;
+    }
+
+    .price_block {
+        width: 50%;
+        padding-left: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    /*header*/
+
+    .header_nav {
+        font-size: 15px;
+    }
+
+    .header_nav_link {
+        padding: 4px 20px;
+    }
+
+    .header_text {
+        font-size: 46px;
+    }
+
+    .button a {
+        font-size: 15px;
+    }
+
+    /*what we can*/
+    .can {
+        padding: 0 15px;
+    }
+
+    .can__title:after {
+        width: 98%;
+    }
+
+    .can__title {
+        font-size: 18px;
+    }
+
+    .can__title h2 {
+        font-size: 18px;
+    }
+
+    .can__text {
+        font-size: 15px;
+    }
+
+    .section__text {
+        font-size: 15px;
+    }
+
+    /*Price List*/
+    .main_price_block {
         padding: 0 0 0 0;
     }
-    .price_block
-    {
-        width:100%;
-        padding:0 20px 0 20px;
-        margin-top:20px;
+
+    .price_block {
+        width: 100%;
+        padding: 0 20px 0 20px;
+        margin-top: 20px;
     }
 }
 
-@media (max-width: 400px)
-{
+@media (max-width: 400px) {
+
     /*header*/
-    .header_text
-    {
-        font-size:40px;
+    .header_text {
+        font-size: 40px;
     }
 
-     .header_nav
-    {
-        font-size:14px;
+    .header_nav {
+        font-size: 14px;
     }
 
-    .header_nav_link
-    {
-       padding:4px 10px;
+    .header_nav_link {
+        padding: 4px 10px;
     }
 
-    .header_logo
-    {
-        font-size:25px;
-        margin-left:10px;
+    .header_logo {
+        font-size: 25px;
+        margin-left: 10px;
     }
 
-    .button 
-    {
-       padding: 15px 10px;
-       letter-spacing: .15rem;
+    .button {
+        padding: 15px 10px;
+        letter-spacing: .15rem;
     }
 
-     /*what we can*/
-    .section__title
-    {
-        font-size:30px;
+    /*what we can*/
+    .section__title {
+        font-size: 30px;
     }
-    .section__text
-    {
-        font-size:13px;
+
+    .section__text {
+        font-size: 13px;
 
     }
-    .can
-    {
-        padding:0 15px;
+
+    .can {
+        padding: 0 15px;
     }
-    .can__title
-    {
-        font-size:18px;
+
+    .can__title {
+        font-size: 18px;
     }
-    .can__title:after
-    {
-       width:98%;
+
+    .can__title:after {
+        width: 98%;
     }
-    .can__text
-    {
+
+    .can__text {
         font-size: 15px;
-        padding-right:0px;
+        padding-right: 0px;
     }
 }
 
-@media (max-width: 340px)
-{
+@media (max-width: 340px) {
+
     /*header*/
-    .header_text
-    {
-        font-size:35px;
+    .header_text {
+        font-size: 35px;
     }
 
-    .header_nav
-    {
-        font-size:13px;
+    .header_nav {
+        font-size: 13px;
     }
 
-    .header_nav_link
-    {
-       padding:3px 10px;
+    .header_nav_link {
+        padding: 3px 10px;
     }
 
-    .header_logo
-    {
+    .header_logo {
         font-size: 20px;
     }
 
-    .button a
-    {
-        font-size:15px;
+    .button a {
+        font-size: 15px;
     }
 
-     /*what we can*/
-    .section__title
-    {
-        font-size:25px;
+    /*what we can*/
+    .section__title {
+        font-size: 25px;
     }
-    .can__title
-    {
-        font-size:20px;
+
+    .can__title {
+        font-size: 20px;
     }
 }

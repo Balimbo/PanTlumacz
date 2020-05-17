@@ -3,10 +3,10 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .abus__item {
@@ -39,26 +39,25 @@
     text-align: justify;
 }
 
-.abus__description p{
-    font-family:'Jost* Light';
-}
-.abus__text:hover span
-{
-    color:#BF1B28;
+.abus__description p {
+    font-family: 'Jost* Light';
 }
 
-.abus__text span{
+.abus__text:hover span {
+    color: #BF1B28;
+}
+
+.abus__text span {
     -webkit-transition: .2s linear;
     -o-transition: .2s linear;
     transition: .2s linear;
 }
 
-.abus__text:hover h3
-{
-     color:#BF1B28;
+.abus__text:hover h3 {
+    color: #BF1B28;
 }
 
-.abus__text h3{
+.abus__text h3 {
     -webkit-transition: .2s linear;
     -o-transition: .2s linear;
     transition: .2s linear;
@@ -79,8 +78,8 @@
 
     .abus {
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         padding: 0;
     }
 
