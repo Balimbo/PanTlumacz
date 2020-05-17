@@ -565,7 +565,7 @@
 
             <div class="footer__nums">
 
-                <p class="footer__phone">Telefon: + 48 794 922 852</p>
+                <p class="footer__phone"><a href="tel: +48794922852" style="background: none;">Telefon: + 48 794 922 852</a></p>
 
                 <p class="footer__acc">Nr konta: 49 1050 1764 1000 0092 3168 3658</p>
 
