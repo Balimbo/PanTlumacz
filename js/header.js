@@ -1,4 +1,5 @@
 $(function () {
+	//Scroll to the specified elements
 	let lastCall = 0;
 	$("[data-scroll]").click(function (event) {
 		event.preventDefault();
@@ -8,9 +9,8 @@ $(function () {
 		$("html, body").animate({scrollTop:blockOffset-30},600)
 	})
 
-
-
-
+	//When you click on the adaptive menu button,
+		// it drops out and the button changes to a cross to close the menu
 	let temp = $("#nav_toggle").click(function (event) {
 		if(Date.now() - lastCall > 500){
 		event.preventDefault();
@@ -20,7 +20,8 @@ $(function () {
 		lastCall = Date.now();
 	}
 	});
-	
+	//When changing the width of the screen,
+	// the appearance of an adaptive menu for smartphones
 	window.onresize = function( event ) {
 		if(document.body.clientWidth >= 930)
 			$("#nav").css({"display" : "flex"});
