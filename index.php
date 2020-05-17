@@ -524,11 +524,11 @@
                         <div class="reviewCreate__form__inner">
 
                                 <div id="CommentsNickname">
-                                    <input type="text" id="Nickname" name="nickname" maxlength="50" placeholder="Enter your nickname">
+                                    <input type="text" id="Nickname" name="nickname" maxlength="50" placeholder="Enter your nickname" required>
                                 </div>
 
                                 <div id="CommentsText">
-                                    <textarea id="review" name="review" placeholder="Enter your review" rows="12"></textarea>
+                                    <textarea id="review" name="review" placeholder="Enter your review" rows="12" required></textarea>
                                 </div>
 
                                 <div id="SubmitForComments">
